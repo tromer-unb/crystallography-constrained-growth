@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crystallography-constrained-growth"
+version = "0.1.0"
+description = "Event-based atomistic framework for crystallography-constrained crystal growth."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy>=1.24",
+  "ase>=3.22",
+]
+
+[project.optional-dependencies]
+plots = ["pandas>=2.0", "matplotlib>=3.7"]
+chgnet = ["chgnet>=0.3"]
+mace = ["mace-torch>=0.3"]
+gpaw = ["gpaw>=24"]
+test = ["pytest>=8", "pandas>=2.0", "matplotlib>=3.7"]
+
+[project.scripts]
+ccgrowth = "ccgrowth.cli:main"
+ccgrowth-advisor = "ccgrowth.parameter_advisor:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

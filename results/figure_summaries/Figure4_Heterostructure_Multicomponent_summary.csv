@@ -1,0 +1,5 @@
+case,n_initial,n_added,template_growth_occupancy_fraction,growth_front_mean_fraction_of_template,restrict_Z,structure_file,n_Mo_events,n_S_events
+SiC(001),426,120,0.9416666666666668,0.9987493359020168,0.37418,grafeno_cutoff_final.xyz,,
+SiC(010),544,271,0.9411764705882352,0.9995354343058556,0.410375,grafeno_cutoff_final.xyz,,
+SiC(100),544,272,0.9154411764705882,0.9994694294357565,0.410375,grafeno_cutoff_final.xyz,,
+MoS2/graphene,261,64,0.96875,1.0222436350760962,,grafeno_cutoff_final.xyz,24.0,40.0

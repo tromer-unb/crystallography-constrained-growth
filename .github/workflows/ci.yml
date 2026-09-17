@@ -1,0 +1,36 @@
+name: reproducibility-ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11.16"
+          cache: pip
+          cache-dependency-path: requirements-validation.txt
+      - name: Install locked validation environment
+        run: |
+          python -m pip install "pip==26.2.1"
+          pip install -r requirements-validation.txt
+          pip install -e . --no-deps
+      - name: Record validation environment
+        run: |
+          python --version
+          python -m pip freeze
+      - name: Check deterministic archive manifest
+        run: python scripts/build_manifest.py --check
+      - name: Validate archived publication data
+        run: python scripts/validate_archive.py
+      - name: Unit and provenance tests
+        run: pytest -q
+      - name: Reproduce manuscript figures and compare summaries
+        run: python scripts/reproduce_figures.py --check-reference

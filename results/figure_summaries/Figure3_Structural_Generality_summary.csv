@@ -1,0 +1,4 @@
+system,class,backend,growth_axis,motif_period_p,gap_period_q,gaps_A,n_initial,n_final,n_added,structure_source,mean_insertion_energy_eV,median_insertion_energy_eV,final_front_advance_A,final_coordination_added_mean,ideal_coordination,final_coordination_fidelity,n_seed_runs
+graphene,2D covalent,chgnet,x,2,1,1.229756,221,721,500,final.xyz,-8.4141323388,-7.44165035,61.24702257640105,2.978,3.0,0.9926666666666667,1
+diamond,3D tetrahedral,chgnet,z,4,1,0.890186,144,553,409,checkpoint.xyz,-6.168764133985331,-5.9526367,19.79280419932161,3.941320293398533,4.0,0.9853300733496333,1
+graphite,layered,chgnet,z,2,1,4.342519,128,628,500,final.xyz,-8.3468193298,-7.68676755,64.78898425942006,2.976,3.0,0.992,1

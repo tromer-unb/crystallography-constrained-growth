@@ -1,0 +1,1266 @@
+MPI: rank=0/1; backend_comunicador=serial-sem-gpaw; launcher_size_detectado=1
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+Backend = chgnet; device = cpu; dtype = float32
+Semente sincronizada em todos os ranks = 7
+Espécies competindo: ['C']
+Fluxo relativo por espécie: {'C': 1.0}
+Mu por espécie: todos 0.0 eV
+Impurezas/vacâncias: desligado
+Modo de vacância: frozen
+growth_axis = z; surface_axes = xy
+replicate antes do slab = (1, 1, 1)
+miller = (0, 0, 1)
+build_mode = direct; site_mode = template
+pbc = (1, 1, 0)
+bulk_energy_repeat = (1, 1, 1); skip_bulk_reference = True
+cif_wrap_mode = all (aplicado somente aos arquivos .cif salvos)
+Restrição cristalográfica de crescimento: desligada
+Template-base filtrado para extend-columns: N=144; espécies=['C']; restrict_fractional=(None, None, None)
+Template extend-columns: eixo=z periodo_colunas=4(auto) periodo_gaps=1(auto) gaps=[0.890186] Å; dx_mediana=0.890186 Å; colunas_base=8, colunas_novas=50, N_template=1044; restrict_fractional=(None, None, None)
+/home/tromer/.anaconda3/lib/python3.13/site-packages/chgnet/model/model.py:898: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  volumes = torch.tensor(volumes, dtype=TORCH_DTYPE, device=atomic_numbers.device)
+Referência bulk: pulada (--skip-bulk-reference).
+  Usando E0/N0 como referência; gamma vira energia relativa ao estado inicial.
+Slab inicial:
+  N0 = 144
+  area(xy) = 114.110152 Å²
+  E0 = -1204.660034 eV
+  gamma0 = 0.000000 eV/Å² = 0.000000 J/m²
+  growth_origin_species = C; origin_front=16.676397 Å; origin_back=10.445093 Å
+  regra_deposicao = template: somente sítios do CIF-template
+  template_cif = diamond_332.cif
+  template_repeat = (1, 1, 1); N_template = 1044
+  template_front = [0.050, 3.000] Å
+  template_connect_cutoff = 1.900 Å; min_neighbors = 1
+  template_species_mode = template; template_build_mode = extend-columns
+Corte absoluto de Eads: +50.000000 eV
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=0 connection=882 min_dist=0 pre_shell=18 post_shell=18 tested_energy=18
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=18
+[INFO] primeira deposição: relaxação local pulada por --no-relax-first-added.
+step=00001 species=  C N=00145 vac=0000 axis=z surf=xy Eads=-9.9512 eV P=5.561e-02 E=-1214.6112 eV hmax=0.890 A hmean=0.064 A rough=0.758 A occ1=0.056 tested=18
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=1 connection=880 min_dist=0 pre_shell=19 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=17
+step=00002 species=  C N=00146 vac=0000 axis=z surf=xy Eads=-9.9623 eV P=4.939e-02 E=-1225.8467 eV hmax=0.890 A hmean=-0.100 A rough=0.764 A occ1=0.111 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=2 connection=878 min_dist=0 pre_shell=20 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=16
+step=00003 species=  C N=00147 vac=0000 axis=z surf=xy Eads=-10.0837 eV P=7.223e-01 E=-1237.4028 eV hmax=0.890 A hmean=-0.081 A rough=0.778 A occ1=0.167 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=3 connection=876 min_dist=0 pre_shell=21 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=15
+step=00004 species=  C N=00148 vac=0000 axis=z surf=xy Eads=-9.9973 eV P=4.779e-01 E=-1251.2941 eV hmax=0.890 A hmean=-0.008 A rough=0.786 A occ1=0.222 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=4 connection=875 min_dist=0 pre_shell=21 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=13
+step=00005 species=  C N=00149 vac=0000 axis=z surf=xy Eads=-9.8004 eV P=9.987e-01 E=-1263.7490 eV hmax=0.890 A hmean=0.069 A rough=0.806 A occ1=0.278 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=5 connection=874 min_dist=0 pre_shell=21 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=12
+step=00006 species=  C N=00150 vac=0000 axis=z surf=xy Eads=-9.1511 eV P=1.000e+00 E=-1274.9868 eV hmax=0.779 A hmean=0.059 A rough=0.819 A occ1=0.333 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=6 connection=873 min_dist=0 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=11
+step=00007 species=  C N=00151 vac=0000 axis=z surf=xy Eads=-8.0021 eV P=1.000e+00 E=-1283.8646 eV hmax=0.886 A hmean=-0.015 A rough=0.842 A occ1=0.389 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=7 connection=873 min_dist=0 pre_shell=20 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=10
+step=00008 species=  C N=00152 vac=0000 axis=z surf=xy Eads=-6.4602 eV P=7.335e-01 E=-1292.6002 eV hmax=0.779 A hmean=0.044 A rough=0.859 A occ1=0.444 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=8 connection=871 min_dist=0 pre_shell=21 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=9
+step=00009 species=  C N=00153 vac=0000 axis=z surf=xy Eads=-6.5768 eV P=9.998e-01 E=-1302.3214 eV hmax=0.785 A hmean=0.229 A rough=0.874 A occ1=0.500 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=9 connection=872 min_dist=0 pre_shell=19 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=8
+step=00010 species=  C N=00154 vac=0000 axis=z surf=xy Eads=-6.3618 eV P=9.947e-01 E=-1310.7830 eV hmax=0.785 A hmean=0.139 A rough=0.886 A occ1=0.556 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=10 connection=871 min_dist=0 pre_shell=19 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=7
+step=00011 species=  C N=00155 vac=0000 axis=z surf=xy Eads=-6.5370 eV P=1.000e+00 E=-1319.4727 eV hmax=0.803 A hmean=0.155 A rough=0.899 A occ1=0.611 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=11 connection=870 min_dist=0 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=6
+step=00012 species=  C N=00156 vac=0000 axis=z surf=xy Eads=-6.0153 eV P=9.650e-01 E=-1328.8107 eV hmax=0.803 A hmean=0.250 A rough=0.910 A occ1=0.611 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=11 connection=870 min_dist=1 pre_shell=18 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=5
+step=00013 species=  C N=00157 vac=0000 axis=z surf=xy Eads=-6.6630 eV P=1.000e+00 E=-1338.6927 eV hmax=0.803 A hmean=0.261 A rough=0.920 A occ1=0.722 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=13 connection=870 min_dist=0 pre_shell=17 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=4
+step=00014 species=  C N=00158 vac=0000 axis=z surf=xy Eads=-5.7562 eV P=1.000e+00 E=-1346.3733 eV hmax=0.992 A hmean=0.280 A rough=0.933 A occ1=0.778 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=14 connection=869 min_dist=0 pre_shell=17 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=3
+step=00015 species=  C N=00159 vac=0000 axis=z surf=xy Eads=-5.2384 eV P=9.998e-01 E=-1354.0306 eV hmax=0.992 A hmean=0.298 A rough=0.945 A occ1=0.833 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=15 connection=868 min_dist=0 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=2
+step=00016 species=  C N=00160 vac=0000 axis=z surf=xy Eads=-4.8408 eV P=9.539e-01 E=-1363.9976 eV hmax=0.989 A hmean=0.314 A rough=0.949 A occ1=0.889 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=16 connection=866 min_dist=0 pre_shell=18 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=2
+step=00017 species=  C N=00161 vac=0000 axis=z surf=xy Eads=-4.5298 eV P=9.997e-01 E=-1373.6128 eV hmax=0.907 A hmean=0.330 A rough=0.953 A occ1=0.833 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=15 connection=865 min_dist=2 pre_shell=18 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=17.566583 max=17.566583 n=1
+step=00018 species=  C N=00162 vac=0000 axis=z surf=xy Eads=-5.0427 eV P=1.000e+00 E=-1381.0789 eV hmax=0.867 A hmean=0.359 A rough=0.955 A occ1=0.889 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=16 connection=864 min_dist=2 pre_shell=18 post_shell=18 tested_energy=18
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=18
+step=00019 species=  C N=00163 vac=0000 axis=z surf=xy Eads=-9.6429 eV P=9.919e-01 E=-1391.3663 eV hmax=1.642 A hmean=0.417 A rough=0.706 A occ1=0.889 tested=18
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=17 connection=862 min_dist=2 pre_shell=19 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=17
+step=00020 species=  C N=00164 vac=0000 axis=z surf=xy Eads=-8.9036 eV P=9.530e-01 E=-1402.2954 eV hmax=1.642 A hmean=0.459 A rough=0.730 A occ1=0.889 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=18 connection=860 min_dist=2 pre_shell=20 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=16
+step=00021 species=  C N=00165 vac=0000 axis=z surf=xy Eads=-6.9152 eV P=4.373e-02 E=-1410.8931 eV hmax=1.697 A hmean=0.515 A rough=0.760 A occ1=0.944 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=20 connection=858 min_dist=1 pre_shell=21 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=15
+step=00022 species=  C N=00166 vac=0000 axis=z surf=xy Eads=-7.0455 eV P=9.259e-01 E=-1419.4218 eV hmax=1.734 A hmean=0.645 A rough=0.783 A occ1=0.889 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=20 connection=857 min_dist=2 pre_shell=21 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=14
+step=00023 species=  C N=00167 vac=0000 axis=z surf=xy Eads=-7.1779 eV P=9.994e-01 E=-1428.7834 eV hmax=1.734 A hmean=0.690 A rough=0.805 A occ1=0.889 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=21 connection=857 min_dist=2 pre_shell=20 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=13
+step=00024 species=  C N=00168 vac=0000 axis=z surf=xy Eads=-7.0228 eV P=9.944e-01 E=-1438.0908 eV hmax=1.808 A hmean=0.702 A rough=0.821 A occ1=0.889 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=22 connection=855 min_dist=2 pre_shell=21 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=12
+step=00025 species=  C N=00169 vac=0000 axis=z surf=xy Eads=-7.0919 eV P=1.000e+00 E=-1447.1580 eV hmax=1.741 A hmean=0.819 A rough=0.842 A occ1=0.889 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=23 connection=854 min_dist=2 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=11
+step=00026 species=  C N=00170 vac=0000 axis=z surf=xy Eads=-6.5580 eV P=1.265e-01 E=-1456.2375 eV hmax=1.718 A hmean=0.847 A rough=0.858 A occ1=0.944 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=25 connection=853 min_dist=1 pre_shell=21 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=10
+step=00027 species=  C N=00171 vac=0000 axis=z surf=xy Eads=-6.4155 eV P=1.000e+00 E=-1465.8271 eV hmax=1.836 A hmean=0.869 A rough=0.874 A occ1=0.944 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=26 connection=852 min_dist=1 pre_shell=21 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=9
+step=00028 species=  C N=00172 vac=0000 axis=z surf=xy Eads=-5.1798 eV P=9.983e-01 E=-1474.6249 eV hmax=1.902 A hmean=0.926 A rough=0.892 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=28 connection=852 min_dist=0 pre_shell=20 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=8
+step=00029 species=  C N=00173 vac=0000 axis=z surf=xy Eads=-5.0004 eV P=8.551e-01 E=-1481.8187 eV hmax=1.901 A hmean=0.984 A rough=0.910 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=29 connection=851 min_dist=0 pre_shell=20 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=7
+step=00030 species=  C N=00174 vac=0000 axis=z surf=xy Eads=-4.9399 eV P=7.564e-01 E=-1489.5485 eV hmax=1.927 A hmean=1.041 A rough=0.926 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=30 connection=851 min_dist=0 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=6
+step=00031 species=  C N=00175 vac=0000 axis=z surf=xy Eads=-5.0126 eV P=6.242e-01 E=-1498.9144 eV hmax=1.867 A hmean=1.053 A rough=0.932 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=31 connection=850 min_dist=0 pre_shell=19 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=5
+step=00032 species=  C N=00176 vac=0000 axis=z surf=xy Eads=-6.1718 eV P=1.000e+00 E=-1508.4882 eV hmax=1.829 A hmean=1.123 A rough=0.936 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=32 connection=849 min_dist=0 pre_shell=19 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=4
+step=00033 species=  C N=00177 vac=0000 axis=z surf=xy Eads=-5.7578 eV P=9.995e-01 E=-1518.3302 eV hmax=1.829 A hmean=1.189 A rough=0.941 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=33 connection=849 min_dist=0 pre_shell=18 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=3
+step=00034 species=  C N=00178 vac=0000 axis=z surf=xy Eads=-5.9955 eV P=9.996e-01 E=-1526.9979 eV hmax=1.781 A hmean=1.313 A rough=0.948 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=34 connection=848 min_dist=0 pre_shell=18 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=2
+step=00035 species=  C N=00179 vac=0000 axis=z surf=xy Eads=-6.1241 eV P=9.992e-01 E=-1537.8094 eV hmax=1.699 A hmean=1.456 A rough=0.950 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=35 connection=849 min_dist=0 pre_shell=16 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=18.456770 max=18.456770 n=1
+step=00036 species=  C N=00180 vac=0000 axis=z surf=xy Eads=-6.4868 eV P=1.000e+00 E=-1549.5679 eV hmax=1.698 A hmean=1.465 A rough=0.956 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=34 connection=850 min_dist=2 pre_shell=14 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=14
+step=00037 species=  C N=00181 vac=0000 axis=z surf=xy Eads=-9.5514 eV P=1.000e+00 E=-1560.0006 eV hmax=2.551 A hmean=1.511 A rough=0.706 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=35 connection=848 min_dist=2 pre_shell=15 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=13
+step=00038 species=  C N=00182 vac=0000 axis=z surf=xy Eads=-9.0994 eV P=1.000e+00 E=-1570.2881 eV hmax=2.564 A hmean=1.566 A rough=0.737 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=38 connection=846 min_dist=0 pre_shell=16 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=12
+step=00039 species=  C N=00183 vac=0000 axis=z surf=xy Eads=-7.3199 eV P=1.000e+00 E=-1578.5049 eV hmax=2.705 A hmean=1.582 A rough=0.767 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=39 connection=844 min_dist=0 pre_shell=17 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=11
+step=00040 species=  C N=00184 vac=0000 axis=z surf=xy Eads=-5.9229 eV P=9.854e-01 E=-1585.8855 eV hmax=2.757 A hmean=1.596 A rough=0.796 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=40 connection=843 min_dist=0 pre_shell=17 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=10
+step=00041 species=  C N=00185 vac=0000 axis=z surf=xy Eads=-5.4270 eV P=8.336e-01 E=-1593.2819 eV hmax=2.768 A hmean=1.612 A rough=0.821 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=41 connection=841 min_dist=0 pre_shell=18 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=10
+step=00042 species=  C N=00186 vac=0000 axis=z surf=xy Eads=-5.3103 eV P=7.579e-01 E=-1600.4790 eV hmax=2.775 A hmean=1.613 A rough=0.846 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=42 connection=839 min_dist=0 pre_shell=19 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=10
+step=00043 species=  C N=00187 vac=0000 axis=z surf=xy Eads=-5.1375 eV P=4.246e-01 E=-1608.6912 eV hmax=2.775 A hmean=1.627 A rough=0.861 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=43 connection=837 min_dist=0 pre_shell=20 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=9
+step=00044 species=  C N=00188 vac=0000 axis=z surf=xy Eads=-5.4617 eV P=9.998e-01 E=-1615.8422 eV hmax=2.785 A hmean=1.643 A rough=0.880 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=44 connection=837 min_dist=0 pre_shell=19 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=8
+step=00045 species=  C N=00189 vac=0000 axis=z surf=xy Eads=-5.1208 eV P=9.966e-01 E=-1624.3035 eV hmax=2.774 A hmean=1.717 A rough=0.891 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=45 connection=834 min_dist=0 pre_shell=21 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=8
+step=00046 species=  C N=00190 vac=0000 axis=z surf=xy Eads=-5.2361 eV P=9.995e-01 E=-1633.6627 eV hmax=2.774 A hmean=1.799 A rough=0.901 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=46 connection=833 min_dist=0 pre_shell=21 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=7
+step=00047 species=  C N=00191 vac=0000 axis=z surf=xy Eads=-5.6116 eV P=1.000e+00 E=-1641.8795 eV hmax=2.774 A hmean=1.936 A rough=0.909 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=47 connection=832 min_dist=0 pre_shell=21 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=6
+step=00048 species=  C N=00192 vac=0000 axis=z surf=xy Eads=-5.2692 eV P=9.395e-01 E=-1654.3455 eV hmax=2.627 A hmean=1.852 A rough=0.912 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=48 connection=831 min_dist=0 pre_shell=21 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=6
+step=00049 species=  C N=00193 vac=0000 axis=z surf=xy Eads=-5.1388 eV P=9.910e-01 E=-1663.4498 eV hmax=2.802 A hmean=1.923 A rough=0.926 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=49 connection=832 min_dist=0 pre_shell=19 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=5
+step=00050 species=  C N=00194 vac=0000 axis=z surf=xy Eads=-4.9874 eV P=6.465e-01 E=-1672.3828 eV hmax=2.702 A hmean=2.077 A rough=0.933 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=48 connection=833 min_dist=2 pre_shell=17 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=4
+step=00051 species=  C N=00195 vac=0000 axis=z surf=xy Eads=-7.1366 eV P=1.000e+00 E=-1682.4144 eV hmax=2.677 A hmean=2.068 A rough=0.942 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=48 connection=833 min_dist=3 pre_shell=16 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=3
+step=00052 species=  C N=00196 vac=0000 axis=z surf=xy Eads=-6.3453 eV P=1.300e-01 E=-1691.3916 eV hmax=2.624 A hmean=2.176 A rough=0.944 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=49 connection=832 min_dist=3 pre_shell=16 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=2
+step=00053 species=  C N=00197 vac=0000 axis=z surf=xy Eads=-6.4899 eV P=9.881e-01 E=-1702.9402 eV hmax=2.614 A hmean=2.300 A rough=0.950 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=49 connection=833 min_dist=4 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=19.346956 max=19.346956 n=1
+step=00054 species=  C N=00198 vac=0000 axis=z surf=xy Eads=-6.6833 eV P=1.000e+00 E=-1712.8444 eV hmax=2.614 A hmean=2.221 A rough=0.955 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=51 connection=832 min_dist=3 pre_shell=14 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=14
+step=00055 species=  C N=00199 vac=0000 axis=z surf=xy Eads=-9.5677 eV P=9.995e-01 E=-1723.1552 eV hmax=3.427 A hmean=2.237 A rough=0.704 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=52 connection=830 min_dist=3 pre_shell=15 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=13
+step=00056 species=  C N=00200 vac=0000 axis=z surf=xy Eads=-9.2286 eV P=1.000e+00 E=-1733.2203 eV hmax=3.441 A hmean=2.252 A rough=0.731 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=53 connection=828 min_dist=3 pre_shell=16 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=12
+step=00057 species=  C N=00201 vac=0000 axis=z surf=xy Eads=-5.3165 eV P=8.596e-01 E=-1741.1428 eV hmax=3.637 A hmean=2.352 A rough=0.764 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=55 connection=826 min_dist=2 pre_shell=17 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=11
+step=00058 species=  C N=00202 vac=0000 axis=z surf=xy Eads=-5.2024 eV P=4.324e-01 E=-1748.1647 eV hmax=3.682 A hmean=2.353 A rough=0.795 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=56 connection=826 min_dist=2 pre_shell=16 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=10
+step=00059 species=  C N=00203 vac=0000 axis=z surf=xy Eads=-5.2191 eV P=9.710e-01 E=-1755.5461 eV hmax=3.682 A hmean=2.396 A rough=0.824 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=57 connection=824 min_dist=2 pre_shell=17 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=9
+step=00060 species=  C N=00204 vac=0000 axis=z surf=xy Eads=-5.0554 eV P=8.117e-01 E=-1762.6021 eV hmax=3.682 A hmean=2.410 A rough=0.849 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=58 connection=822 min_dist=2 pre_shell=18 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=8
+step=00061 species=  C N=00205 vac=0000 axis=z surf=xy Eads=-4.9867 eV P=9.033e-01 E=-1769.9213 eV hmax=3.682 A hmean=2.582 A rough=0.872 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=60 connection=821 min_dist=1 pre_shell=18 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=7
+step=00062 species=  C N=00206 vac=0000 axis=z surf=xy Eads=-5.1204 eV P=9.901e-01 E=-1778.6202 eV hmax=3.677 A hmean=2.655 A rough=0.886 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=61 connection=817 min_dist=1 pre_shell=21 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=9
+step=00063 species=  C N=00207 vac=0000 axis=z surf=xy Eads=-5.5620 eV P=9.970e-01 E=-1787.9495 eV hmax=3.669 A hmean=2.695 A rough=0.893 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=62 connection=815 min_dist=1 pre_shell=22 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=9
+step=00064 species=  C N=00208 vac=0000 axis=z surf=xy Eads=-5.2510 eV P=9.997e-01 E=-1795.4092 eV hmax=3.674 A hmean=2.821 A rough=0.912 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=64 connection=815 min_dist=0 pre_shell=21 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=8
+step=00065 species=  C N=00209 vac=0000 axis=z surf=xy Eads=-4.9524 eV P=7.019e-01 E=-1804.9492 eV hmax=3.665 A hmean=2.972 A rough=0.916 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=65 connection=814 min_dist=0 pre_shell=21 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=7
+step=00066 species=  C N=00210 vac=0000 axis=z surf=xy Eads=-5.4501 eV P=9.495e-01 E=-1812.8954 eV hmax=3.623 A hmean=2.811 A rough=0.923 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=66 connection=812 min_dist=0 pre_shell=22 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=6
+step=00067 species=  C N=00211 vac=0000 axis=z surf=xy Eads=-5.4316 eV P=9.977e-01 E=-1823.3112 eV hmax=3.566 A hmean=2.795 A rough=0.927 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=67 connection=811 min_dist=0 pre_shell=22 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=5
+step=00068 species=  C N=00212 vac=0000 axis=z surf=xy Eads=-5.8324 eV P=1.000e+00 E=-1834.2219 eV hmax=3.498 A hmean=2.854 A rough=0.930 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=68 connection=813 min_dist=0 pre_shell=19 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=4
+step=00069 species=  C N=00213 vac=0000 axis=z surf=xy Eads=-5.5377 eV P=9.998e-01 E=-1844.3451 eV hmax=3.491 A hmean=2.962 A rough=0.935 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=66 connection=813 min_dist=3 pre_shell=18 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=3
+step=00070 species=  C N=00214 vac=0000 axis=z surf=xy Eads=-5.4056 eV P=9.975e-01 E=-1851.8965 eV hmax=3.669 A hmean=2.996 A rough=0.946 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=67 connection=813 min_dist=3 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=2
+step=00071 species=  C N=00215 vac=0000 axis=z surf=xy Eads=-5.0975 eV P=9.999e-01 E=-1861.5424 eV hmax=3.580 A hmean=3.052 A rough=0.952 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=70 connection=812 min_dist=1 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=20.237142 max=20.237142 n=1
+step=00072 species=  C N=00216 vac=0000 axis=z surf=xy Eads=-5.7717 eV P=1.000e+00 E=-1874.2842 eV hmax=3.487 A hmean=3.166 A rough=0.956 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=70 connection=814 min_dist=2 pre_shell=14 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=14
+step=00073 species=  C N=00217 vac=0000 axis=z surf=xy Eads=-9.5389 eV P=9.990e-01 E=-1885.2328 eV hmax=4.286 A hmean=3.253 A rough=0.702 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=71 connection=812 min_dist=2 pre_shell=15 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=13
+step=00074 species=  C N=00218 vac=0000 axis=z surf=xy Eads=-9.2371 eV P=1.000e+00 E=-1895.4363 eV hmax=4.326 A hmean=3.257 A rough=0.731 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=72 connection=810 min_dist=2 pre_shell=16 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=12
+step=00075 species=  C N=00219 vac=0000 axis=z surf=xy Eads=-6.1166 eV P=8.431e-01 E=-1904.1686 eV hmax=4.554 A hmean=3.316 A rough=0.765 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=73 connection=809 min_dist=2 pre_shell=16 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=10
+step=00076 species=  C N=00220 vac=0000 axis=z surf=xy Eads=-5.9976 eV P=9.108e-01 E=-1911.6866 eV hmax=4.554 A hmean=3.333 A rough=0.795 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=75 connection=807 min_dist=1 pre_shell=17 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=9
+step=00077 species=  C N=00221 vac=0000 axis=z surf=xy Eads=-5.3202 eV P=9.646e-01 E=-1919.0896 eV hmax=4.558 A hmean=3.333 A rough=0.823 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=76 connection=805 min_dist=1 pre_shell=18 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=9
+step=00078 species=  C N=00222 vac=0000 axis=z surf=xy Eads=-5.5139 eV P=9.997e-01 E=-1927.3602 eV hmax=4.554 A hmean=3.431 A rough=0.841 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=77 connection=802 min_dist=1 pre_shell=20 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=9
+step=00079 species=  C N=00223 vac=0000 axis=z surf=xy Eads=-5.0500 eV P=9.890e-01 E=-1934.4910 eV hmax=4.575 A hmean=3.440 A rough=0.864 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=78 connection=802 min_dist=1 pre_shell=19 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=8
+step=00080 species=  C N=00224 vac=0000 axis=z surf=xy Eads=-4.8862 eV P=7.916e-01 E=-1942.3351 eV hmax=4.524 A hmean=3.382 A rough=0.875 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=79 connection=801 min_dist=1 pre_shell=19 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=7
+step=00081 species=  C N=00225 vac=0000 axis=z surf=xy Eads=-6.8955 eV P=1.000e+00 E=-1953.0331 eV hmax=4.524 A hmean=3.617 A rough=0.885 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=80 connection=800 min_dist=1 pre_shell=19 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=8
+step=00082 species=  C N=00226 vac=0000 axis=z surf=xy Eads=-6.4908 eV P=4.590e-01 E=-1962.3937 eV hmax=4.524 A hmean=3.683 A rough=0.895 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=81 connection=799 min_dist=1 pre_shell=19 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=7
+step=00083 species=  C N=00227 vac=0000 axis=z surf=xy Eads=-6.3162 eV P=9.873e-01 E=-1970.9489 eV hmax=4.467 A hmean=3.739 A rough=0.903 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=82 connection=797 min_dist=1 pre_shell=20 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=7
+step=00084 species=  C N=00228 vac=0000 axis=z surf=xy Eads=-6.2217 eV P=1.000e+00 E=-1982.0675 eV hmax=4.386 A hmean=3.609 A rough=0.909 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=83 connection=797 min_dist=1 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=6
+step=00085 species=  C N=00229 vac=0000 axis=z surf=xy Eads=-5.1586 eV P=9.999e-01 E=-1989.2518 eV hmax=4.386 A hmean=3.635 A rough=0.920 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=85 connection=796 min_dist=0 pre_shell=19 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=5
+step=00086 species=  C N=00230 vac=0000 axis=z surf=xy Eads=-5.5795 eV P=1.000e+00 E=-1998.3251 eV hmax=4.572 A hmean=3.677 A rough=0.934 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=86 connection=794 min_dist=0 pre_shell=20 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=4
+step=00087 species=  C N=00231 vac=0000 axis=z surf=xy Eads=-5.4105 eV P=9.999e-01 E=-2008.3557 eV hmax=4.430 A hmean=3.690 A rough=0.937 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=87 connection=794 min_dist=0 pre_shell=19 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=3
+step=00088 species=  C N=00232 vac=0000 axis=z surf=xy Eads=-5.1641 eV P=9.962e-01 E=-2015.8523 eV hmax=4.571 A hmean=3.817 A rough=0.949 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=88 connection=794 min_dist=0 pre_shell=18 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=2
+step=00089 species=  C N=00233 vac=0000 axis=z surf=xy Eads=-4.9045 eV P=8.289e-01 E=-2025.5583 eV hmax=4.487 A hmean=3.858 A rough=0.955 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=89 connection=794 min_dist=0 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=21.127328 max=21.127328 n=1
+step=00090 species=  C N=00234 vac=0000 axis=z surf=xy Eads=-5.8809 eV P=1.000e+00 E=-2038.5381 eV hmax=4.378 A hmean=3.967 A rough=0.957 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=89 connection=796 min_dist=1 pre_shell=14 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=14
+step=00091 species=  C N=00235 vac=0000 axis=z surf=xy Eads=-9.5835 eV P=1.000e+00 E=-2049.5044 eV hmax=5.186 A hmean=4.056 A rough=0.703 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=90 connection=794 min_dist=1 pre_shell=15 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=13
+step=00092 species=  C N=00236 vac=0000 axis=z surf=xy Eads=-9.0657 eV P=1.000e+00 E=-2059.4390 eV hmax=5.225 A hmean=4.084 A rough=0.733 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=91 connection=792 min_dist=1 pre_shell=16 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=12
+step=00093 species=  C N=00237 vac=0000 axis=z surf=xy Eads=-5.2551 eV P=8.241e-01 E=-2067.5381 eV hmax=5.470 A hmean=4.140 A rough=0.767 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=92 connection=791 min_dist=1 pre_shell=16 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=10
+step=00094 species=  C N=00238 vac=0000 axis=z surf=xy Eads=-5.1882 eV P=9.722e-01 E=-2074.6213 eV hmax=5.470 A hmean=4.156 A rough=0.798 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=93 connection=789 min_dist=1 pre_shell=17 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=9
+step=00095 species=  C N=00239 vac=0000 axis=z surf=xy Eads=-4.7798 eV P=2.070e-02 E=-2082.0403 eV hmax=5.441 A hmean=4.253 A rough=0.819 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=94 connection=787 min_dist=1 pre_shell=18 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=9
+step=00096 species=  C N=00240 vac=0000 axis=z surf=xy Eads=-6.8555 eV P=1.000e+00 E=-2092.1951 eV hmax=5.441 A hmean=4.335 A rough=0.833 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=94 connection=786 min_dist=2 pre_shell=18 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=9
+step=00097 species=  C N=00241 vac=0000 axis=z surf=xy Eads=-6.6790 eV P=1.000e+00 E=-2101.1377 eV hmax=5.441 A hmean=4.348 A rough=0.849 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=96 connection=785 min_dist=1 pre_shell=18 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=8
+step=00098 species=  C N=00242 vac=0000 axis=z surf=xy Eads=-5.1382 eV P=6.939e-01 E=-2110.2998 eV hmax=5.350 A hmean=4.512 A rough=0.864 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=97 connection=784 min_dist=1 pre_shell=18 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=7
+step=00099 species=  C N=00243 vac=0000 axis=z surf=xy Eads=-5.4619 eV P=8.741e-01 E=-2117.5049 eV hmax=5.319 A hmean=4.663 A rough=0.876 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=98 connection=782 min_dist=1 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=6
+step=00100 species=  C N=00244 vac=0000 axis=z surf=xy Eads=-5.2422 eV P=9.298e-01 E=-2125.0889 eV hmax=5.461 A hmean=4.625 A rough=0.894 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=99 connection=782 min_dist=1 pre_shell=18 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=5
+step=00101 species=  C N=00245 vac=0000 axis=z surf=xy Eads=-5.1279 eV P=9.822e-01 E=-2132.8013 eV hmax=5.461 A hmean=4.642 A rough=0.910 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=100 connection=782 min_dist=1 pre_shell=17 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=4
+step=00102 species=  C N=00246 vac=0000 axis=z surf=xy Eads=-4.8789 eV P=5.991e-01 E=-2141.1353 eV hmax=5.461 A hmean=4.738 A rough=0.923 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=102 connection=781 min_dist=0 pre_shell=17 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=4
+step=00103 species=  C N=00247 vac=0000 axis=z surf=xy Eads=-6.6262 eV P=1.000e+00 E=-2150.6426 eV hmax=5.461 A hmean=4.782 A rough=0.936 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=102 connection=780 min_dist=1 pre_shell=17 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=3
+step=00104 species=  C N=00248 vac=0000 axis=z surf=xy Eads=-5.8599 eV P=1.000e+00 E=-2161.4172 eV hmax=5.443 A hmean=4.864 A rough=0.941 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=101 connection=780 min_dist=3 pre_shell=16 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=3
+step=00105 species=  C N=00249 vac=0000 axis=z surf=xy Eads=-4.8789 eV P=1.000e+00 E=-2169.4524 eV hmax=5.468 A hmean=4.869 A rough=0.953 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=103 connection=779 min_dist=2 pre_shell=16 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=2
+step=00106 species=  C N=00250 vac=0000 axis=z surf=xy Eads=-3.7258 eV P=4.627e-02 E=-2179.2908 eV hmax=5.418 A hmean=4.928 A rough=0.953 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=103 connection=776 min_dist=3 pre_shell=18 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=2
+step=00107 species=  C N=00251 vac=0000 axis=z surf=xy Eads=-4.7959 eV P=9.964e-01 E=-2188.3281 eV hmax=5.330 A hmean=4.898 A rough=0.952 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=104 connection=775 min_dist=3 pre_shell=18 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=22.017515 max=22.017515 n=1
+step=00108 species=  C N=00252 vac=0000 axis=z surf=xy Eads=-5.4053 eV P=1.000e+00 E=-2196.4631 eV hmax=5.322 A hmean=4.788 A rough=0.954 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=105 connection=774 min_dist=3 pre_shell=18 post_shell=18 tested_energy=18
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=18
+step=00109 species=  C N=00253 vac=0000 axis=z surf=xy Eads=-9.4619 eV P=1.000e+00 E=-2207.4941 eV hmax=6.059 A hmean=4.830 A rough=0.703 A occ1=1.000 tested=18
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=106 connection=772 min_dist=3 pre_shell=19 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=17
+step=00110 species=  C N=00254 vac=0000 axis=z surf=xy Eads=-8.9470 eV P=1.000e+00 E=-2217.1262 eV hmax=6.178 A hmean=4.915 A rough=0.732 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=107 connection=770 min_dist=3 pre_shell=20 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=16
+step=00111 species=  C N=00255 vac=0000 axis=z surf=xy Eads=-7.1594 eV P=1.426e-01 E=-2225.8538 eV hmax=6.178 A hmean=4.982 A rough=0.761 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=109 connection=768 min_dist=2 pre_shell=21 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=15
+step=00112 species=  C N=00256 vac=0000 axis=z surf=xy Eads=-7.3357 eV P=9.984e-01 E=-2234.8962 eV hmax=6.160 A hmean=4.984 A rough=0.782 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=110 connection=768 min_dist=2 pre_shell=20 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=14
+step=00113 species=  C N=00257 vac=0000 axis=z surf=xy Eads=-7.2566 eV P=9.999e-01 E=-2243.7395 eV hmax=6.198 A hmean=5.029 A rough=0.805 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=111 connection=767 min_dist=2 pre_shell=20 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=13
+step=00114 species=  C N=00258 vac=0000 axis=z surf=xy Eads=-6.7791 eV P=8.385e-01 E=-2252.8188 eV hmax=6.160 A hmean=5.082 A rough=0.824 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=112 connection=766 min_dist=2 pre_shell=20 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=12
+step=00115 species=  C N=00259 vac=0000 axis=z surf=xy Eads=-6.6755 eV P=9.972e-01 E=-2261.5085 eV hmax=6.147 A hmean=5.276 A rough=0.839 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=113 connection=764 min_dist=2 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=11
+step=00116 species=  C N=00260 vac=0000 axis=z surf=xy Eads=-7.6213 eV P=1.000e+00 E=-2273.2151 eV hmax=6.193 A hmean=5.264 A rough=0.857 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=114 connection=765 min_dist=2 pre_shell=19 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=10
+step=00117 species=  C N=00261 vac=0000 axis=z surf=xy Eads=-5.0564 eV P=6.943e-01 E=-2280.1641 eV hmax=6.193 A hmean=5.376 A rough=0.875 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=115 connection=764 min_dist=2 pre_shell=19 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=9
+step=00118 species=  C N=00262 vac=0000 axis=z surf=xy Eads=-5.8767 eV P=1.000e+00 E=-2288.7119 eV hmax=6.338 A hmean=5.390 A rough=0.892 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=116 connection=762 min_dist=2 pre_shell=20 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=8
+step=00119 species=  C N=00263 vac=0000 axis=z surf=xy Eads=-5.4509 eV P=9.967e-01 E=-2297.8318 eV hmax=6.204 A hmean=5.460 A rough=0.900 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=117 connection=762 min_dist=2 pre_shell=19 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=7
+step=00120 species=  C N=00264 vac=0000 axis=z surf=xy Eads=-5.1011 eV P=1.441e-01 E=-2305.2302 eV hmax=6.211 A hmean=5.587 A rough=0.913 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=117 connection=761 min_dist=3 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=6
+step=00121 species=  C N=00265 vac=0000 axis=z surf=xy Eads=-6.1621 eV P=1.000e+00 E=-2316.7610 eV hmax=6.222 A hmean=5.697 A rough=0.924 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=118 connection=762 min_dist=3 pre_shell=17 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=5
+step=00122 species=  C N=00266 vac=0000 axis=z surf=xy Eads=-7.0110 eV P=1.000e+00 E=-2327.7681 eV hmax=6.193 A hmean=5.697 A rough=0.926 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=118 connection=763 min_dist=4 pre_shell=15 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=4
+step=00123 species=  C N=00267 vac=0000 axis=z surf=xy Eads=-4.6646 eV P=8.170e-01 E=-2336.7742 eV hmax=6.331 A hmean=5.712 A rough=0.939 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=121 connection=763 min_dist=2 pre_shell=14 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=3
+step=00124 species=  C N=00268 vac=0000 axis=z surf=xy Eads=-4.7996 eV P=9.907e-01 E=-2346.2385 eV hmax=6.193 A hmean=5.840 A rough=0.943 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=122 connection=762 min_dist=2 pre_shell=14 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=2
+step=00125 species=  C N=00269 vac=0000 axis=z surf=xy Eads=-4.5212 eV P=9.554e-01 E=-2355.0972 eV hmax=6.335 A hmean=5.842 A rough=0.952 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=124 connection=761 min_dist=1 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=22.907701 max=22.907701 n=1
+step=00126 species=  C N=00270 vac=0000 axis=z surf=xy Eads=-4.7578 eV P=1.000e+00 E=-2363.6602 eV hmax=6.192 A hmean=5.870 A rough=0.956 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=125 connection=759 min_dist=1 pre_shell=15 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=15
+step=00127 species=  C N=00271 vac=0000 axis=z surf=xy Eads=-7.0938 eV P=9.611e-01 E=-2372.4365 eV hmax=7.072 A hmean=5.928 A rough=0.708 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=126 connection=757 min_dist=1 pre_shell=16 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=14
+step=00128 species=  C N=00272 vac=0000 axis=z surf=xy Eads=-7.3479 eV P=1.000e+00 E=-2381.9124 eV hmax=7.072 A hmean=5.903 A rough=0.733 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=128 connection=755 min_dist=0 pre_shell=17 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=13
+step=00129 species=  C N=00273 vac=0000 axis=z surf=xy Eads=-6.8325 eV P=8.354e-01 E=-2390.5459 eV hmax=7.053 A hmean=5.943 A rough=0.761 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=129 connection=753 min_dist=0 pre_shell=18 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=12
+step=00130 species=  C N=00274 vac=0000 axis=z surf=xy Eads=-6.6658 eV P=9.840e-01 E=-2400.2725 eV hmax=7.138 A hmean=6.016 A rough=0.793 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=130 connection=751 min_dist=0 pre_shell=19 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=11
+step=00131 species=  C N=00275 vac=0000 axis=z surf=xy Eads=-7.4648 eV P=9.426e-01 E=-2408.3760 eV hmax=7.100 A hmean=6.059 A rough=0.811 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=131 connection=749 min_dist=0 pre_shell=20 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=10
+step=00132 species=  C N=00276 vac=0000 axis=z surf=xy Eads=-7.3411 eV P=1.000e+00 E=-2417.3569 eV hmax=7.140 A hmean=6.112 A rough=0.830 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=132 connection=747 min_dist=0 pre_shell=21 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=9
+step=00133 species=  C N=00277 vac=0000 axis=z surf=xy Eads=-5.2742 eV P=1.000e+00 E=-2424.5691 eV hmax=7.243 A hmean=6.224 A rough=0.851 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=133 connection=747 min_dist=0 pre_shell=20 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=8
+step=00134 species=  C N=00278 vac=0000 axis=z surf=xy Eads=-4.7839 eV P=9.715e-01 E=-2431.7778 eV hmax=7.257 A hmean=6.279 A rough=0.872 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=134 connection=747 min_dist=0 pre_shell=19 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=7
+step=00135 species=  C N=00279 vac=0000 axis=z surf=xy Eads=-4.6028 eV P=6.733e-01 E=-2438.8264 eV hmax=7.258 A hmean=6.364 A rough=0.892 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=135 connection=746 min_dist=0 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=6
+step=00136 species=  C N=00280 vac=0000 axis=z surf=xy Eads=-4.5005 eV P=1.285e-01 E=-2447.2681 eV hmax=7.243 A hmean=6.449 A rough=0.906 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=136 connection=744 min_dist=0 pre_shell=20 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=6
+step=00137 species=  C N=00281 vac=0000 axis=z surf=xy Eads=-5.5786 eV P=1.000e+00 E=-2455.9302 eV hmax=7.228 A hmean=6.401 A rough=0.915 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=137 connection=742 min_dist=0 pre_shell=21 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=6
+step=00138 species=  C N=00282 vac=0000 axis=z surf=xy Eads=-4.6892 eV P=2.900e-01 E=-2465.0801 eV hmax=7.228 A hmean=6.299 A rough=0.923 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=138 connection=742 min_dist=0 pre_shell=20 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=5
+step=00139 species=  C N=00283 vac=0000 axis=z surf=xy Eads=-6.9504 eV P=1.000e+00 E=-2476.8020 eV hmax=7.228 A hmean=6.328 A rough=0.935 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=139 connection=742 min_dist=0 pre_shell=19 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=4
+step=00140 species=  C N=00284 vac=0000 axis=z surf=xy Eads=-6.4587 eV P=1.000e+00 E=-2487.5959 eV hmax=7.156 A hmean=6.396 A rough=0.937 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=138 connection=744 min_dist=2 pre_shell=16 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=3
+step=00141 species=  C N=00285 vac=0000 axis=z surf=xy Eads=-5.0305 eV P=1.000e+00 E=-2496.1782 eV hmax=7.250 A hmean=6.413 A rough=0.948 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=140 connection=743 min_dist=1 pre_shell=16 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=2
+step=00142 species=  C N=00286 vac=0000 axis=z surf=xy Eads=-4.7158 eV P=9.859e-01 E=-2506.4265 eV hmax=7.156 A hmean=6.471 A rough=0.950 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=140 connection=741 min_dist=2 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=2
+step=00143 species=  C N=00287 vac=0000 axis=z surf=xy Eads=-5.3040 eV P=1.000e+00 E=-2516.1128 eV hmax=7.112 A hmean=6.595 A rough=0.949 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=141 connection=740 min_dist=2 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=23.797887 max=23.797887 n=1
+step=00144 species=  C N=00288 vac=0000 axis=z surf=xy Eads=-5.6812 eV P=1.000e+00 E=-2524.4558 eV hmax=7.112 A hmean=6.654 A rough=0.953 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=143 connection=739 min_dist=1 pre_shell=17 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=17
+step=00145 species=  C N=00289 vac=0000 axis=z surf=xy Eads=-9.7339 eV P=1.000e+00 E=-2534.8459 eV hmax=7.893 A hmean=6.683 A rough=0.699 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=144 connection=737 min_dist=1 pre_shell=18 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=16
+step=00146 species=  C N=00290 vac=0000 axis=z surf=xy Eads=-7.2312 eV P=9.077e-01 E=-2543.4250 eV hmax=7.985 A hmean=6.669 A rough=0.733 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=145 connection=736 min_dist=1 pre_shell=18 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=15
+step=00147 species=  C N=00291 vac=0000 axis=z surf=xy Eads=-7.0566 eV P=6.914e-01 E=-2552.0376 eV hmax=7.985 A hmean=6.571 A rough=0.762 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=146 connection=735 min_dist=1 pre_shell=18 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=14
+step=00148 species=  C N=00292 vac=0000 axis=z surf=xy Eads=-6.9946 eV P=9.926e-01 E=-2561.0894 eV hmax=7.985 A hmean=6.768 A rough=0.785 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=147 connection=734 min_dist=1 pre_shell=18 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=13
+step=00149 species=  C N=00293 vac=0000 axis=z surf=xy Eads=-6.7190 eV P=2.971e-01 E=-2569.7156 eV hmax=7.949 A hmean=6.918 A rough=0.807 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=148 connection=733 min_dist=1 pre_shell=18 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=12
+step=00150 species=  C N=00294 vac=0000 axis=z surf=xy Eads=-6.0332 eV P=8.618e-01 E=-2578.3450 eV hmax=8.097 A hmean=6.905 A rough=0.828 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=148 connection=731 min_dist=2 pre_shell=19 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=11
+step=00151 species=  C N=00295 vac=0000 axis=z surf=xy Eads=-5.9553 eV P=9.964e-01 E=-2586.7830 eV hmax=8.097 A hmean=6.918 A rough=0.846 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=149 connection=729 min_dist=2 pre_shell=20 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=10
+step=00152 species=  C N=00296 vac=0000 axis=z surf=xy Eads=-5.8057 eV P=1.000e+00 E=-2594.8005 eV hmax=8.042 A hmean=7.014 A rough=0.859 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=150 connection=727 min_dist=2 pre_shell=21 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=9
+step=00153 species=  C N=00297 vac=0000 axis=z surf=xy Eads=-5.3311 eV P=9.997e-01 E=-2604.6074 eV hmax=7.970 A hmean=7.115 A rough=0.875 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=151 connection=728 min_dist=2 pre_shell=19 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=8
+step=00154 species=  C N=00298 vac=0000 axis=z surf=xy Eads=-6.8472 eV P=1.000e+00 E=-2616.4333 eV hmax=7.976 A hmean=7.126 A rough=0.885 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=150 connection=728 min_dist=4 pre_shell=18 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=8
+step=00155 species=  C N=00299 vac=0000 axis=z surf=xy Eads=-5.3115 eV P=8.753e-01 E=-2625.7786 eV hmax=7.944 A hmean=7.194 A rough=0.896 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=151 connection=729 min_dist=4 pre_shell=16 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=7
+step=00156 species=  C N=00300 vac=0000 axis=z surf=xy Eads=-6.1726 eV P=1.000e+00 E=-2634.6794 eV hmax=8.045 A hmean=7.194 A rough=0.908 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=152 connection=728 min_dist=4 pre_shell=16 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=6
+step=00157 species=  C N=00301 vac=0000 axis=z surf=xy Eads=-5.2979 eV P=7.637e-01 E=-2642.8557 eV hmax=8.036 A hmean=7.275 A rough=0.916 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=153 connection=726 min_dist=5 pre_shell=16 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=4
+step=00158 species=  C N=00302 vac=0000 axis=z surf=xy Eads=-5.2363 eV P=9.565e-01 E=-2651.0498 eV hmax=8.036 A hmean=7.263 A rough=0.925 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=155 connection=725 min_dist=4 pre_shell=16 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=3
+step=00159 species=  C N=00303 vac=0000 axis=z surf=xy Eads=-5.3057 eV P=9.995e-01 E=-2660.1331 eV hmax=8.008 A hmean=7.361 A rough=0.935 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=157 connection=725 min_dist=2 pre_shell=16 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=3
+step=00160 species=  C N=00304 vac=0000 axis=z surf=xy Eads=-7.6372 eV P=1.000e+00 E=-2668.9453 eV hmax=8.000 A hmean=7.386 A rough=0.943 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=158 connection=725 min_dist=2 pre_shell=15 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=2
+step=00161 species=  C N=00305 vac=0000 axis=z surf=xy Eads=-4.7195 eV P=9.996e-01 E=-2677.7019 eV hmax=8.000 A hmean=7.420 A rough=0.953 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=161 connection=724 min_dist=0 pre_shell=15 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=24.688074 max=24.688074 n=1
+step=00162 species=  C N=00306 vac=0000 axis=z surf=xy Eads=-6.7273 eV P=1.000e+00 E=-2686.0767 eV hmax=8.000 A hmean=7.423 A rough=0.958 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=162 connection=723 min_dist=0 pre_shell=15 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=15
+step=00163 species=  C N=00307 vac=0000 axis=z surf=xy Eads=-9.6467 eV P=9.099e-01 E=-2697.6865 eV hmax=8.652 A hmean=7.531 A rough=0.705 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=162 connection=721 min_dist=1 pre_shell=16 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=14
+step=00164 species=  C N=00308 vac=0000 axis=z surf=xy Eads=-8.1455 eV P=7.564e-01 E=-2707.0603 eV hmax=8.803 A hmean=7.644 A rough=0.732 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=164 connection=719 min_dist=0 pre_shell=17 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=13
+step=00165 species=  C N=00309 vac=0000 axis=z surf=xy Eads=-7.9233 eV P=1.000e+00 E=-2717.5488 eV hmax=8.803 A hmean=7.720 A rough=0.755 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=165 connection=718 min_dist=0 pre_shell=17 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=12
+step=00166 species=  C N=00310 vac=0000 axis=z surf=xy Eads=-7.4539 eV P=9.726e-01 E=-2726.1533 eV hmax=8.874 A hmean=7.761 A rough=0.780 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=165 connection=716 min_dist=1 pre_shell=18 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=11
+step=00167 species=  C N=00311 vac=0000 axis=z surf=xy Eads=-7.0588 eV P=1.000e+00 E=-2734.8564 eV hmax=8.869 A hmean=7.749 A rough=0.803 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=167 connection=715 min_dist=0 pre_shell=18 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=10
+step=00168 species=  C N=00312 vac=0000 axis=z surf=xy Eads=-6.2412 eV P=1.000e+00 E=-2746.7156 eV hmax=8.940 A hmean=7.807 A rough=0.828 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=168 connection=716 min_dist=0 pre_shell=16 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=9
+step=00169 species=  C N=00313 vac=0000 axis=z surf=xy Eads=-4.8765 eV P=9.943e-01 E=-2753.5920 eV hmax=8.940 A hmean=7.873 A rough=0.849 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=169 connection=714 min_dist=0 pre_shell=17 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=8
+step=00170 species=  C N=00314 vac=0000 axis=z surf=xy Eads=-5.8369 eV P=1.000e+00 E=-2762.3848 eV hmax=9.010 A hmean=7.915 A rough=0.868 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=170 connection=712 min_dist=0 pre_shell=18 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=7
+step=00171 species=  C N=00315 vac=0000 axis=z surf=xy Eads=-5.6428 eV P=1.000e+00 E=-2771.0022 eV hmax=8.940 A hmean=8.024 A rough=0.879 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=171 connection=712 min_dist=0 pre_shell=17 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=6
+step=00172 species=  C N=00316 vac=0000 axis=z surf=xy Eads=-5.1047 eV P=3.736e-01 E=-2779.2971 eV hmax=8.940 A hmean=7.966 A rough=0.893 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=172 connection=711 min_dist=0 pre_shell=17 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=5
+step=00173 species=  C N=00317 vac=0000 axis=z surf=xy Eads=-6.9622 eV P=1.000e+00 E=-2789.3977 eV hmax=8.970 A hmean=7.981 A rough=0.907 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=173 connection=712 min_dist=0 pre_shell=15 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=4
+step=00174 species=  C N=00318 vac=0000 axis=z surf=xy Eads=-6.1841 eV P=1.000e+00 E=-2798.6147 eV hmax=8.940 A hmean=8.107 A rough=0.915 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=174 connection=711 min_dist=0 pre_shell=15 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=3
+step=00175 species=  C N=00319 vac=0000 axis=z surf=xy Eads=-4.8635 eV P=9.982e-01 E=-2806.4438 eV hmax=9.020 A hmean=8.233 A rough=0.927 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=175 connection=711 min_dist=0 pre_shell=14 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=2
+step=00176 species=  C N=00320 vac=0000 axis=z surf=xy Eads=-4.5776 eV P=8.766e-01 E=-2814.7732 eV hmax=9.047 A hmean=8.235 A rough=0.939 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=176 connection=710 min_dist=0 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=1
+step=00177 species=  C N=00321 vac=0000 axis=z surf=xy Eads=-4.4851 eV P=1.000e+00 E=-2823.3584 eV hmax=9.047 A hmean=8.253 A rough=0.950 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=177 connection=711 min_dist=0 pre_shell=12 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=12
+step=00178 species=  C N=00322 vac=0000 axis=z surf=xy Eads=-8.1531 eV P=9.999e-01 E=-2832.9287 eV hmax=9.784 A hmean=8.281 A rough=0.722 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=178 connection=708 min_dist=0 pre_shell=14 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=12
+step=00179 species=  C N=00323 vac=0000 axis=z surf=xy Eads=-7.7090 eV P=9.962e-01 E=-2842.5078 eV hmax=9.784 A hmean=8.340 A rough=0.748 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=179 connection=704 min_dist=0 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=2
+step=00180 species=  C N=00324 vac=0000 axis=z surf=xy Eads=-4.8994 eV P=6.574e-01 E=-2850.9365 eV hmax=9.695 A hmean=8.448 A rough=0.738 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=180 connection=702 min_dist=0 pre_shell=18 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=2
+step=00181 species=  C N=00325 vac=0000 axis=z surf=xy Eads=-4.9014 eV P=1.000e+00 E=-2859.3464 eV hmax=9.695 A hmean=8.477 A rough=0.738 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=181 connection=700 min_dist=0 pre_shell=19 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=25.578260 max=25.578260 n=1
+step=00182 species=  C N=00326 vac=0000 axis=z surf=xy Eads=-5.2100 eV P=1.000e+00 E=-2866.8704 eV hmax=9.695 A hmean=8.672 A rough=0.734 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=182 connection=698 min_dist=0 pre_shell=20 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=16
+step=00183 species=  C N=00327 vac=0000 axis=z surf=xy Eads=-8.6123 eV P=9.999e-01 E=-2876.6465 eV hmax=9.715 A hmean=8.755 A rough=0.758 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=183 connection=696 min_dist=0 pre_shell=21 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=15
+step=00184 species=  C N=00328 vac=0000 axis=z surf=xy Eads=-7.9143 eV P=1.000e+00 E=-2885.9800 eV hmax=9.740 A hmean=8.837 A rough=0.780 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=184 connection=694 min_dist=0 pre_shell=22 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=14
+step=00185 species=  C N=00329 vac=0000 axis=z surf=xy Eads=-7.2400 eV P=9.221e-01 E=-2894.6904 eV hmax=9.752 A hmean=8.879 A rough=0.802 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=184 connection=693 min_dist=1 pre_shell=22 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=13
+step=00186 species=  C N=00330 vac=0000 axis=z surf=xy Eads=-7.3896 eV P=1.000e+00 E=-2903.8179 eV hmax=9.752 A hmean=8.939 A rough=0.823 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=185 connection=693 min_dist=1 pre_shell=21 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=12
+step=00187 species=  C N=00331 vac=0000 axis=z surf=xy Eads=-7.0349 eV P=9.982e-01 E=-2913.5791 eV hmax=9.851 A hmean=9.062 A rough=0.841 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=186 connection=692 min_dist=1 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=11
+step=00188 species=  C N=00332 vac=0000 axis=z surf=xy Eads=-6.7146 eV P=7.647e-01 E=-2922.5164 eV hmax=9.851 A hmean=9.061 A rough=0.858 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=187 connection=691 min_dist=1 pre_shell=21 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=10
+step=00189 species=  C N=00333 vac=0000 axis=z surf=xy Eads=-5.4990 eV P=1.000e+00 E=-2931.4951 eV hmax=9.925 A hmean=9.019 A rough=0.877 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=188 connection=691 min_dist=1 pre_shell=20 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=9
+step=00190 species=  C N=00334 vac=0000 axis=z surf=xy Eads=-5.0271 eV P=9.702e-01 E=-2938.6531 eV hmax=9.925 A hmean=9.045 A rough=0.893 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=189 connection=691 min_dist=1 pre_shell=19 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=8
+step=00191 species=  C N=00335 vac=0000 axis=z surf=xy Eads=-5.4985 eV P=9.456e-01 E=-2947.0940 eV hmax=9.925 A hmean=9.142 A rough=0.907 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=190 connection=689 min_dist=1 pre_shell=20 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=7
+step=00192 species=  C N=00336 vac=0000 axis=z surf=xy Eads=-5.3540 eV P=9.748e-01 E=-2954.5823 eV hmax=9.851 A hmean=9.069 A rough=0.912 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=191 connection=689 min_dist=1 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=6
+step=00193 species=  C N=00337 vac=0000 axis=z surf=xy Eads=-5.8083 eV P=1.000e+00 E=-2963.6716 eV hmax=9.919 A hmean=9.097 A rough=0.926 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=192 connection=689 min_dist=1 pre_shell=18 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=5
+step=00194 species=  C N=00338 vac=0000 axis=z surf=xy Eads=-5.5762 eV P=9.589e-01 E=-2971.3062 eV hmax=9.851 A hmean=9.121 A rough=0.932 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=193 connection=687 min_dist=1 pre_shell=19 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=4
+step=00195 species=  C N=00339 vac=0000 axis=z surf=xy Eads=-5.9932 eV P=1.000e+00 E=-2979.8584 eV hmax=9.851 A hmean=9.284 A rough=0.940 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=194 connection=686 min_dist=1 pre_shell=19 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=3
+step=00196 species=  C N=00340 vac=0000 axis=z surf=xy Eads=-5.1294 eV P=1.000e+00 E=-2988.1440 eV hmax=9.851 A hmean=9.213 A rough=0.947 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=195 connection=685 min_dist=1 pre_shell=19 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=2
+step=00197 species=  C N=00341 vac=0000 axis=z surf=xy Eads=-4.5618 eV P=9.998e-01 E=-2999.9714 eV hmax=9.745 A hmean=9.212 A rough=0.948 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=195 connection=686 min_dist=2 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=26.468446 max=26.468446 n=1
+step=00198 species=  C N=00342 vac=0000 axis=z surf=xy Eads=-6.5356 eV P=1.000e+00 E=-3009.7302 eV hmax=9.803 A hmean=9.137 A rough=0.955 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=196 connection=684 min_dist=2 pre_shell=18 post_shell=18 tested_energy=18
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=18
+step=00199 species=  C N=00343 vac=0000 axis=z surf=xy Eads=-8.9351 eV P=8.410e-01 E=-3019.3093 eV hmax=10.617 A hmean=9.180 A rough=0.709 A occ1=1.000 tested=18
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=197 connection=682 min_dist=2 pre_shell=19 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=17
+step=00200 species=  C N=00344 vac=0000 axis=z surf=xy Eads=-8.2246 eV P=5.232e-02 E=-3029.1887 eV hmax=10.618 A hmean=9.221 A rough=0.736 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=198 connection=680 min_dist=2 pre_shell=20 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=16
+step=00201 species=  C N=00345 vac=0000 axis=z surf=xy Eads=-8.1492 eV P=3.030e-01 E=-3038.7190 eV hmax=10.618 A hmean=9.236 A rough=0.763 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=201 connection=678 min_dist=0 pre_shell=21 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=15
+step=00202 species=  C N=00346 vac=0000 axis=z surf=xy Eads=-8.1675 eV P=1.000e+00 E=-3048.0500 eV hmax=10.633 A hmean=9.376 A rough=0.784 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=202 connection=676 min_dist=0 pre_shell=22 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=14
+step=00203 species=  C N=00347 vac=0000 axis=z surf=xy Eads=-7.5273 eV P=9.983e-01 E=-3056.9941 eV hmax=10.628 A hmean=9.445 A rough=0.804 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=203 connection=676 min_dist=0 pre_shell=21 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=13
+step=00204 species=  C N=00348 vac=0000 axis=z surf=xy Eads=-7.3955 eV P=9.977e-01 E=-3066.0693 eV hmax=10.649 A hmean=9.559 A rough=0.824 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=204 connection=675 min_dist=0 pre_shell=21 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=12
+step=00205 species=  C N=00349 vac=0000 axis=z surf=xy Eads=-6.9663 eV P=2.281e-01 E=-3076.1250 eV hmax=10.762 A hmean=9.614 A rough=0.842 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=205 connection=674 min_dist=0 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=11
+step=00206 species=  C N=00350 vac=0000 axis=z surf=xy Eads=-6.9185 eV P=9.941e-01 E=-3085.8040 eV hmax=10.663 A hmean=9.629 A rough=0.856 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=206 connection=673 min_dist=0 pre_shell=21 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=10
+step=00207 species=  C N=00351 vac=0000 axis=z surf=xy Eads=-6.6204 eV P=1.000e+00 E=-3095.1279 eV hmax=10.761 A hmean=9.602 A rough=0.872 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=207 connection=672 min_dist=0 pre_shell=21 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=9
+step=00208 species=  C N=00352 vac=0000 axis=z surf=xy Eads=-4.9680 eV P=6.196e-01 E=-3104.0940 eV hmax=10.636 A hmean=9.655 A rough=0.882 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=208 connection=672 min_dist=0 pre_shell=20 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=8
+step=00209 species=  C N=00353 vac=0000 axis=z surf=xy Eads=-6.3088 eV P=1.000e+00 E=-3113.7634 eV hmax=10.761 A hmean=9.726 A rough=0.898 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=209 connection=671 min_dist=0 pre_shell=20 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=7
+step=00210 species=  C N=00354 vac=0000 axis=z surf=xy Eads=-5.6523 eV P=1.000e+00 E=-3122.9912 eV hmax=10.698 A hmean=9.767 A rough=0.908 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=210 connection=671 min_dist=0 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=6
+step=00211 species=  C N=00355 vac=0000 axis=z surf=xy Eads=-5.0054 eV P=6.552e-02 E=-3131.5359 eV hmax=10.636 A hmean=9.825 A rough=0.918 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=210 connection=671 min_dist=1 pre_shell=18 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=5
+step=00212 species=  C N=00356 vac=0000 axis=z surf=xy Eads=-6.4607 eV P=1.000e+00 E=-3140.7451 eV hmax=10.757 A hmean=9.829 A rough=0.931 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=210 connection=669 min_dist=2 pre_shell=19 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=4
+step=00213 species=  C N=00357 vac=0000 axis=z surf=xy Eads=-5.6899 eV P=1.000e+00 E=-3149.3337 eV hmax=10.676 A hmean=9.942 A rough=0.935 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=211 connection=669 min_dist=2 pre_shell=18 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=3
+step=00214 species=  C N=00358 vac=0000 axis=z surf=xy Eads=-5.0562 eV P=4.844e-01 E=-3158.5415 eV hmax=10.664 A hmean=9.883 A rough=0.946 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=212 connection=669 min_dist=2 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=2
+step=00215 species=  C N=00359 vac=0000 axis=z surf=xy Eads=-7.1174 eV P=1.000e+00 E=-3169.8789 eV hmax=10.689 A hmean=9.989 A rough=0.953 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=213 connection=670 min_dist=2 pre_shell=15 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=27.358632 max=27.358632 n=1
+step=00216 species=  C N=00360 vac=0000 axis=z surf=xy Eads=-6.9834 eV P=1.000e+00 E=-3180.4961 eV hmax=10.689 A hmean=9.931 A rough=0.957 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=214 connection=672 min_dist=2 pre_shell=12 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=12
+step=00217 species=  C N=00361 vac=0000 axis=z surf=xy Eads=-9.5837 eV P=1.000e+00 E=-3190.7524 eV hmax=11.481 A hmean=10.000 A rough=0.706 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=215 connection=670 min_dist=2 pre_shell=13 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=11
+step=00218 species=  C N=00362 vac=0000 axis=z surf=xy Eads=-5.7432 eV P=1.000e+00 E=-3197.5032 eV hmax=11.481 A hmean=10.111 A rough=0.735 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=215 connection=668 min_dist=4 pre_shell=13 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=9
+step=00219 species=  C N=00363 vac=0000 axis=z surf=xy Eads=-4.6143 eV P=7.308e-01 E=-3203.8923 eV hmax=11.536 A hmean=10.223 A rough=0.763 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=216 connection=666 min_dist=4 pre_shell=14 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=8
+step=00220 species=  C N=00364 vac=0000 axis=z surf=xy Eads=-5.6646 eV P=1.000e+00 E=-3213.1677 eV hmax=11.694 A hmean=10.279 A rough=0.792 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=217 connection=663 min_dist=4 pre_shell=16 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=8
+step=00221 species=  C N=00365 vac=0000 axis=z surf=xy Eads=-4.8713 eV P=7.125e-01 E=-3222.3840 eV hmax=11.687 A hmean=10.292 A rough=0.815 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=219 connection=661 min_dist=3 pre_shell=17 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=8
+step=00222 species=  C N=00366 vac=0000 axis=z surf=xy Eads=-4.8242 eV P=9.981e-01 E=-3229.7427 eV hmax=11.702 A hmean=10.308 A rough=0.836 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=220 connection=660 min_dist=3 pre_shell=17 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=7
+step=00223 species=  C N=00367 vac=0000 axis=z surf=xy Eads=-4.4556 eV P=2.275e-01 E=-3237.0757 eV hmax=11.702 A hmean=10.310 A rough=0.857 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=222 connection=657 min_dist=2 pre_shell=19 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=7
+step=00224 species=  C N=00368 vac=0000 axis=z surf=xy Eads=-4.8303 eV P=1.000e+00 E=-3246.9641 eV hmax=11.702 A hmean=10.365 A rough=0.869 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=223 connection=657 min_dist=2 pre_shell=18 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=7
+step=00225 species=  C N=00369 vac=0000 axis=z surf=xy Eads=-6.0332 eV P=1.000e+00 E=-3255.8818 eV hmax=11.702 A hmean=10.406 A rough=0.882 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=224 connection=655 min_dist=2 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=6
+step=00226 species=  C N=00370 vac=0000 axis=z surf=xy Eads=-4.8049 eV P=9.197e-01 E=-3262.9951 eV hmax=11.702 A hmean=10.517 A rough=0.895 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=225 connection=653 min_dist=2 pre_shell=20 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=5
+step=00227 species=  C N=00371 vac=0000 axis=z surf=xy Eads=-4.7727 eV P=8.911e-01 E=-3272.3960 eV hmax=11.702 A hmean=10.742 A rough=0.905 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=225 connection=652 min_dist=3 pre_shell=20 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=4
+step=00228 species=  C N=00372 vac=0000 axis=z surf=xy Eads=-6.7397 eV P=1.000e+00 E=-3282.8867 eV hmax=11.702 A hmean=10.688 A rough=0.918 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=226 connection=653 min_dist=3 pre_shell=18 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=4
+step=00229 species=  C N=00373 vac=0000 axis=z surf=xy Eads=-5.1438 eV P=9.997e-01 E=-3294.5774 eV hmax=11.583 A hmean=10.727 A rough=0.922 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=227 connection=653 min_dist=3 pre_shell=17 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=3
+step=00230 species=  C N=00374 vac=0000 axis=z surf=xy Eads=-5.8118 eV P=1.000e+00 E=-3303.7708 eV hmax=11.568 A hmean=11.100 A rough=0.926 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=228 connection=652 min_dist=3 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=2
+step=00231 species=  C N=00375 vac=0000 axis=z surf=xy Eads=-4.5537 eV P=9.283e-01 E=-3312.0469 eV hmax=11.568 A hmean=11.117 A rough=0.938 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=226 connection=652 min_dist=8 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=1
+step=00232 species=  C N=00376 vac=0000 axis=z surf=xy Eads=-6.7642 eV P=1.000e+00 E=-3321.3557 eV hmax=11.644 A hmean=11.148 A rough=0.946 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=227 connection=651 min_dist=8 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=1
+step=00233 species=  C N=00377 vac=0000 axis=z surf=xy Eads=-4.0823 eV P=1.000e+00 E=-3332.0930 eV hmax=11.565 A hmean=11.193 A rough=0.950 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=229 connection=651 min_dist=6 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=28.248819 max=28.248819 n=1
+step=00234 species=  C N=00378 vac=0000 axis=z surf=xy Eads=-7.5986 eV P=1.000e+00 E=-3342.9048 eV hmax=11.565 A hmean=11.142 A rough=0.958 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=231 connection=652 min_dist=5 pre_shell=12 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=12
+step=00235 species=  C N=00379 vac=0000 axis=z surf=xy Eads=-7.8022 eV P=1.000e+00 E=-3351.9360 eV hmax=12.501 A hmean=11.157 A rough=0.708 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=232 connection=650 min_dist=5 pre_shell=13 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=11
+step=00236 species=  C N=00380 vac=0000 axis=z surf=xy Eads=-7.3013 eV P=9.859e-01 E=-3360.8196 eV hmax=12.501 A hmean=11.241 A rough=0.738 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=234 connection=648 min_dist=3 pre_shell=15 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=11
+step=00237 species=  C N=00381 vac=0000 axis=z surf=xy Eads=-6.8787 eV P=9.772e-01 E=-3369.7495 eV hmax=12.444 A hmean=11.365 A rough=0.763 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=235 connection=646 min_dist=3 pre_shell=16 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=10
+step=00238 species=  C N=00382 vac=0000 axis=z surf=xy Eads=-6.9651 eV P=1.000e+00 E=-3378.8735 eV hmax=12.513 A hmean=11.407 A rough=0.786 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=236 connection=644 min_dist=3 pre_shell=17 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=9
+step=00239 species=  C N=00383 vac=0000 axis=z surf=xy Eads=-4.7515 eV P=9.958e-01 E=-3386.5479 eV hmax=12.465 A hmean=11.528 A rough=0.808 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=238 connection=643 min_dist=2 pre_shell=17 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=8
+step=00240 species=  C N=00384 vac=0000 axis=z surf=xy Eads=-6.6943 eV P=1.000e+00 E=-3397.0479 eV hmax=12.525 A hmean=11.684 A rough=0.830 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=239 connection=643 min_dist=1 pre_shell=17 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=9
+step=00241 species=  C N=00385 vac=0000 axis=z surf=xy Eads=-5.4932 eV P=9.986e-01 E=-3407.2007 eV hmax=12.414 A hmean=11.735 A rough=0.844 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=239 connection=644 min_dist=2 pre_shell=15 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=8
+step=00242 species=  C N=00386 vac=0000 axis=z surf=xy Eads=-6.8108 eV P=1.000e+00 E=-3417.0415 eV hmax=12.534 A hmean=11.776 A rough=0.863 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=240 connection=644 min_dist=2 pre_shell=14 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=7
+step=00243 species=  C N=00387 vac=0000 axis=z surf=xy Eads=-6.0684 eV P=1.000e+00 E=-3424.4575 eV hmax=12.442 A hmean=11.873 A rough=0.874 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=240 connection=642 min_dist=3 pre_shell=15 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=6
+step=00244 species=  C N=00388 vac=0000 axis=z surf=xy Eads=-5.3005 eV P=7.902e-01 E=-3432.9055 eV hmax=12.442 A hmean=11.985 A rough=0.889 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=242 connection=642 min_dist=2 pre_shell=14 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=5
+step=00245 species=  C N=00389 vac=0000 axis=z surf=xy Eads=-6.1199 eV P=1.000e+00 E=-3442.7649 eV hmax=12.546 A hmean=11.914 A rough=0.902 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=243 connection=642 min_dist=2 pre_shell=13 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=4
+step=00246 species=  C N=00390 vac=0000 axis=z surf=xy Eads=-6.0886 eV P=1.000e+00 E=-3452.1824 eV hmax=12.488 A hmean=11.854 A rough=0.913 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=246 connection=641 min_dist=0 pre_shell=13 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=3
+step=00247 species=  C N=00391 vac=0000 axis=z surf=xy Eads=-4.4187 eV P=9.999e-01 E=-3459.8452 eV hmax=12.613 A hmean=11.871 A rough=0.925 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=247 connection=640 min_dist=0 pre_shell=13 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=2
+step=00248 species=  C N=00392 vac=0000 axis=z surf=xy Eads=-4.0090 eV P=9.967e-01 E=-3467.4712 eV hmax=12.617 A hmean=11.889 A rough=0.938 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=248 connection=638 min_dist=0 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=1
+step=00249 species=  C N=00393 vac=0000 axis=z surf=xy Eads=-3.7578 eV P=1.000e+00 E=-3475.3474 eV hmax=12.624 A hmean=11.935 A rough=0.949 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=249 connection=636 min_dist=0 pre_shell=15 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=1
+step=00250 species=  C N=00394 vac=0000 axis=z surf=xy Eads=-3.5110 eV P=1.000e+00 E=-3486.0261 eV hmax=12.617 A hmean=11.946 A rough=0.950 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=249 connection=632 min_dist=1 pre_shell=18 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=2
+step=00251 species=  C N=00395 vac=0000 axis=z surf=xy Eads=-4.2214 eV P=8.492e-01 E=-3494.2637 eV hmax=12.539 A hmean=11.698 A rough=0.952 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=249 connection=631 min_dist=2 pre_shell=18 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=29.139005 max=29.139005 n=1
+step=00252 species=  C N=00396 vac=0000 axis=z surf=xy Eads=-4.8779 eV P=1.000e+00 E=-3501.5298 eV hmax=12.504 A hmean=11.668 A rough=0.953 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=250 connection=630 min_dist=2 pre_shell=18 post_shell=18 tested_energy=18
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=18
+step=00253 species=  C N=00397 vac=0000 axis=z surf=xy Eads=-7.3767 eV P=9.574e-01 E=-3510.2385 eV hmax=13.324 A hmean=11.710 A rough=0.705 A occ1=1.000 tested=18
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=251 connection=628 min_dist=2 pre_shell=19 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=17
+step=00254 species=  C N=00398 vac=0000 axis=z surf=xy Eads=-7.1350 eV P=2.518e-01 E=-3519.4792 eV hmax=13.303 A hmean=11.710 A rough=0.735 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=254 connection=627 min_dist=0 pre_shell=19 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=16
+step=00255 species=  C N=00399 vac=0000 axis=z surf=xy Eads=-7.4768 eV P=9.993e-01 E=-3528.8225 eV hmax=13.303 A hmean=11.691 A rough=0.760 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=254 connection=625 min_dist=2 pre_shell=19 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=14
+step=00256 species=  C N=00400 vac=0000 axis=z surf=xy Eads=-7.0852 eV P=9.871e-01 E=-3537.5266 eV hmax=13.343 A hmean=11.747 A rough=0.781 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=255 connection=624 min_dist=2 pre_shell=19 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=13
+step=00257 species=  C N=00401 vac=0000 axis=z surf=xy Eads=-7.0149 eV P=9.991e-01 E=-3547.1973 eV hmax=13.343 A hmean=11.928 A rough=0.804 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=256 connection=623 min_dist=2 pre_shell=19 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=12
+step=00258 species=  C N=00402 vac=0000 axis=z surf=xy Eads=-7.0842 eV P=9.999e-01 E=-3557.0928 eV hmax=13.326 A hmean=12.132 A rough=0.818 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=257 connection=621 min_dist=1 pre_shell=21 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=12
+step=00259 species=  C N=00403 vac=0000 axis=z surf=xy Eads=-6.9519 eV P=9.970e-01 E=-3566.4265 eV hmax=13.354 A hmean=12.202 A rough=0.836 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=258 connection=620 min_dist=1 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=11
+step=00260 species=  C N=00404 vac=0000 axis=z surf=xy Eads=-6.6877 eV P=6.314e-01 E=-3575.4141 eV hmax=13.349 A hmean=12.272 A rough=0.855 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=259 connection=620 min_dist=1 pre_shell=20 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=10
+step=00261 species=  C N=00405 vac=0000 axis=z surf=xy Eads=-5.3591 eV P=9.995e-01 E=-3584.8442 eV hmax=13.507 A hmean=12.316 A rough=0.875 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=260 connection=620 min_dist=1 pre_shell=19 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=9
+step=00262 species=  C N=00406 vac=0000 axis=z surf=xy Eads=-5.8828 eV P=1.000e+00 E=-3593.3538 eV hmax=13.374 A hmean=12.400 A rough=0.883 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=261 connection=619 min_dist=1 pre_shell=19 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=8
+step=00263 species=  C N=00407 vac=0000 axis=z surf=xy Eads=-5.2610 eV P=1.000e+00 E=-3602.0957 eV hmax=13.331 A hmean=12.468 A rough=0.898 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=261 connection=619 min_dist=2 pre_shell=18 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=7
+step=00264 species=  C N=00408 vac=0000 axis=z surf=xy Eads=-6.3528 eV P=1.000e+00 E=-3612.9114 eV hmax=13.483 A hmean=12.480 A rough=0.912 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=262 connection=621 min_dist=2 pre_shell=15 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=6
+step=00265 species=  C N=00409 vac=0000 axis=z surf=xy Eads=-6.2029 eV P=1.000e+00 E=-3621.9375 eV hmax=13.368 A hmean=12.578 A rough=0.919 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=263 connection=619 min_dist=2 pre_shell=16 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=5
+step=00266 species=  C N=00410 vac=0000 axis=z surf=xy Eads=-5.1594 eV P=9.999e-01 E=-3631.0425 eV hmax=13.337 A hmean=12.635 A rough=0.928 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=263 connection=619 min_dist=3 pre_shell=15 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=4
+step=00267 species=  C N=00411 vac=0000 axis=z surf=xy Eads=-6.5828 eV P=1.000e+00 E=-3641.0354 eV hmax=13.453 A hmean=12.766 A rough=0.939 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=264 connection=619 min_dist=4 pre_shell=13 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=3
+step=00268 species=  C N=00412 vac=0000 axis=z surf=xy Eads=-6.3601 eV P=1.000e+00 E=-3649.0559 eV hmax=13.355 A hmean=12.793 A rough=0.944 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=265 connection=617 min_dist=4 pre_shell=14 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=2
+step=00269 species=  C N=00413 vac=0000 axis=z surf=xy Eads=-5.0723 eV P=1.000e+00 E=-3659.9309 eV hmax=13.355 A hmean=12.880 A rough=0.951 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=267 connection=617 min_dist=3 pre_shell=13 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=30.029191 max=30.029191 n=1
+step=00270 species=  C N=00414 vac=0000 axis=z surf=xy Eads=-7.7026 eV P=1.000e+00 E=-3670.7200 eV hmax=13.355 A hmean=12.839 A rough=0.957 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=269 connection=618 min_dist=2 pre_shell=11 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=11
+step=00271 species=  C N=00415 vac=0000 axis=z surf=xy Eads=-9.8638 eV P=1.000e+00 E=-3681.0520 eV hmax=14.163 A hmean=12.881 A rough=0.704 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=270 connection=616 min_dist=2 pre_shell=12 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=10
+step=00272 species=  C N=00416 vac=0000 axis=z surf=xy Eads=-5.0115 eV P=9.994e-01 E=-3687.2349 eV hmax=14.183 A hmean=12.936 A rough=0.732 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=271 connection=614 min_dist=2 pre_shell=13 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=9
+step=00273 species=  C N=00417 vac=0000 axis=z surf=xy Eads=-4.8872 eV P=9.754e-01 E=-3696.1609 eV hmax=14.359 A hmean=12.840 A rough=0.761 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=272 connection=612 min_dist=2 pre_shell=14 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=8
+step=00274 species=  C N=00418 vac=0000 axis=z surf=xy Eads=-5.2839 eV P=1.000e+00 E=-3703.7937 eV hmax=14.265 A hmean=12.868 A rough=0.783 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=273 connection=610 min_dist=2 pre_shell=15 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=7
+step=00275 species=  C N=00419 vac=0000 axis=z surf=xy Eads=-4.3877 eV P=9.999e-01 E=-3711.4751 eV hmax=14.265 A hmean=12.992 A rough=0.809 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=274 connection=608 min_dist=1 pre_shell=17 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=7
+step=00276 species=  C N=00420 vac=0000 axis=z surf=xy Eads=-5.4561 eV P=1.000e+00 E=-3719.3152 eV hmax=14.297 A hmean=13.048 A rough=0.828 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=276 connection=606 min_dist=0 pre_shell=18 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=6
+step=00277 species=  C N=00421 vac=0000 axis=z surf=xy Eads=-4.0388 eV P=9.741e-01 E=-3726.7568 eV hmax=14.407 A hmean=13.062 A rough=0.850 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=277 connection=603 min_dist=0 pre_shell=20 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=7
+step=00278 species=  C N=00422 vac=0000 axis=z surf=xy Eads=-3.8342 eV P=9.381e-01 E=-3734.1636 eV hmax=14.413 A hmean=13.034 A rough=0.870 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=278 connection=603 min_dist=0 pre_shell=19 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=6
+step=00279 species=  C N=00423 vac=0000 axis=z surf=xy Eads=-4.1287 eV P=8.703e-01 E=-3741.8142 eV hmax=14.373 A hmean=13.144 A rough=0.882 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=279 connection=601 min_dist=0 pre_shell=20 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=6
+step=00280 species=  C N=00424 vac=0000 axis=z surf=xy Eads=-5.2024 eV P=1.000e+00 E=-3751.6021 eV hmax=14.412 A hmean=13.341 A rough=0.900 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=280 connection=599 min_dist=0 pre_shell=21 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=6
+step=00281 species=  C N=00425 vac=0000 axis=z surf=xy Eads=-4.5671 eV P=9.915e-01 E=-3761.8679 eV hmax=14.412 A hmean=13.492 A rough=0.909 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=281 connection=598 min_dist=0 pre_shell=21 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=6
+step=00282 species=  C N=00426 vac=0000 axis=z surf=xy Eads=-6.5581 eV P=1.000e+00 E=-3772.7007 eV hmax=14.412 A hmean=13.713 A rough=0.923 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=282 connection=599 min_dist=0 pre_shell=19 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=5
+step=00283 species=  C N=00427 vac=0000 axis=z surf=xy Eads=-6.2217 eV P=1.000e+00 E=-3785.1306 eV hmax=14.292 A hmean=13.699 A rough=0.922 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=283 connection=600 min_dist=0 pre_shell=17 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=4
+step=00284 species=  C N=00428 vac=0000 axis=z surf=xy Eads=-4.8872 eV P=1.000e+00 E=-3794.5591 eV hmax=14.247 A hmean=13.840 A rough=0.926 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=282 connection=601 min_dist=2 pre_shell=15 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=3
+step=00285 species=  C N=00429 vac=0000 axis=z surf=xy Eads=-5.9438 eV P=1.000e+00 E=-3803.3374 eV hmax=14.342 A hmean=13.898 A rough=0.936 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=283 connection=598 min_dist=2 pre_shell=17 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=3
+step=00286 species=  C N=00430 vac=0000 axis=z surf=xy Eads=-5.1677 eV P=1.000e+00 E=-3810.9043 eV hmax=14.342 A hmean=14.001 A rough=0.944 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=284 connection=598 min_dist=2 pre_shell=16 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=2
+step=00287 species=  C N=00431 vac=0000 axis=z surf=xy Eads=-6.3074 eV P=1.000e+00 E=-3819.6516 eV hmax=14.342 A hmean=13.849 A rough=0.951 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=285 connection=596 min_dist=2 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=30.919378 max=30.919378 n=1
+step=00288 species=  C N=00432 vac=0000 axis=z surf=xy Eads=-4.7664 eV P=1.000e+00 E=-3827.6970 eV hmax=14.281 A hmean=13.892 A rough=0.954 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=286 connection=595 min_dist=2 pre_shell=17 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=17
+step=00289 species=  C N=00433 vac=0000 axis=z surf=xy Eads=-9.8289 eV P=1.000e+00 E=-3838.3032 eV hmax=15.036 A hmean=13.934 A rough=0.701 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=287 connection=593 min_dist=2 pre_shell=18 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=16
+step=00290 species=  C N=00434 vac=0000 axis=z surf=xy Eads=-7.3059 eV P=9.475e-01 E=-3847.1565 eV hmax=15.098 A hmean=14.017 A rough=0.732 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=289 connection=592 min_dist=1 pre_shell=18 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=15
+step=00291 species=  C N=00435 vac=0000 axis=z surf=xy Eads=-7.1699 eV P=8.475e-01 E=-3857.1133 eV hmax=15.098 A hmean=13.949 A rough=0.758 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=291 connection=590 min_dist=0 pre_shell=19 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=14
+step=00292 species=  C N=00436 vac=0000 axis=z surf=xy Eads=-7.7290 eV P=1.000e+00 E=-3865.4758 eV hmax=15.130 A hmean=13.960 A rough=0.779 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=292 connection=588 min_dist=0 pre_shell=20 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=13
+step=00293 species=  C N=00437 vac=0000 axis=z surf=xy Eads=-7.0176 eV P=9.620e-01 E=-3874.2034 eV hmax=15.139 A hmean=13.889 A rough=0.804 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=293 connection=587 min_dist=0 pre_shell=20 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=12
+step=00294 species=  C N=00438 vac=0000 axis=z surf=xy Eads=-7.0679 eV P=9.998e-01 E=-3883.3987 eV hmax=15.139 A hmean=14.281 A rough=0.823 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=294 connection=586 min_dist=0 pre_shell=20 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=11
+step=00295 species=  C N=00439 vac=0000 axis=z surf=xy Eads=-7.1467 eV P=1.000e+00 E=-3893.0115 eV hmax=15.204 A hmean=14.320 A rough=0.840 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=295 connection=585 min_dist=0 pre_shell=20 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=10
+step=00296 species=  C N=00440 vac=0000 axis=z surf=xy Eads=-5.1047 eV P=9.858e-01 E=-3901.5647 eV hmax=15.204 A hmean=14.392 A rough=0.860 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=296 connection=586 min_dist=0 pre_shell=18 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=9
+step=00297 species=  C N=00441 vac=0000 axis=z surf=xy Eads=-6.1914 eV P=1.000e+00 E=-3910.2849 eV hmax=15.204 A hmean=14.406 A rough=0.875 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=297 connection=583 min_dist=0 pre_shell=20 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=9
+step=00298 species=  C N=00442 vac=0000 axis=z surf=xy Eads=-5.0193 eV P=5.261e-01 E=-3918.1802 eV hmax=15.172 A hmean=14.444 A rough=0.887 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=298 connection=582 min_dist=0 pre_shell=20 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=8
+step=00299 species=  C N=00443 vac=0000 axis=z surf=xy Eads=-5.8567 eV P=1.000e+00 E=-3926.8025 eV hmax=15.241 A hmean=14.457 A rough=0.901 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=299 connection=581 min_dist=0 pre_shell=20 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=7
+step=00300 species=  C N=00444 vac=0000 axis=z surf=xy Eads=-5.2834 eV P=1.000e+00 E=-3934.9382 eV hmax=15.172 A hmean=14.385 A rough=0.912 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=300 connection=580 min_dist=0 pre_shell=20 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=6
+step=00301 species=  C N=00445 vac=0000 axis=z surf=xy Eads=-6.1116 eV P=1.000e+00 E=-3944.9148 eV hmax=15.272 A hmean=14.553 A rough=0.925 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=301 connection=581 min_dist=0 pre_shell=18 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=5
+step=00302 species=  C N=00446 vac=0000 axis=z surf=xy Eads=-5.8381 eV P=1.000e+00 E=-3953.6550 eV hmax=15.174 A hmean=14.590 A rough=0.931 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=302 connection=579 min_dist=0 pre_shell=19 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=4
+step=00303 species=  C N=00447 vac=0000 axis=z surf=xy Eads=-5.9609 eV P=1.000e+00 E=-3962.6587 eV hmax=15.148 A hmean=14.672 A rough=0.937 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=303 connection=579 min_dist=0 pre_shell=18 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=3
+step=00304 species=  C N=00448 vac=0000 axis=z surf=xy Eads=-4.9917 eV P=7.708e-01 E=-3971.4790 eV hmax=15.168 A hmean=14.549 A rough=0.944 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=303 connection=579 min_dist=2 pre_shell=16 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=2
+step=00305 species=  C N=00449 vac=0000 axis=z surf=xy Eads=-6.1760 eV P=1.000e+00 E=-3981.4426 eV hmax=15.253 A hmean=14.579 A rough=0.954 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=303 connection=580 min_dist=3 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=31.809564 max=31.809564 n=1
+step=00306 species=  C N=00450 vac=0000 axis=z surf=xy Eads=-5.9556 eV P=1.000e+00 E=-3989.5310 eV hmax=15.168 A hmean=14.537 A rough=0.958 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=304 connection=579 min_dist=3 pre_shell=14 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=14
+step=00307 species=  C N=00451 vac=0000 axis=z surf=xy Eads=-9.8213 eV P=9.646e-01 E=-4000.3247 eV hmax=15.915 A hmean=14.762 A rough=0.706 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=305 connection=578 min_dist=3 pre_shell=14 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=12
+step=00308 species=  C N=00452 vac=0000 axis=z surf=xy Eads=-9.4253 eV P=8.606e-01 E=-4010.2871 eV hmax=15.928 A hmean=14.832 A rough=0.733 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=306 connection=576 min_dist=3 pre_shell=15 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=11
+step=00309 species=  C N=00453 vac=0000 axis=z surf=xy Eads=-9.3391 eV P=1.000e+00 E=-4021.1077 eV hmax=15.928 A hmean=14.831 A rough=0.756 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=307 connection=574 min_dist=2 pre_shell=17 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=11
+step=00310 species=  C N=00454 vac=0000 axis=z surf=xy Eads=-8.1414 eV P=1.000e+00 E=-4030.3562 eV hmax=15.952 A hmean=14.915 A rough=0.778 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=308 connection=572 min_dist=2 pre_shell=18 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=10
+step=00311 species=  C N=00455 vac=0000 axis=z surf=xy Eads=-6.6692 eV P=1.000e+00 E=-4038.0569 eV hmax=15.972 A hmean=14.995 A rough=0.801 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=309 connection=570 min_dist=2 pre_shell=19 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=9
+step=00312 species=  C N=00456 vac=0000 axis=z surf=xy Eads=-6.0691 eV P=1.000e+00 E=-4046.6309 eV hmax=16.068 A hmean=15.038 A rough=0.821 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=310 connection=567 min_dist=2 pre_shell=21 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=9
+step=00313 species=  C N=00457 vac=0000 axis=z surf=xy Eads=-4.6270 eV P=8.529e-01 E=-4053.5337 eV hmax=16.068 A hmean=14.996 A rough=0.844 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=311 connection=566 min_dist=2 pre_shell=21 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=8
+step=00314 species=  C N=00458 vac=0000 axis=z surf=xy Eads=-6.4343 eV P=1.000e+00 E=-4063.0012 eV hmax=16.066 A hmean=15.036 A rough=0.860 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=312 connection=565 min_dist=2 pre_shell=21 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=7
+step=00315 species=  C N=00459 vac=0000 axis=z surf=xy Eads=-5.1736 eV P=9.975e-01 E=-4071.1365 eV hmax=16.078 A hmean=15.051 A rough=0.875 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=313 connection=564 min_dist=2 pre_shell=21 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=6
+step=00316 species=  C N=00460 vac=0000 axis=z surf=xy Eads=-4.9165 eV P=9.225e-01 E=-4079.6714 eV hmax=16.078 A hmean=15.063 A rough=0.890 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=315 connection=565 min_dist=1 pre_shell=19 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=5
+step=00317 species=  C N=00461 vac=0000 axis=z surf=xy Eads=-6.0037 eV P=1.000e+00 E=-4090.6042 eV hmax=16.137 A hmean=15.035 A rough=0.905 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=317 connection=566 min_dist=0 pre_shell=17 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=4
+step=00318 species=  C N=00462 vac=0000 axis=z surf=xy Eads=-6.4949 eV P=1.000e+00 E=-4104.3140 eV hmax=16.078 A hmean=15.130 A rough=0.911 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=318 connection=569 min_dist=0 pre_shell=13 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=3
+step=00319 species=  C N=00463 vac=0000 axis=z surf=xy Eads=-3.4468 eV P=5.502e-01 E=-4112.2739 eV hmax=16.187 A hmean=15.147 A rough=0.923 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=319 connection=567 min_dist=0 pre_shell=14 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=3
+step=00320 species=  C N=00464 vac=0000 axis=z surf=xy Eads=-3.4282 eV P=9.539e-01 E=-4120.4204 eV hmax=16.187 A hmean=15.247 A rough=0.935 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=320 connection=566 min_dist=0 pre_shell=14 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=2
+step=00321 species=  C N=00465 vac=0000 axis=z surf=xy Eads=-3.2959 eV P=9.640e-01 E=-4128.1313 eV hmax=16.191 A hmean=15.346 A rough=0.946 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=321 connection=565 min_dist=0 pre_shell=14 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=1
+step=00322 species=  C N=00466 vac=0000 axis=z surf=xy Eads=-3.4004 eV P=1.000e+00 E=-4138.0044 eV hmax=16.183 A hmean=15.529 A rough=0.947 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=321 connection=561 min_dist=1 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=2
+step=00323 species=  C N=00467 vac=0000 axis=z surf=xy Eads=-4.3120 eV P=8.991e-01 E=-4146.2417 eV hmax=16.108 A hmean=15.534 A rough=0.950 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=322 connection=560 min_dist=1 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=32.699750 max=32.699750 n=1
+step=00324 species=  C N=00468 vac=0000 axis=z surf=xy Eads=-5.0049 eV P=1.000e+00 E=-4153.3638 eV hmax=16.079 A hmean=15.634 A rough=0.951 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=323 connection=558 min_dist=1 pre_shell=18 post_shell=18 tested_energy=18
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=18
+step=00325 species=  C N=00469 vac=0000 axis=z surf=xy Eads=-7.3857 eV P=8.201e-01 E=-4162.0967 eV hmax=16.894 A hmean=15.664 A rough=0.704 A occ1=1.000 tested=18
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=324 connection=556 min_dist=1 pre_shell=19 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=17
+step=00326 species=  C N=00470 vac=0000 axis=z surf=xy Eads=-7.2534 eV P=4.097e-01 E=-4170.8677 eV hmax=16.894 A hmean=15.734 A rough=0.733 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=325 connection=554 min_dist=1 pre_shell=20 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=16
+step=00327 species=  C N=00471 vac=0000 axis=z surf=xy Eads=-7.2622 eV P=7.210e-01 E=-4179.4761 eV hmax=16.898 A hmean=15.790 A rough=0.759 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=326 connection=552 min_dist=1 pre_shell=21 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=15
+step=00328 species=  C N=00472 vac=0000 axis=z surf=xy Eads=-7.2285 eV P=9.457e-01 E=-4189.9502 eV hmax=16.935 A hmean=15.717 A rough=0.779 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=327 connection=552 min_dist=1 pre_shell=20 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=14
+step=00329 species=  C N=00473 vac=0000 axis=z surf=xy Eads=-7.3872 eV P=9.990e-01 E=-4198.3726 eV hmax=16.942 A hmean=15.758 A rough=0.800 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=328 connection=550 min_dist=1 pre_shell=21 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=13
+step=00330 species=  C N=00474 vac=0000 axis=z surf=xy Eads=-6.9390 eV P=5.680e-01 E=-4206.9600 eV hmax=16.942 A hmean=15.702 A rough=0.821 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=330 connection=549 min_dist=0 pre_shell=21 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=12
+step=00331 species=  C N=00475 vac=0000 axis=z surf=xy Eads=-6.8906 eV P=9.955e-01 E=-4215.8501 eV hmax=16.942 A hmean=15.756 A rough=0.840 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=330 connection=548 min_dist=1 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=11
+step=00332 species=  C N=00476 vac=0000 axis=z surf=xy Eads=-6.0391 eV P=1.000e+00 E=-4225.1934 eV hmax=17.050 A hmean=15.729 A rough=0.858 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=331 connection=547 min_dist=2 pre_shell=20 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=9
+step=00333 species=  C N=00477 vac=0000 axis=z surf=xy Eads=-4.6890 eV P=3.219e-01 E=-4233.2446 eV hmax=17.050 A hmean=15.769 A rough=0.875 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=330 connection=548 min_dist=5 pre_shell=17 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=8
+step=00334 species=  C N=00478 vac=0000 axis=z surf=xy Eads=-5.6226 eV P=9.999e-01 E=-4241.9160 eV hmax=17.050 A hmean=15.783 A rough=0.889 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=332 connection=546 min_dist=4 pre_shell=18 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=7
+step=00335 species=  C N=00479 vac=0000 axis=z surf=xy Eads=-5.2549 eV P=1.000e+00 E=-4249.1846 eV hmax=17.050 A hmean=15.867 A rough=0.901 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=334 connection=546 min_dist=2 pre_shell=18 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=6
+step=00336 species=  C N=00480 vac=0000 axis=z surf=xy Eads=-5.2827 eV P=1.000e+00 E=-4258.1851 eV hmax=17.085 A hmean=15.939 A rough=0.915 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=335 connection=545 min_dist=2 pre_shell=18 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=5
+step=00337 species=  C N=00481 vac=0000 axis=z surf=xy Eads=-5.2295 eV P=5.452e-01 E=-4267.0464 eV hmax=17.050 A hmean=15.936 A rough=0.922 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=335 connection=543 min_dist=3 pre_shell=19 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=4
+step=00338 species=  C N=00482 vac=0000 axis=z surf=xy Eads=-6.1753 eV P=1.000e+00 E=-4277.5630 eV hmax=17.050 A hmean=16.170 A rough=0.930 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=336 connection=544 min_dist=2 pre_shell=18 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=4
+step=00339 species=  C N=00483 vac=0000 axis=z surf=xy Eads=-4.2939 eV P=8.766e-01 E=-4286.7666 eV hmax=17.050 A hmean=16.339 A rough=0.939 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=336 connection=544 min_dist=3 pre_shell=17 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=3
+step=00340 species=  C N=00484 vac=0000 axis=z surf=xy Eads=-7.3677 eV P=1.000e+00 E=-4296.3618 eV hmax=17.050 A hmean=16.286 A rough=0.946 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=336 connection=542 min_dist=5 pre_shell=17 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=2
+step=00341 species=  C N=00485 vac=0000 axis=z surf=xy Eads=-4.5708 eV P=1.000e+00 E=-4306.5337 eV hmax=16.936 A hmean=16.384 A rough=0.949 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=337 connection=542 min_dist=5 pre_shell=16 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=33.589936 max=33.589936 n=1
+step=00342 species=  C N=00486 vac=0000 axis=z surf=xy Eads=-7.4272 eV P=1.000e+00 E=-4315.6836 eV hmax=16.938 A hmean=16.454 A rough=0.953 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=341 connection=540 min_dist=2 pre_shell=17 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=17
+step=00343 species=  C N=00487 vac=0000 axis=z surf=xy Eads=-7.4741 eV P=8.837e-01 E=-4324.4512 eV hmax=17.761 A hmean=16.524 A rough=0.705 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=342 connection=538 min_dist=2 pre_shell=18 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=16
+step=00344 species=  C N=00488 vac=0000 axis=z surf=xy Eads=-7.1816 eV P=8.535e-01 E=-4333.3936 eV hmax=17.756 A hmean=16.607 A rough=0.734 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=344 connection=536 min_dist=0 pre_shell=20 post_shell=16 tested_energy=16
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=16
+step=00345 species=  C N=00489 vac=0000 axis=z surf=xy Eads=-7.1177 eV P=5.742e-01 E=-4343.0918 eV hmax=17.757 A hmean=16.748 A rough=0.762 A occ1=1.000 tested=16
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=345 connection=534 min_dist=0 pre_shell=21 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=15
+step=00346 species=  C N=00490 vac=0000 axis=z surf=xy Eads=-7.6597 eV P=1.000e+00 E=-4351.4917 eV hmax=17.810 A hmean=16.786 A rough=0.784 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=346 connection=532 min_dist=0 pre_shell=22 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=14
+step=00347 species=  C N=00491 vac=0000 axis=z surf=xy Eads=-7.0542 eV P=9.810e-01 E=-4360.8022 eV hmax=17.822 A hmean=16.690 A rough=0.807 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=347 connection=531 min_dist=0 pre_shell=22 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=13
+step=00348 species=  C N=00492 vac=0000 axis=z surf=xy Eads=-6.8823 eV P=7.556e-01 E=-4370.0039 eV hmax=17.810 A hmean=16.652 A rough=0.826 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=347 connection=531 min_dist=1 pre_shell=21 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=12
+step=00349 species=  C N=00493 vac=0000 axis=z surf=xy Eads=-6.7866 eV P=9.749e-01 E=-4379.1426 eV hmax=17.810 A hmean=16.776 A rough=0.841 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=349 connection=530 min_dist=0 pre_shell=21 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=11
+step=00350 species=  C N=00494 vac=0000 axis=z surf=xy Eads=-6.5190 eV P=1.000e+00 E=-4389.0986 eV hmax=17.910 A hmean=16.649 A rough=0.854 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=349 connection=530 min_dist=2 pre_shell=19 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=9
+step=00351 species=  C N=00495 vac=0000 axis=z surf=xy Eads=-5.7666 eV P=1.000e+00 E=-4397.5522 eV hmax=17.910 A hmean=16.636 A rough=0.869 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=350 connection=528 min_dist=2 pre_shell=20 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=8
+step=00352 species=  C N=00496 vac=0000 axis=z surf=xy Eads=-4.9263 eV P=9.274e-01 E=-4404.7485 eV hmax=17.910 A hmean=16.745 A rough=0.882 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=351 connection=527 min_dist=2 pre_shell=20 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=7
+step=00353 species=  C N=00497 vac=0000 axis=z surf=xy Eads=-4.8862 eV P=1.501e-01 E=-4413.2056 eV hmax=17.910 A hmean=16.988 A rough=0.900 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=352 connection=526 min_dist=2 pre_shell=20 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=6
+step=00354 species=  C N=00498 vac=0000 axis=z surf=xy Eads=-6.3667 eV P=1.000e+00 E=-4423.2285 eV hmax=17.910 A hmean=16.917 A rough=0.911 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=353 connection=527 min_dist=2 pre_shell=18 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=5
+step=00355 species=  C N=00499 vac=0000 axis=z surf=xy Eads=-5.6313 eV P=1.000e+00 E=-4432.0806 eV hmax=17.910 A hmean=16.998 A rough=0.921 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=354 connection=527 min_dist=2 pre_shell=17 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=4
+step=00356 species=  C N=00500 vac=0000 axis=z surf=xy Eads=-4.9697 eV P=9.252e-01 E=-4440.0645 eV hmax=17.910 A hmean=16.996 A rough=0.930 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=355 connection=526 min_dist=2 pre_shell=17 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=3
+step=00357 species=  C N=00501 vac=0000 axis=z surf=xy Eads=-5.5435 eV P=8.453e-01 E=-4449.0171 eV hmax=17.913 A hmean=17.094 A rough=0.940 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=356 connection=524 min_dist=2 pre_shell=18 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=2
+step=00358 species=  C N=00502 vac=0000 axis=z surf=xy Eads=-5.6265 eV P=9.910e-01 E=-4457.5791 eV hmax=17.849 A hmean=17.175 A rough=0.945 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=357 connection=524 min_dist=2 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=1
+step=00359 species=  C N=00503 vac=0000 axis=z surf=xy Eads=-5.3315 eV P=1.000e+00 E=-4467.6025 eV hmax=17.840 A hmean=16.897 A rough=0.949 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=359 connection=524 min_dist=0 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=34.480123 max=34.480123 n=1
+step=00360 species=  C N=00504 vac=0000 axis=z surf=xy Eads=-6.7578 eV P=1.000e+00 E=-4478.0977 eV hmax=17.841 A hmean=17.123 A rough=0.957 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=359 connection=524 min_dist=2 pre_shell=15 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=15
+step=00361 species=  C N=00505 vac=0000 axis=z surf=xy Eads=-10.1411 eV P=1.000e+00 E=-4489.2808 eV hmax=18.591 A hmean=17.223 A rough=0.704 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=359 connection=523 min_dist=4 pre_shell=14 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=12
+step=00362 species=  C N=00506 vac=0000 axis=z surf=xy Eads=-9.1064 eV P=1.000e+00 E=-4499.4243 eV hmax=18.608 A hmean=17.279 A rough=0.731 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=359 connection=521 min_dist=5 pre_shell=15 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=11
+step=00363 species=  C N=00507 vac=0000 axis=z surf=xy Eads=-7.6792 eV P=9.220e-01 E=-4509.6865 eV hmax=18.643 A hmean=17.353 A rough=0.760 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=360 connection=520 min_dist=5 pre_shell=15 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=10
+step=00364 species=  C N=00508 vac=0000 axis=z surf=xy Eads=-6.6924 eV P=8.485e-01 E=-4517.5405 eV hmax=18.643 A hmean=17.423 A rough=0.783 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=362 connection=518 min_dist=4 pre_shell=16 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=9
+step=00365 species=  C N=00509 vac=0000 axis=z surf=xy Eads=-6.0840 eV P=1.000e+00 E=-4525.5132 eV hmax=18.725 A hmean=17.448 A rough=0.804 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=363 connection=516 min_dist=4 pre_shell=17 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=8
+step=00366 species=  C N=00510 vac=0000 axis=z surf=xy Eads=-5.2393 eV P=9.958e-01 E=-4535.3535 eV hmax=18.720 A hmean=17.152 A rough=0.829 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=366 connection=518 min_dist=1 pre_shell=15 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=7
+step=00367 species=  C N=00511 vac=0000 axis=z surf=xy Eads=-6.7061 eV P=1.000e+00 E=-4546.0381 eV hmax=18.782 A hmean=17.573 A rough=0.848 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=366 connection=518 min_dist=2 pre_shell=14 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=7
+step=00368 species=  C N=00512 vac=0000 axis=z surf=xy Eads=-5.4390 eV P=9.996e-01 E=-4556.3140 eV hmax=18.705 A hmean=17.625 A rough=0.859 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=367 connection=519 min_dist=2 pre_shell=12 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=6
+step=00369 species=  C N=00513 vac=0000 axis=z surf=xy Eads=-6.3491 eV P=1.000e+00 E=-4565.8086 eV hmax=18.730 A hmean=17.637 A rough=0.873 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=368 connection=517 min_dist=2 pre_shell=13 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=5
+step=00370 species=  C N=00514 vac=0000 axis=z surf=xy Eads=-5.6133 eV P=1.000e+00 E=-4573.7637 eV hmax=18.727 A hmean=17.691 A rough=0.884 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=369 connection=515 min_dist=1 pre_shell=15 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=5
+step=00371 species=  C N=00515 vac=0000 axis=z surf=xy Eads=-5.2036 eV P=1.000e+00 E=-4583.2974 eV hmax=18.705 A hmean=17.803 A rough=0.897 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=369 connection=514 min_dist=2 pre_shell=15 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=4
+step=00372 species=  C N=00516 vac=0000 axis=z surf=xy Eads=-6.6641 eV P=1.000e+00 E=-4594.2007 eV hmax=18.737 A hmean=18.082 A rough=0.909 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=370 connection=517 min_dist=2 pre_shell=11 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=3
+step=00373 species=  C N=00517 vac=0000 axis=z surf=xy Eads=-3.4409 eV P=1.000e+00 E=-4601.7168 eV hmax=18.855 A hmean=18.155 A rough=0.921 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=371 connection=514 min_dist=2 pre_shell=13 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=3
+step=00374 species=  C N=00518 vac=0000 axis=z surf=xy Eads=-3.2661 eV P=1.000e+00 E=-4609.5479 eV hmax=18.737 A hmean=18.232 A rough=0.927 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=372 connection=512 min_dist=2 pre_shell=14 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=3
+step=00375 species=  C N=00519 vac=0000 axis=z surf=xy Eads=-6.2998 eV P=1.000e+00 E=-4618.7803 eV hmax=18.797 A hmean=18.247 A rough=0.936 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=374 connection=509 min_dist=1 pre_shell=16 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=3
+step=00376 species=  C N=00520 vac=0000 axis=z surf=xy Eads=-4.6152 eV P=1.000e+00 E=-4626.2886 eV hmax=18.797 A hmean=18.296 A rough=0.940 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=375 connection=508 min_dist=1 pre_shell=16 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=2
+step=00377 species=  C N=00521 vac=0000 axis=z surf=xy Eads=-5.9526 eV P=1.000e+00 E=-4634.8716 eV hmax=18.797 A hmean=18.366 A rough=0.947 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=376 connection=506 min_dist=1 pre_shell=17 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=35.370309 max=35.370309 n=1
+step=00378 species=  C N=00522 vac=0000 axis=z surf=xy Eads=-4.3599 eV P=1.000e+00 E=-4642.2432 eV hmax=18.759 A hmean=18.370 A rough=0.950 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=377 connection=504 min_dist=1 pre_shell=18 post_shell=18 tested_energy=18
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=18
+step=00379 species=  C N=00523 vac=0000 axis=z surf=xy Eads=-7.4834 eV P=9.690e-01 E=-4651.1660 eV hmax=19.554 A hmean=18.453 A rough=0.702 A occ1=1.000 tested=18
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=379 connection=502 min_dist=0 pre_shell=19 post_shell=17 tested_energy=17
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=17
+step=00380 species=  C N=00524 vac=0000 axis=z surf=xy Eads=-7.3569 eV P=2.626e-01 E=-4659.9541 eV hmax=19.573 A hmean=18.469 A rough=0.732 A occ1=1.000 tested=17
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=379 connection=500 min_dist=2 pre_shell=19 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=15
+step=00381 species=  C N=00525 vac=0000 axis=z surf=xy Eads=-7.3159 eV P=1.867e-01 E=-4670.3931 eV hmax=19.618 A hmean=18.525 A rough=0.758 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=381 connection=499 min_dist=0 pre_shell=20 post_shell=15 tested_energy=15
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=15
+step=00382 species=  C N=00526 vac=0000 axis=z surf=xy Eads=-7.5879 eV P=9.888e-01 E=-4679.1514 eV hmax=19.602 A hmean=18.592 A rough=0.780 A occ1=1.000 tested=15
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=382 connection=497 min_dist=0 pre_shell=21 post_shell=14 tested_energy=14
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=14
+step=00383 species=  C N=00527 vac=0000 axis=z surf=xy Eads=-7.1802 eV P=9.946e-01 E=-4688.5479 eV hmax=19.602 A hmean=18.594 A rough=0.804 A occ1=1.000 tested=14
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=383 connection=496 min_dist=0 pre_shell=21 post_shell=13 tested_energy=13
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=13
+step=00384 species=  C N=00528 vac=0000 axis=z surf=xy Eads=-7.5107 eV P=1.000e+00 E=-4700.2573 eV hmax=19.656 A hmean=18.677 A rough=0.825 A occ1=1.000 tested=13
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=384 connection=499 min_dist=0 pre_shell=17 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=12
+step=00385 species=  C N=00529 vac=0000 axis=z surf=xy Eads=-6.6846 eV P=1.155e-01 E=-4709.5039 eV hmax=19.656 A hmean=18.777 A rough=0.841 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=385 connection=498 min_dist=0 pre_shell=17 post_shell=11 tested_energy=11
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=11
+step=00386 species=  C N=00530 vac=0000 axis=z surf=xy Eads=-6.9956 eV P=9.999e-01 E=-4719.7979 eV hmax=19.656 A hmean=18.815 A rough=0.859 A occ1=1.000 tested=11
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=385 connection=496 min_dist=2 pre_shell=17 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=10
+step=00387 species=  C N=00531 vac=0000 axis=z surf=xy Eads=-7.4717 eV P=1.000e+00 E=-4728.1968 eV hmax=19.656 A hmean=18.840 A rough=0.872 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=386 connection=494 min_dist=2 pre_shell=18 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=9
+step=00388 species=  C N=00532 vac=0000 axis=z surf=xy Eads=-5.1699 eV P=9.825e-01 E=-4735.7031 eV hmax=19.656 A hmean=18.838 A rough=0.891 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=386 connection=493 min_dist=3 pre_shell=18 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=8
+step=00389 species=  C N=00533 vac=0000 axis=z surf=xy Eads=-6.0103 eV P=1.000e+00 E=-4745.0840 eV hmax=19.704 A hmean=18.909 A rough=0.904 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=388 connection=492 min_dist=2 pre_shell=18 post_shell=7 tested_energy=7
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=7
+step=00390 species=  C N=00534 vac=0000 axis=z surf=xy Eads=-5.9243 eV P=1.000e+00 E=-4754.1846 eV hmax=19.659 A hmean=18.988 A rough=0.913 A occ1=1.000 tested=7
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=389 connection=491 min_dist=2 pre_shell=18 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=6
+step=00391 species=  C N=00535 vac=0000 axis=z surf=xy Eads=-4.9326 eV P=4.540e-01 E=-4762.1782 eV hmax=19.656 A hmean=19.211 A rough=0.924 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=388 connection=492 min_dist=6 pre_shell=14 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=5
+step=00392 species=  C N=00536 vac=0000 axis=z surf=xy Eads=-5.8569 eV P=1.000e+00 E=-4771.2324 eV hmax=19.656 A hmean=19.239 A rough=0.932 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=389 connection=490 min_dist=6 pre_shell=15 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=4
+step=00393 species=  C N=00537 vac=0000 axis=z surf=xy Eads=-5.4595 eV P=1.000e+00 E=-4779.3135 eV hmax=19.656 A hmean=19.282 A rough=0.938 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=390 connection=489 min_dist=6 pre_shell=15 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=3
+step=00394 species=  C N=00538 vac=0000 axis=z surf=xy Eads=-5.0195 eV P=6.380e-01 E=-4787.3950 eV hmax=19.632 A hmean=19.318 A rough=0.944 A occ1=1.000 tested=3
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=392 connection=489 min_dist=4 pre_shell=15 post_shell=2 tested_energy=2
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=2
+step=00395 species=  C N=00539 vac=0000 axis=z surf=xy Eads=-5.9814 eV P=1.000e+00 E=-4796.6870 eV hmax=19.691 A hmean=19.404 A rough=0.952 A occ1=1.000 tested=2
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=393 connection=488 min_dist=4 pre_shell=15 post_shell=1 tested_energy=1
+[TEMPLATE DEBUG] camada candidata z: min=36.260495 max=36.260495 n=1
+step=00396 species=  C N=00540 vac=0000 axis=z surf=xy Eads=-5.8066 eV P=1.000e+00 E=-4808.5254 eV hmax=19.632 A hmean=19.303 A rough=0.959 A occ1=1.000 tested=1
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=392 connection=489 min_dist=7 pre_shell=12 post_shell=12 tested_energy=12
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=12
+step=00397 species=  C N=00541 vac=0000 axis=z surf=xy Eads=-9.8579 eV P=1.000e+00 E=-4819.2300 eV hmax=20.415 A hmean=19.387 A rough=0.702 A occ1=1.000 tested=12
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=393 connection=488 min_dist=7 pre_shell=12 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=10
+step=00398 species=  C N=00542 vac=0000 axis=z surf=xy Eads=-8.9844 eV P=1.000e+00 E=-4829.3232 eV hmax=20.458 A hmean=19.344 A rough=0.730 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=395 connection=486 min_dist=5 pre_shell=14 post_shell=10 tested_energy=10
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=10
+step=00399 species=  C N=00543 vac=0000 axis=z surf=xy Eads=-4.6235 eV P=5.903e-01 E=-4835.8940 eV hmax=20.481 A hmean=19.314 A rough=0.762 A occ1=1.000 tested=10
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=396 connection=484 min_dist=5 pre_shell=15 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=9
+step=00400 species=  C N=00544 vac=0000 axis=z surf=xy Eads=-5.3013 eV P=1.000e+00 E=-4844.3525 eV hmax=20.603 A hmean=19.368 A rough=0.787 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=397 connection=481 min_dist=5 pre_shell=17 post_shell=9 tested_energy=9
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=9
+step=00401 species=  C N=00545 vac=0000 axis=z surf=xy Eads=-5.0303 eV P=1.000e+00 E=-4851.9390 eV hmax=20.481 A hmean=19.397 A rough=0.811 A occ1=1.000 tested=9
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=398 connection=480 min_dist=5 pre_shell=17 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=8
+step=00402 species=  C N=00546 vac=0000 axis=z surf=xy Eads=-5.8936 eV P=1.000e+00 E=-4862.2329 eV hmax=20.635 A hmean=19.493 A rough=0.830 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=399 connection=478 min_dist=5 pre_shell=18 post_shell=8 tested_energy=8
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=8
+step=00403 species=  C N=00547 vac=0000 axis=z surf=xy Eads=-5.3164 eV P=1.000e+00 E=-4870.4165 eV hmax=20.635 A hmean=19.447 A rough=0.847 A occ1=1.000 tested=8
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=400 connection=480 min_dist=6 pre_shell=14 post_shell=6 tested_energy=6
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=6
+step=00404 species=  C N=00548 vac=0000 axis=z surf=xy Eads=-6.4048 eV P=1.000e+00 E=-4879.5552 eV hmax=20.635 A hmean=19.472 A rough=0.862 A occ1=1.000 tested=6
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=401 connection=478 min_dist=6 pre_shell=15 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=5
+step=00405 species=  C N=00549 vac=0000 axis=z surf=xy Eads=-5.1021 eV P=9.783e-01 E=-4886.4932 eV hmax=20.635 A hmean=19.457 A rough=0.876 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=403 connection=476 min_dist=4 pre_shell=17 post_shell=5 tested_energy=5
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=5
+step=00406 species=  C N=00550 vac=0000 axis=z surf=xy Eads=-5.0806 eV P=1.000e+00 E=-4895.7520 eV hmax=20.635 A hmean=19.569 A rough=0.890 A occ1=1.000 tested=5
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=404 connection=477 min_dist=4 pre_shell=15 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=4
+step=00407 species=  C N=00551 vac=0000 axis=z surf=xy Eads=-5.6152 eV P=1.000e+00 E=-4905.1670 eV hmax=20.635 A hmean=19.763 A rough=0.904 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=406 connection=476 min_dist=2 pre_shell=16 post_shell=4 tested_energy=4
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=4
+step=00408 species=  C N=00552 vac=0000 axis=z surf=xy Eads=-5.5117 eV P=1.000e+00 E=-4915.1064 eV hmax=20.529 A hmean=19.736 A rough=0.911 A occ1=1.000 tested=4
+[TEMPLATE DEBUG] total=1044 species_filter=0 restriction=0 direction=144 global_front=0 occupied=407 connection=475 min_dist=2 pre_shell=16 post_shell=3 tested_energy=3
+[TEMPLATE DEBUG] camada candidata z: min=37.150681 max=37.150681 n=3
+step=00409 species=  C N=00553 vac=0000 axis=z surf=xy Eads=-3.0776 eV P=1.000e+00 E=-4923.5928 eV hmax=20.646 A hmean=19.793 A rough=0.924 A occ1=1.000 tested=3

@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Publication figure build products (re-created by scripts/reproduce_figures.py)
+figures/Figure*.png
+figures/Figure*.pdf
+figures/Figure*.svg
+figures/Figure*_summary.csv
+
+# New simulation outputs inside case work directories
+cases/**/*.traj
+cases/**/*.log
+cases/**/*.csv
+cases/**/*_checkpoint.xyz
+cases/**/*_final.xyz
+cases/**/*_initial.xyz
+cases/**/*_vacancies.csv
+
+# Local scientific scratch
+*.py~
+.DS_Store
+
+# Publication logs are intentionally versioned despite the generic *.log rule above.
+!results/**/*.log
+!cases/manifest.csv
+.venv-test/

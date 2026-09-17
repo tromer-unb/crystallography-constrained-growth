@@ -1,0 +1,1185 @@
+MPI: rank=0/1; backend_comunicador=serial-sem-gpaw; launcher_size_detectado=1
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+Backend = chgnet; device = cpu; dtype = float32
+Semente sincronizada em todos os ranks = 7
+Espécies competindo: ['Fe', 'B']
+Fluxo relativo por espécie: {'Fe': 1.0, 'B': 1.0}
+Mu por espécie: {'Fe': -0.4, 'B': -0.1}
+Impurezas/vacâncias: desligado
+Modo de vacância: fillable
+growth_axis = z; surface_axes = xy
+replicate antes do slab = (1, 1, 1)
+miller = (0, 0, 1)
+build_mode = direct; site_mode = random
+pbc = (0, 0, 0)
+bulk_energy_repeat = (1, 1, 1); skip_bulk_reference = True
+cif_wrap_mode = all (aplicado somente aos arquivos .cif salvos)
+Restrição cristalográfica de crescimento: desligada
+/home/tromer/.anaconda3/lib/python3.13/site-packages/chgnet/model/model.py:898: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  volumes = torch.tensor(volumes, dtype=TORCH_DTYPE, device=atomic_numbers.device)
+Referência bulk: pulada (--skip-bulk-reference).
+  Usando E0/N0 como referência; gamma vira energia relativa ao estado inicial.
+Slab inicial:
+  N0 = 576
+  area(xy) = 1723.643501 Å²
+  E0 = -4973.443359 eV
+  gamma0 = 0.000000 eV/Å² = 0.000000 J/m²
+  growth_origin_species = all; origin_front=6.513779 Å; origin_back=2.171260 Å
+  surface_grid = 8 x 8
+  local_top_radius = 2.500 Å
+  regra_deposicao = grid: 1 tentativa(s) por célula por espécie
+  modo_gota: prob=0.850, candidatos=48, anchor=added
+  side_attach: raio=[1.700, 2.600] Å, jitter_altura=0.200 Å
+Corte absoluto de Eads: +50.000000 eV
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+/home/tromer/.anaconda3/lib/python3.13/site-packages/ase/io/cif.py:837: UserWarning: Occupancies present but no occupancy info for "{symbol}"
+  warnings.warn(str(err))
+step=00001 species= Fe N=00577 vac=0000 axis=z surf=xy Eads=-8.1693 eV P=9.342e-01 E=-4986.4526 eV hmax=0.781 A hmean=0.029 A rough=0.052 A occ1=0.000 tested=124
+step=00002 species= Fe N=00578 vac=0000 axis=z surf=xy Eads=-6.7787 eV P=9.867e-01 E=-4996.0273 eV hmax=0.724 A hmean=0.038 A rough=0.063 A occ1=0.000 tested=53
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00003 species= Fe N=00579 vac=0000 axis=z surf=xy Eads=-7.7641 eV P=9.288e-01 E=-5008.7544 eV hmax=1.101 A hmean=0.075 A rough=0.091 A occ1=0.000 tested=126
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00004 species= Fe N=00580 vac=0000 axis=z surf=xy Eads=-7.2890 eV P=9.130e-01 E=-5019.8291 eV hmax=1.101 A hmean=0.091 A rough=0.101 A occ1=0.000 tested=124
+step=00005 species=  B N=00581 vac=0000 axis=z surf=xy Eads=-7.4498 eV P=1.000e+00 E=-5031.8672 eV hmax=1.101 A hmean=0.093 A rough=0.101 A occ1=0.000 tested=48
+step=00006 species= Fe N=00582 vac=0000 axis=z surf=xy Eads=-6.5917 eV P=1.000e+00 E=-5039.5488 eV hmax=1.101 A hmean=0.099 A rough=0.102 A occ1=0.000 tested=44
+step=00007 species= Fe N=00583 vac=0000 axis=z surf=xy Eads=-6.7323 eV P=9.730e-01 E=-5047.0957 eV hmax=1.188 A hmean=0.114 A rough=0.112 A occ1=0.000 tested=37
+step=00008 species= Fe N=00584 vac=0000 axis=z surf=xy Eads=-7.5570 eV P=1.000e+00 E=-5055.6250 eV hmax=1.350 A hmean=0.118 A rough=0.119 A occ1=0.000 tested=43
+step=00009 species= Fe N=00585 vac=0000 axis=z surf=xy Eads=-7.6464 eV P=9.998e-01 E=-5066.9561 eV hmax=1.404 A hmean=0.116 A rough=0.117 A occ1=0.000 tested=46
+step=00010 species= Fe N=00586 vac=0000 axis=z surf=xy Eads=-7.1620 eV P=1.000e+00 E=-5075.8599 eV hmax=1.404 A hmean=0.113 A rough=0.117 A occ1=0.000 tested=47
+step=00011 species= Fe N=00587 vac=0000 axis=z surf=xy Eads=-6.7309 eV P=1.000e+00 E=-5083.4097 eV hmax=1.404 A hmean=0.112 A rough=0.122 A occ1=0.000 tested=44
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00012 species= Fe N=00588 vac=0000 axis=z surf=xy Eads=-7.4604 eV P=9.998e-01 E=-5093.0195 eV hmax=1.404 A hmean=0.139 A rough=0.129 A occ1=0.000 tested=123
+step=00013 species= Fe N=00589 vac=0000 axis=z surf=xy Eads=-7.0116 eV P=1.000e+00 E=-5104.0552 eV hmax=1.404 A hmean=0.149 A rough=0.132 A occ1=0.000 tested=51
+step=00014 species= Fe N=00590 vac=0000 axis=z surf=xy Eads=-5.8534 eV P=6.373e-01 E=-5111.1025 eV hmax=1.404 A hmean=0.166 A rough=0.137 A occ1=0.000 tested=37
+step=00015 species= Fe N=00591 vac=0000 axis=z surf=xy Eads=-5.8886 eV P=9.249e-01 E=-5118.3833 eV hmax=1.404 A hmean=0.164 A rough=0.135 A occ1=0.000 tested=45
+step=00016 species= Fe N=00592 vac=0000 axis=z surf=xy Eads=-6.4213 eV P=1.000e+00 E=-5125.5796 eV hmax=1.404 A hmean=0.164 A rough=0.134 A occ1=0.000 tested=48
+step=00017 species=  B N=00593 vac=0000 axis=z surf=xy Eads=-5.8385 eV P=9.997e-01 E=-5132.1880 eV hmax=1.483 A hmean=0.191 A rough=0.158 A occ1=0.000 tested=35
+step=00018 species= Fe N=00594 vac=0000 axis=z surf=xy Eads=-6.3158 eV P=9.348e-01 E=-5140.4639 eV hmax=1.483 A hmean=0.189 A rough=0.157 A occ1=0.000 tested=43
+step=00019 species= Fe N=00595 vac=0000 axis=z surf=xy Eads=-6.1562 eV P=6.589e-01 E=-5148.5186 eV hmax=1.542 A hmean=0.184 A rough=0.177 A occ1=0.000 tested=37
+step=00020 species= Fe N=00596 vac=0000 axis=z surf=xy Eads=-6.4604 eV P=1.000e+00 E=-5156.0210 eV hmax=1.473 A hmean=0.193 A rough=0.176 A occ1=0.000 tested=39
+step=00021 species= Fe N=00597 vac=0000 axis=z surf=xy Eads=-6.2064 eV P=9.978e-01 E=-5163.9219 eV hmax=1.482 A hmean=0.197 A rough=0.194 A occ1=0.000 tested=33
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00022 species= Fe N=00598 vac=0000 axis=z surf=xy Eads=-8.7367 eV P=1.000e+00 E=-5179.5850 eV hmax=1.482 A hmean=0.215 A rough=0.198 A occ1=0.000 tested=123
+step=00023 species= Fe N=00599 vac=0000 axis=z surf=xy Eads=-5.7968 eV P=9.646e-01 E=-5186.8584 eV hmax=1.595 A hmean=0.243 A rough=0.215 A occ1=0.000 tested=36
+step=00024 species= Fe N=00600 vac=0000 axis=z surf=xy Eads=-6.4652 eV P=9.971e-01 E=-5194.6753 eV hmax=1.595 A hmean=0.246 A rough=0.217 A occ1=0.000 tested=45
+step=00025 species= Fe N=00601 vac=0000 axis=z surf=xy Eads=-6.8490 eV P=1.000e+00 E=-5202.8193 eV hmax=1.785 A hmean=0.267 A rough=0.228 A occ1=0.000 tested=36
+step=00026 species= Fe N=00602 vac=0000 axis=z surf=xy Eads=-7.7724 eV P=1.000e+00 E=-5213.4077 eV hmax=1.785 A hmean=0.267 A rough=0.228 A occ1=0.000 tested=32
+step=00027 species= Fe N=00603 vac=0000 axis=z surf=xy Eads=-7.8651 eV P=1.000e+00 E=-5222.2266 eV hmax=1.785 A hmean=0.268 A rough=0.229 A occ1=0.000 tested=32
+step=00028 species= Fe N=00604 vac=0000 axis=z surf=xy Eads=-6.3056 eV P=3.448e-01 E=-5229.1562 eV hmax=1.785 A hmean=0.270 A rough=0.229 A occ1=0.000 tested=41
+step=00029 species= Fe N=00605 vac=0000 axis=z surf=xy Eads=-6.5185 eV P=3.796e-01 E=-5236.3130 eV hmax=1.785 A hmean=0.288 A rough=0.236 A occ1=0.000 tested=30
+step=00030 species= Fe N=00606 vac=0000 axis=z surf=xy Eads=-6.9403 eV P=9.937e-01 E=-5244.2812 eV hmax=1.785 A hmean=0.286 A rough=0.237 A occ1=0.000 tested=26
+step=00031 species= Fe N=00607 vac=0000 axis=z surf=xy Eads=-6.1283 eV P=1.000e+00 E=-5251.3052 eV hmax=1.785 A hmean=0.292 A rough=0.245 A occ1=0.000 tested=35
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00032 species= Fe N=00608 vac=0000 axis=z surf=xy Eads=-7.4970 eV P=9.393e-01 E=-5264.3193 eV hmax=1.785 A hmean=0.313 A rough=0.249 A occ1=0.000 tested=120
+step=00033 species= Fe N=00609 vac=0000 axis=z surf=xy Eads=-6.2924 eV P=1.000e+00 E=-5274.9077 eV hmax=1.785 A hmean=0.312 A rough=0.250 A occ1=0.000 tested=31
+step=00034 species= Fe N=00610 vac=0000 axis=z surf=xy Eads=-6.0180 eV P=9.931e-01 E=-5284.5361 eV hmax=1.785 A hmean=0.317 A rough=0.249 A occ1=0.000 tested=27
+step=00035 species= Fe N=00611 vac=0000 axis=z surf=xy Eads=-6.1815 eV P=9.997e-01 E=-5292.5010 eV hmax=1.785 A hmean=0.318 A rough=0.258 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00036 species= Fe N=00612 vac=0000 axis=z surf=xy Eads=-7.1396 eV P=3.308e-01 E=-5302.0664 eV hmax=1.785 A hmean=0.339 A rough=0.260 A occ1=0.000 tested=119
+step=00037 species= Fe N=00613 vac=0000 axis=z surf=xy Eads=-6.8227 eV P=1.000e+00 E=-5310.8750 eV hmax=1.785 A hmean=0.341 A rough=0.260 A occ1=0.000 tested=37
+step=00038 species= Fe N=00614 vac=0000 axis=z surf=xy Eads=-7.3817 eV P=1.000e+00 E=-5319.1938 eV hmax=1.785 A hmean=0.338 A rough=0.272 A occ1=0.000 tested=33
+step=00039 species= Fe N=00615 vac=0000 axis=z surf=xy Eads=-7.9794 eV P=1.000e+00 E=-5328.0186 eV hmax=1.785 A hmean=0.338 A rough=0.272 A occ1=0.000 tested=30
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00040 species= Fe N=00616 vac=0000 axis=z surf=xy Eads=-7.3764 eV P=1.000e+00 E=-5336.8535 eV hmax=1.785 A hmean=0.357 A rough=0.275 A occ1=0.000 tested=117
+step=00041 species= Fe N=00617 vac=0000 axis=z surf=xy Eads=-6.0531 eV P=9.997e-01 E=-5344.8398 eV hmax=1.785 A hmean=0.354 A rough=0.274 A occ1=0.000 tested=41
+step=00042 species= Fe N=00618 vac=0000 axis=z surf=xy Eads=-5.8031 eV P=9.999e-01 E=-5352.6904 eV hmax=1.785 A hmean=0.351 A rough=0.284 A occ1=0.000 tested=25
+step=00043 species= Fe N=00619 vac=0000 axis=z surf=xy Eads=-6.3378 eV P=9.848e-01 E=-5359.9341 eV hmax=1.785 A hmean=0.350 A rough=0.286 A occ1=0.000 tested=33
+step=00044 species= Fe N=00620 vac=0000 axis=z surf=xy Eads=-6.0409 eV P=9.589e-01 E=-5367.3511 eV hmax=1.969 A hmean=0.356 A rough=0.269 A occ1=0.000 tested=31
+step=00045 species= Fe N=00621 vac=0000 axis=z surf=xy Eads=-6.9008 eV P=1.000e+00 E=-5376.1660 eV hmax=1.969 A hmean=0.357 A rough=0.269 A occ1=0.000 tested=38
+step=00046 species= Fe N=00622 vac=0000 axis=z surf=xy Eads=-6.8676 eV P=1.000e+00 E=-5383.8115 eV hmax=1.969 A hmean=0.369 A rough=0.284 A occ1=0.000 tested=40
+step=00047 species= Fe N=00623 vac=0000 axis=z surf=xy Eads=-7.8051 eV P=1.000e+00 E=-5392.5835 eV hmax=1.969 A hmean=0.372 A rough=0.283 A occ1=0.000 tested=40
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00048 species= Fe N=00624 vac=0000 axis=z surf=xy Eads=-7.1562 eV P=1.000e+00 E=-5401.9546 eV hmax=1.969 A hmean=0.370 A rough=0.282 A occ1=0.000 tested=31
+step=00049 species= Fe N=00625 vac=0000 axis=z surf=xy Eads=-7.3095 eV P=1.000e+00 E=-5412.1084 eV hmax=1.969 A hmean=0.368 A rough=0.283 A occ1=0.000 tested=37
+step=00050 species= Fe N=00626 vac=0000 axis=z surf=xy Eads=-6.4838 eV P=1.000e+00 E=-5419.7729 eV hmax=1.969 A hmean=0.369 A rough=0.285 A occ1=0.000 tested=32
+step=00051 species= Fe N=00627 vac=0000 axis=z surf=xy Eads=-6.3954 eV P=1.000e+00 E=-5426.9180 eV hmax=1.892 A hmean=0.373 A rough=0.298 A occ1=0.000 tested=35
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00052 species= Fe N=00628 vac=0000 axis=z surf=xy Eads=-6.3939 eV P=9.473e-01 E=-5434.8994 eV hmax=2.424 A hmean=0.387 A rough=0.298 A occ1=0.000 tested=122
+step=00053 species= Fe N=00629 vac=0000 axis=z surf=xy Eads=-6.1854 eV P=9.967e-01 E=-5442.0439 eV hmax=2.424 A hmean=0.390 A rough=0.297 A occ1=0.000 tested=29
+step=00054 species= Fe N=00630 vac=0000 axis=z surf=xy Eads=-7.3446 eV P=1.000e+00 E=-5450.8252 eV hmax=2.424 A hmean=0.389 A rough=0.296 A occ1=0.000 tested=31
+step=00055 species= Fe N=00631 vac=0000 axis=z surf=xy Eads=-6.2548 eV P=1.000e+00 E=-5458.5601 eV hmax=2.424 A hmean=0.385 A rough=0.298 A occ1=0.000 tested=29
+step=00056 species= Fe N=00632 vac=0000 axis=z surf=xy Eads=-5.8983 eV P=9.210e-01 E=-5465.7104 eV hmax=2.424 A hmean=0.377 A rough=0.303 A occ1=0.000 tested=39
+step=00057 species= Fe N=00633 vac=0000 axis=z surf=xy Eads=-6.3319 eV P=9.992e-01 E=-5473.1636 eV hmax=2.424 A hmean=0.376 A rough=0.308 A occ1=0.000 tested=32
+step=00058 species= Fe N=00634 vac=0000 axis=z surf=xy Eads=-7.7675 eV P=1.000e+00 E=-5481.8232 eV hmax=2.424 A hmean=0.386 A rough=0.308 A occ1=0.000 tested=27
+step=00059 species= Fe N=00635 vac=0000 axis=z surf=xy Eads=-6.4135 eV P=1.000e+00 E=-5489.2554 eV hmax=2.424 A hmean=0.386 A rough=0.308 A occ1=0.000 tested=37
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00060 species= Fe N=00636 vac=0000 axis=z surf=xy Eads=-7.2138 eV P=9.973e-01 E=-5497.2603 eV hmax=2.521 A hmean=0.391 A rough=0.325 A occ1=0.000 tested=32
+step=00061 species= Fe N=00637 vac=0000 axis=z surf=xy Eads=-6.8168 eV P=1.000e+00 E=-5505.2021 eV hmax=2.586 A hmean=0.389 A rough=0.330 A occ1=0.000 tested=39
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00062 species= Fe N=00638 vac=0000 axis=z surf=xy Eads=-5.8827 eV P=9.996e-01 E=-5511.8340 eV hmax=2.586 A hmean=0.425 A rough=0.337 A occ1=0.000 tested=119
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00063 species= Fe N=00639 vac=0000 axis=z surf=xy Eads=-6.7045 eV P=1.000e+00 E=-5522.0220 eV hmax=2.586 A hmean=0.451 A rough=0.341 A occ1=0.000 tested=116
+step=00064 species= Fe N=00640 vac=0000 axis=z surf=xy Eads=-6.5419 eV P=1.000e+00 E=-5530.0488 eV hmax=2.586 A hmean=0.435 A rough=0.344 A occ1=0.000 tested=25
+step=00065 species= Fe N=00641 vac=0000 axis=z surf=xy Eads=-6.4911 eV P=9.999e-01 E=-5537.4253 eV hmax=2.586 A hmean=0.447 A rough=0.344 A occ1=0.000 tested=33
+step=00066 species= Fe N=00642 vac=0000 axis=z surf=xy Eads=-6.0551 eV P=5.358e-01 E=-5546.1338 eV hmax=2.586 A hmean=0.496 A rough=0.344 A occ1=0.000 tested=28
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00067 species= Fe N=00643 vac=0000 axis=z surf=xy Eads=-6.6396 eV P=1.000e+00 E=-5554.1719 eV hmax=2.586 A hmean=0.501 A rough=0.343 A occ1=0.000 tested=117
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00068 species= Fe N=00644 vac=0000 axis=z surf=xy Eads=-6.6039 eV P=9.996e-01 E=-5561.7139 eV hmax=2.586 A hmean=0.506 A rough=0.348 A occ1=0.000 tested=33
+step=00069 species= Fe N=00645 vac=0000 axis=z surf=xy Eads=-6.4931 eV P=1.000e+00 E=-5569.1128 eV hmax=2.586 A hmean=0.502 A rough=0.348 A occ1=0.000 tested=33
+step=00070 species= Fe N=00646 vac=0000 axis=z surf=xy Eads=-6.4198 eV P=9.736e-01 E=-5577.1479 eV hmax=2.586 A hmean=0.503 A rough=0.350 A occ1=0.000 tested=32
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00071 species= Fe N=00647 vac=0000 axis=z surf=xy Eads=-6.5253 eV P=1.000e+00 E=-5585.0537 eV hmax=2.586 A hmean=0.499 A rough=0.350 A occ1=0.000 tested=118
+step=00072 species= Fe N=00648 vac=0000 axis=z surf=xy Eads=-6.8007 eV P=1.000e+00 E=-5593.0386 eV hmax=2.595 A hmean=0.499 A rough=0.355 A occ1=0.000 tested=34
+step=00073 species=  B N=00649 vac=0000 axis=z surf=xy Eads=-6.8297 eV P=1.000e+00 E=-5601.4385 eV hmax=2.595 A hmean=0.516 A rough=0.355 A occ1=0.000 tested=32
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00074 species= Fe N=00650 vac=0000 axis=z surf=xy Eads=-7.0077 eV P=1.000e+00 E=-5609.4775 eV hmax=2.595 A hmean=0.529 A rough=0.358 A occ1=0.000 tested=30
+step=00075 species= Fe N=00651 vac=0000 axis=z surf=xy Eads=-5.8817 eV P=9.997e-01 E=-5617.4541 eV hmax=2.595 A hmean=0.527 A rough=0.357 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00076 species= Fe N=00652 vac=0000 axis=z surf=xy Eads=-7.0404 eV P=1.000e+00 E=-5626.1636 eV hmax=2.595 A hmean=0.541 A rough=0.357 A occ1=0.000 tested=120
+step=00077 species=  B N=00653 vac=0000 axis=z surf=xy Eads=-5.6178 eV P=9.989e-01 E=-5633.5073 eV hmax=2.595 A hmean=0.546 A rough=0.362 A occ1=0.000 tested=23
+step=00078 species= Fe N=00654 vac=0000 axis=z surf=xy Eads=-6.1190 eV P=1.000e+00 E=-5641.0742 eV hmax=2.595 A hmean=0.544 A rough=0.361 A occ1=0.000 tested=27
+step=00079 species= Fe N=00655 vac=0000 axis=z surf=xy Eads=-6.2592 eV P=9.182e-01 E=-5651.0171 eV hmax=2.595 A hmean=0.545 A rough=0.360 A occ1=0.000 tested=26
+step=00080 species= Fe N=00656 vac=0000 axis=z surf=xy Eads=-6.0404 eV P=1.000e+00 E=-5658.1660 eV hmax=2.595 A hmean=0.545 A rough=0.360 A occ1=0.000 tested=30
+step=00081 species= Fe N=00657 vac=0000 axis=z surf=xy Eads=-5.3227 eV P=9.780e-01 E=-5664.2583 eV hmax=2.595 A hmean=0.529 A rough=0.360 A occ1=0.000 tested=27
+step=00082 species= Fe N=00658 vac=0000 axis=z surf=xy Eads=-6.1459 eV P=1.000e+00 E=-5671.7373 eV hmax=2.595 A hmean=0.530 A rough=0.360 A occ1=0.000 tested=33
+step=00083 species= Fe N=00659 vac=0000 axis=z surf=xy Eads=-6.2299 eV P=9.999e-01 E=-5680.8804 eV hmax=2.595 A hmean=0.527 A rough=0.363 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00084 species= Fe N=00660 vac=0000 axis=z surf=xy Eads=-6.3100 eV P=1.000e+00 E=-5688.3730 eV hmax=2.595 A hmean=0.541 A rough=0.373 A occ1=0.000 tested=118
+step=00085 species= Fe N=00661 vac=0000 axis=z surf=xy Eads=-6.0531 eV P=9.703e-01 E=-5695.5732 eV hmax=2.595 A hmean=0.545 A rough=0.375 A occ1=0.000 tested=24
+step=00086 species= Fe N=00662 vac=0000 axis=z surf=xy Eads=-6.8441 eV P=1.000e+00 E=-5703.2256 eV hmax=2.595 A hmean=0.541 A rough=0.374 A occ1=0.000 tested=34
+step=00087 species= Fe N=00663 vac=0000 axis=z surf=xy Eads=-6.9452 eV P=1.000e+00 E=-5711.5464 eV hmax=2.595 A hmean=0.534 A rough=0.375 A occ1=0.000 tested=28
+step=00088 species= Fe N=00664 vac=0000 axis=z surf=xy Eads=-7.9159 eV P=1.000e+00 E=-5720.3301 eV hmax=2.595 A hmean=0.535 A rough=0.375 A occ1=0.000 tested=35
+step=00089 species= Fe N=00665 vac=0000 axis=z surf=xy Eads=-6.3329 eV P=1.000e+00 E=-5727.8770 eV hmax=2.595 A hmean=0.534 A rough=0.375 A occ1=0.000 tested=23
+step=00090 species= Fe N=00666 vac=0000 axis=z surf=xy Eads=-6.8578 eV P=1.000e+00 E=-5735.8896 eV hmax=2.595 A hmean=0.533 A rough=0.374 A occ1=0.000 tested=36
+step=00091 species= Fe N=00667 vac=0000 axis=z surf=xy Eads=-6.4101 eV P=1.000e+00 E=-5742.9761 eV hmax=2.595 A hmean=0.535 A rough=0.374 A occ1=0.000 tested=28
+step=00092 species= Fe N=00668 vac=0000 axis=z surf=xy Eads=-6.2016 eV P=1.000e+00 E=-5750.1992 eV hmax=2.595 A hmean=0.533 A rough=0.373 A occ1=0.000 tested=23
+step=00093 species= Fe N=00669 vac=0000 axis=z surf=xy Eads=-5.9521 eV P=9.989e-01 E=-5757.7383 eV hmax=2.595 A hmean=0.535 A rough=0.375 A occ1=0.000 tested=23
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00094 species= Fe N=00670 vac=0000 axis=z surf=xy Eads=-5.7650 eV P=9.576e-01 E=-5765.0215 eV hmax=2.595 A hmean=0.535 A rough=0.375 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00095 species= Fe N=00671 vac=0000 axis=z surf=xy Eads=-6.3349 eV P=1.000e+00 E=-5772.6396 eV hmax=2.595 A hmean=0.562 A rough=0.378 A occ1=0.000 tested=121
+step=00096 species= Fe N=00672 vac=0000 axis=z surf=xy Eads=-7.5243 eV P=1.000e+00 E=-5781.0083 eV hmax=2.595 A hmean=0.556 A rough=0.377 A occ1=0.000 tested=32
+step=00097 species= Fe N=00673 vac=0000 axis=z surf=xy Eads=-5.9960 eV P=1.000e+00 E=-5788.7349 eV hmax=2.595 A hmean=0.562 A rough=0.377 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00098 species= Fe N=00674 vac=0000 axis=z surf=xy Eads=-6.2787 eV P=9.991e-01 E=-5796.6909 eV hmax=2.528 A hmean=0.566 A rough=0.382 A occ1=0.000 tested=27
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00099 species= Fe N=00675 vac=0000 axis=z surf=xy Eads=-6.0331 eV P=1.000e+00 E=-5804.0615 eV hmax=3.342 A hmean=0.590 A rough=0.602 A occ1=0.000 tested=115
+step=00100 species= Fe N=00676 vac=0000 axis=z surf=xy Eads=-5.8480 eV P=1.000e+00 E=-5811.1484 eV hmax=3.342 A hmean=0.600 A rough=0.599 A occ1=0.000 tested=33
+step=00101 species= Fe N=00677 vac=0000 axis=z surf=xy Eads=-6.5243 eV P=9.981e-01 E=-5819.0151 eV hmax=3.342 A hmean=0.601 A rough=0.596 A occ1=0.000 tested=33
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00102 species= Fe N=00678 vac=0000 axis=z surf=xy Eads=-6.9164 eV P=9.999e-01 E=-5827.1362 eV hmax=3.248 A hmean=0.609 A rough=0.615 A occ1=0.000 tested=118
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00103 species= Fe N=00679 vac=0000 axis=z surf=xy Eads=-5.5844 eV P=9.988e-01 E=-5835.1104 eV hmax=3.248 A hmean=0.609 A rough=0.615 A occ1=0.000 tested=28
+step=00104 species= Fe N=00680 vac=0000 axis=z surf=xy Eads=-6.6010 eV P=1.000e+00 E=-5843.0737 eV hmax=3.248 A hmean=0.616 A rough=0.615 A occ1=0.000 tested=29
+step=00105 species= Fe N=00681 vac=0000 axis=z surf=xy Eads=-7.5609 eV P=1.000e+00 E=-5856.4751 eV hmax=3.248 A hmean=0.609 A rough=0.617 A occ1=0.000 tested=33
+step=00106 species= Fe N=00682 vac=0000 axis=z surf=xy Eads=-6.5185 eV P=1.000e+00 E=-5864.9927 eV hmax=3.248 A hmean=0.604 A rough=0.615 A occ1=0.000 tested=39
+step=00107 species= Fe N=00683 vac=0000 axis=z surf=xy Eads=-7.2870 eV P=1.000e+00 E=-5873.4897 eV hmax=3.538 A hmean=0.627 A rough=0.670 A occ1=0.000 tested=30
+step=00108 species= Fe N=00684 vac=0000 axis=z surf=xy Eads=-6.2719 eV P=9.988e-01 E=-5881.3574 eV hmax=3.538 A hmean=0.638 A rough=0.671 A occ1=0.000 tested=28
+step=00109 species=  B N=00685 vac=0000 axis=z surf=xy Eads=-5.7564 eV P=1.000e+00 E=-5888.6621 eV hmax=3.579 A hmean=0.670 A rough=0.730 A occ1=0.000 tested=32
+step=00110 species= Fe N=00686 vac=0000 axis=z surf=xy Eads=-6.3256 eV P=1.000e+00 E=-5896.0308 eV hmax=3.540 A hmean=0.698 A rough=0.758 A occ1=0.000 tested=27
+step=00111 species= Fe N=00687 vac=0000 axis=z surf=xy Eads=-5.9452 eV P=1.000e+00 E=-5903.2280 eV hmax=3.540 A hmean=0.696 A rough=0.760 A occ1=0.000 tested=28
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00112 species= Fe N=00688 vac=0000 axis=z surf=xy Eads=-5.3964 eV P=5.142e-01 E=-5909.6143 eV hmax=3.540 A hmean=0.686 A rough=0.765 A occ1=0.000 tested=34
+step=00113 species= Fe N=00689 vac=0000 axis=z surf=xy Eads=-6.3632 eV P=1.000e+00 E=-5916.9175 eV hmax=3.540 A hmean=0.685 A rough=0.758 A occ1=0.000 tested=37
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00114 species= Fe N=00690 vac=0000 axis=z surf=xy Eads=-6.0292 eV P=8.770e-01 E=-5924.6528 eV hmax=3.714 A hmean=0.700 A rough=0.813 A occ1=0.000 tested=33
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00115 species= Fe N=00691 vac=0000 axis=z surf=xy Eads=-5.6410 eV P=1.535e-02 E=-5932.2397 eV hmax=3.714 A hmean=0.699 A rough=0.818 A occ1=0.000 tested=38
+step=00116 species= Fe N=00692 vac=0000 axis=z surf=xy Eads=-6.3490 eV P=1.000e+00 E=-5939.9937 eV hmax=3.813 A hmean=0.695 A rough=0.803 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00117 species= Fe N=00693 vac=0000 axis=z surf=xy Eads=-5.2548 eV P=4.067e-01 E=-5950.0864 eV hmax=3.813 A hmean=0.667 A rough=0.805 A occ1=0.000 tested=35
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00118 species= Fe N=00694 vac=0000 axis=z surf=xy Eads=-6.9735 eV P=1.000e+00 E=-5958.0591 eV hmax=3.813 A hmean=0.668 A rough=0.842 A occ1=0.000 tested=34
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00119 species= Fe N=00695 vac=0000 axis=z surf=xy Eads=-6.0883 eV P=8.274e-01 E=-5965.1279 eV hmax=3.733 A hmean=0.665 A rough=0.845 A occ1=0.000 tested=37
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00120 species=  B N=00696 vac=0000 axis=z surf=xy Eads=-5.5440 eV P=4.997e-01 E=-5972.1494 eV hmax=3.951 A hmean=0.674 A rough=0.848 A occ1=0.000 tested=24
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00121 species= Fe N=00697 vac=0000 axis=z surf=xy Eads=-6.3632 eV P=8.267e-01 E=-5980.5190 eV hmax=3.951 A hmean=0.674 A rough=0.847 A occ1=0.000 tested=36
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00122 species= Fe N=00698 vac=0000 axis=z surf=xy Eads=-5.8402 eV P=9.652e-01 E=-5987.8130 eV hmax=3.951 A hmean=0.674 A rough=0.838 A occ1=0.000 tested=35
+step=00123 species= Fe N=00699 vac=0000 axis=z surf=xy Eads=-6.0385 eV P=1.000e+00 E=-5994.7241 eV hmax=3.951 A hmean=0.690 A rough=0.821 A occ1=0.000 tested=32
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00124 species= Fe N=00700 vac=0000 axis=z surf=xy Eads=-6.7396 eV P=9.978e-01 E=-6002.5312 eV hmax=3.951 A hmean=0.674 A rough=0.821 A occ1=0.000 tested=29
+step=00125 species= Fe N=00701 vac=0000 axis=z surf=xy Eads=-6.3407 eV P=1.000e+00 E=-6009.8848 eV hmax=3.951 A hmean=0.674 A rough=0.821 A occ1=0.000 tested=28
+step=00126 species= Fe N=00702 vac=0000 axis=z surf=xy Eads=-5.7260 eV P=9.899e-01 E=-6017.1943 eV hmax=3.951 A hmean=0.662 A rough=0.815 A occ1=0.000 tested=31
+step=00127 species= Fe N=00703 vac=0000 axis=z surf=xy Eads=-7.6430 eV P=9.994e-01 E=-6027.5938 eV hmax=3.951 A hmean=0.651 A rough=0.815 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00128 species= Fe N=00704 vac=0000 axis=z surf=xy Eads=-6.3402 eV P=9.998e-01 E=-6035.5962 eV hmax=3.951 A hmean=0.661 A rough=0.815 A occ1=0.000 tested=116
+step=00129 species=  B N=00705 vac=0000 axis=z surf=xy Eads=-5.9444 eV P=9.989e-01 E=-6042.8765 eV hmax=3.951 A hmean=0.661 A rough=0.821 A occ1=0.000 tested=34
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00130 species= Fe N=00706 vac=0000 axis=z surf=xy Eads=-5.4989 eV P=8.989e-01 E=-6051.3340 eV hmax=3.951 A hmean=0.608 A rough=0.821 A occ1=0.000 tested=37
+step=00131 species= Fe N=00707 vac=0000 axis=z surf=xy Eads=-6.3329 eV P=1.000e+00 E=-6059.5957 eV hmax=3.951 A hmean=0.597 A rough=0.821 A occ1=0.000 tested=23
+step=00132 species= Fe N=00708 vac=0000 axis=z surf=xy Eads=-6.4887 eV P=9.998e-01 E=-6066.8135 eV hmax=3.951 A hmean=0.619 A rough=0.812 A occ1=0.000 tested=36
+step=00133 species= Fe N=00709 vac=0000 axis=z surf=xy Eads=-5.6952 eV P=1.000e+00 E=-6073.4487 eV hmax=3.951 A hmean=0.602 A rough=0.812 A occ1=0.000 tested=25
+step=00134 species= Fe N=00710 vac=0000 axis=z surf=xy Eads=-6.1249 eV P=9.731e-01 E=-6080.2148 eV hmax=3.951 A hmean=0.615 A rough=0.812 A occ1=0.000 tested=29
+step=00135 species= Fe N=00711 vac=0000 axis=z surf=xy Eads=-7.3310 eV P=1.000e+00 E=-6088.6875 eV hmax=3.951 A hmean=0.614 A rough=0.813 A occ1=0.000 tested=30
+step=00136 species= Fe N=00712 vac=0000 axis=z surf=xy Eads=-6.2807 eV P=1.000e+00 E=-6096.1890 eV hmax=3.951 A hmean=0.608 A rough=0.813 A occ1=0.000 tested=28
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00137 species= Fe N=00713 vac=0000 axis=z surf=xy Eads=-6.4057 eV P=1.000e+00 E=-6104.5259 eV hmax=3.951 A hmean=0.634 A rough=0.816 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00138 species= Fe N=00714 vac=0000 axis=z surf=xy Eads=-6.7992 eV P=1.000e+00 E=-6112.6235 eV hmax=3.951 A hmean=0.631 A rough=0.816 A occ1=0.000 tested=35
+step=00139 species= Fe N=00715 vac=0000 axis=z surf=xy Eads=-5.6059 eV P=9.040e-01 E=-6119.3340 eV hmax=3.951 A hmean=0.628 A rough=0.816 A occ1=0.000 tested=29
+step=00140 species= Fe N=00716 vac=0000 axis=z surf=xy Eads=-7.2958 eV P=1.000e+00 E=-6128.6836 eV hmax=3.951 A hmean=0.625 A rough=0.816 A occ1=0.000 tested=35
+step=00141 species= Fe N=00717 vac=0000 axis=z surf=xy Eads=-5.9760 eV P=2.861e-01 E=-6136.1909 eV hmax=3.951 A hmean=0.570 A rough=0.816 A occ1=0.000 tested=38
+step=00142 species= Fe N=00718 vac=0000 axis=z surf=xy Eads=-5.8666 eV P=1.000e+00 E=-6144.6582 eV hmax=3.951 A hmean=0.551 A rough=0.816 A occ1=0.000 tested=33
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00143 species= Fe N=00719 vac=0000 axis=z surf=xy Eads=-6.2138 eV P=8.466e-01 E=-6152.9316 eV hmax=3.929 A hmean=0.554 A rough=0.837 A occ1=0.000 tested=115
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00144 species= Fe N=00720 vac=0000 axis=z surf=xy Eads=-6.4960 eV P=8.686e-01 E=-6164.9243 eV hmax=3.929 A hmean=0.556 A rough=0.837 A occ1=0.000 tested=33
+step=00145 species= Fe N=00721 vac=0000 axis=z surf=xy Eads=-5.7821 eV P=9.999e-01 E=-6175.6953 eV hmax=3.929 A hmean=0.561 A rough=0.837 A occ1=0.000 tested=26
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00146 species= Fe N=00722 vac=0000 axis=z surf=xy Eads=-6.4076 eV P=9.982e-01 E=-6184.1484 eV hmax=3.929 A hmean=0.580 A rough=0.837 A occ1=0.000 tested=38
+step=00147 species=  B N=00723 vac=0000 axis=z surf=xy Eads=-6.1251 eV P=9.991e-01 E=-6191.2954 eV hmax=3.929 A hmean=0.579 A rough=0.837 A occ1=0.000 tested=29
+step=00148 species= Fe N=00724 vac=0000 axis=z surf=xy Eads=-6.2450 eV P=9.744e-01 E=-6201.6895 eV hmax=3.929 A hmean=0.579 A rough=0.837 A occ1=0.000 tested=31
+step=00149 species= Fe N=00725 vac=0000 axis=z surf=xy Eads=-7.1063 eV P=1.000e+00 E=-6211.9292 eV hmax=3.929 A hmean=0.577 A rough=0.839 A occ1=0.000 tested=32
+step=00150 species= Fe N=00726 vac=0000 axis=z surf=xy Eads=-6.2323 eV P=3.463e-01 E=-6219.4316 eV hmax=3.929 A hmean=0.573 A rough=0.839 A occ1=0.000 tested=30
+step=00151 species= Fe N=00727 vac=0000 axis=z surf=xy Eads=-6.0736 eV P=1.000e+00 E=-6229.7622 eV hmax=3.929 A hmean=0.573 A rough=0.839 A occ1=0.000 tested=31
+step=00152 species=  B N=00728 vac=0000 axis=z surf=xy Eads=-5.5235 eV P=9.742e-01 E=-6236.9639 eV hmax=3.929 A hmean=0.577 A rough=0.834 A occ1=0.000 tested=31
+step=00153 species= Fe N=00729 vac=0000 axis=z surf=xy Eads=-6.3295 eV P=1.000e+00 E=-6245.9966 eV hmax=3.929 A hmean=0.550 A rough=0.834 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00154 species= Fe N=00730 vac=0000 axis=z surf=xy Eads=-6.2362 eV P=1.000e+00 E=-6253.4370 eV hmax=3.929 A hmean=0.568 A rough=0.832 A occ1=0.000 tested=115
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00155 species= Fe N=00731 vac=0000 axis=z surf=xy Eads=-6.7836 eV P=1.000e+00 E=-6262.9702 eV hmax=3.929 A hmean=0.567 A rough=0.833 A occ1=0.000 tested=26
+step=00156 species=  B N=00732 vac=0000 axis=z surf=xy Eads=-5.5377 eV P=9.998e-01 E=-6268.9995 eV hmax=3.929 A hmean=0.568 A rough=0.833 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00157 species= Fe N=00733 vac=0000 axis=z surf=xy Eads=-6.6034 eV P=9.876e-01 E=-6279.4995 eV hmax=3.929 A hmean=0.563 A rough=0.834 A occ1=0.000 tested=43
+step=00158 species= Fe N=00734 vac=0000 axis=z surf=xy Eads=-6.0478 eV P=1.000e+00 E=-6286.6328 eV hmax=3.929 A hmean=0.562 A rough=0.836 A occ1=0.000 tested=33
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00159 species= Fe N=00735 vac=0000 axis=z surf=xy Eads=-7.0966 eV P=1.000e+00 E=-6295.2051 eV hmax=3.929 A hmean=0.567 A rough=0.832 A occ1=0.000 tested=35
+step=00160 species= Fe N=00736 vac=0000 axis=z surf=xy Eads=-7.0956 eV P=1.000e+00 E=-6304.3154 eV hmax=3.929 A hmean=0.567 A rough=0.832 A occ1=0.000 tested=30
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00161 species= Fe N=00737 vac=0000 axis=z surf=xy Eads=-5.9813 eV P=9.921e-01 E=-6312.8804 eV hmax=3.929 A hmean=0.570 A rough=0.832 A occ1=0.000 tested=32
+step=00162 species= Fe N=00738 vac=0000 axis=z surf=xy Eads=-8.1522 eV P=1.000e+00 E=-6323.3252 eV hmax=3.929 A hmean=0.570 A rough=0.835 A occ1=0.000 tested=27
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00163 species= Fe N=00739 vac=0000 axis=z surf=xy Eads=-7.5233 eV P=1.000e+00 E=-6331.7012 eV hmax=3.929 A hmean=0.570 A rough=0.838 A occ1=0.000 tested=28
+step=00164 species= Fe N=00740 vac=0000 axis=z surf=xy Eads=-6.3041 eV P=6.024e-01 E=-6339.7046 eV hmax=3.929 A hmean=0.576 A rough=0.838 A occ1=0.000 tested=35
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00165 species= Fe N=00741 vac=0000 axis=z surf=xy Eads=-7.0512 eV P=1.000e+00 E=-6347.8789 eV hmax=3.929 A hmean=0.588 A rough=0.824 A occ1=0.000 tested=116
+step=00166 species=  B N=00742 vac=0000 axis=z surf=xy Eads=-5.7774 eV P=9.917e-01 E=-6355.0640 eV hmax=3.929 A hmean=0.588 A rough=0.824 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00167 species= Fe N=00743 vac=0000 axis=z surf=xy Eads=-6.9105 eV P=1.000e+00 E=-6363.3589 eV hmax=3.929 A hmean=0.602 A rough=0.830 A occ1=0.000 tested=119
+step=00168 species= Fe N=00744 vac=0000 axis=z surf=xy Eads=-7.1967 eV P=1.000e+00 E=-6373.1914 eV hmax=3.929 A hmean=0.602 A rough=0.830 A occ1=0.000 tested=34
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00169 species= Fe N=00745 vac=0000 axis=z surf=xy Eads=-6.0404 eV P=4.019e-01 E=-6380.3906 eV hmax=3.929 A hmean=0.598 A rough=0.830 A occ1=0.000 tested=24
+step=00170 species= Fe N=00746 vac=0000 axis=z surf=xy Eads=-7.0536 eV P=1.000e+00 E=-6389.3560 eV hmax=3.929 A hmean=0.598 A rough=0.834 A occ1=0.000 tested=36
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00171 species= Fe N=00747 vac=0000 axis=z surf=xy Eads=-6.4560 eV P=9.996e-01 E=-6396.8721 eV hmax=4.205 A hmean=0.605 A rough=0.833 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00172 species= Fe N=00748 vac=0000 axis=z surf=xy Eads=-6.0604 eV P=9.943e-01 E=-6406.0034 eV hmax=4.205 A hmean=0.605 A rough=0.833 A occ1=0.000 tested=39
+step=00173 species= Fe N=00749 vac=0000 axis=z surf=xy Eads=-5.8412 eV P=9.894e-01 E=-6413.3745 eV hmax=4.205 A hmean=0.608 A rough=0.833 A occ1=0.000 tested=26
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00174 species= Fe N=00750 vac=0000 axis=z surf=xy Eads=-6.4589 eV P=1.000e+00 E=-6420.9790 eV hmax=4.205 A hmean=0.623 A rough=0.862 A occ1=0.000 tested=116
+step=00175 species= Fe N=00751 vac=0000 axis=z surf=xy Eads=-6.7738 eV P=1.000e+00 E=-6429.5952 eV hmax=4.205 A hmean=0.626 A rough=0.862 A occ1=0.000 tested=40
+step=00176 species= Fe N=00752 vac=0000 axis=z surf=xy Eads=-6.6732 eV P=6.845e-01 E=-6438.5889 eV hmax=4.205 A hmean=0.626 A rough=0.862 A occ1=0.000 tested=31
+step=00177 species= Fe N=00753 vac=0000 axis=z surf=xy Eads=-6.2626 eV P=1.000e+00 E=-6446.0640 eV hmax=4.205 A hmean=0.558 A rough=0.862 A occ1=0.000 tested=32
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00178 species= Fe N=00754 vac=0000 axis=z surf=xy Eads=-7.5170 eV P=1.000e+00 E=-6454.7910 eV hmax=4.205 A hmean=0.560 A rough=0.862 A occ1=0.000 tested=34
+step=00179 species= Fe N=00755 vac=0000 axis=z surf=xy Eads=-7.5937 eV P=1.000e+00 E=-6464.4458 eV hmax=4.205 A hmean=0.560 A rough=0.862 A occ1=0.000 tested=44
+step=00180 species= Fe N=00756 vac=0000 axis=z surf=xy Eads=-6.4027 eV P=1.000e+00 E=-6472.6934 eV hmax=4.205 A hmean=0.587 A rough=0.852 A occ1=0.000 tested=21
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00181 species= Fe N=00757 vac=0000 axis=z surf=xy Eads=-6.4726 eV P=9.925e-01 E=-6480.1504 eV hmax=4.205 A hmean=0.626 A rough=0.842 A occ1=0.000 tested=116
+step=00182 species= Fe N=00758 vac=0000 axis=z surf=xy Eads=-6.5673 eV P=1.000e+00 E=-6487.8354 eV hmax=4.205 A hmean=0.598 A rough=0.842 A occ1=0.000 tested=25
+step=00183 species= Fe N=00759 vac=0000 axis=z surf=xy Eads=-7.1479 eV P=1.000e+00 E=-6499.1021 eV hmax=4.205 A hmean=0.596 A rough=0.842 A occ1=0.000 tested=22
+step=00184 species= Fe N=00760 vac=0000 axis=z surf=xy Eads=-5.4813 eV P=6.552e-01 E=-6505.1030 eV hmax=4.205 A hmean=0.587 A rough=0.842 A occ1=0.000 tested=31
+step=00185 species= Fe N=00761 vac=0000 axis=z surf=xy Eads=-6.5561 eV P=9.998e-01 E=-6513.0894 eV hmax=4.205 A hmean=0.595 A rough=0.842 A occ1=0.000 tested=33
+step=00186 species=  B N=00762 vac=0000 axis=z surf=xy Eads=-6.3453 eV P=1.000e+00 E=-6520.4180 eV hmax=4.205 A hmean=0.607 A rough=0.840 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00187 species= Fe N=00763 vac=0000 axis=z surf=xy Eads=-5.7436 eV P=1.000e+00 E=-6528.3872 eV hmax=4.205 A hmean=0.630 A rough=0.840 A occ1=0.000 tested=28
+step=00188 species= Fe N=00764 vac=0000 axis=z surf=xy Eads=-6.0526 eV P=1.000e+00 E=-6536.7158 eV hmax=4.205 A hmean=0.630 A rough=0.840 A occ1=0.000 tested=38
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00189 species= Fe N=00765 vac=0000 axis=z surf=xy Eads=-6.1679 eV P=9.997e-01 E=-6544.5532 eV hmax=4.205 A hmean=0.639 A rough=0.840 A occ1=0.000 tested=118
+step=00190 species= Fe N=00766 vac=0000 axis=z surf=xy Eads=-6.6957 eV P=1.000e+00 E=-6555.3999 eV hmax=4.205 A hmean=0.630 A rough=0.840 A occ1=0.000 tested=27
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00191 species= Fe N=00767 vac=0000 axis=z surf=xy Eads=-6.3329 eV P=1.000e+00 E=-6563.0649 eV hmax=4.205 A hmean=0.651 A rough=0.826 A occ1=0.000 tested=45
+step=00192 species= Fe N=00768 vac=0000 axis=z surf=xy Eads=-6.0644 eV P=1.000e+00 E=-6570.0215 eV hmax=4.205 A hmean=0.651 A rough=0.826 A occ1=0.000 tested=29
+step=00193 species=  B N=00769 vac=0000 axis=z surf=xy Eads=-5.9308 eV P=1.000e+00 E=-6577.4385 eV hmax=4.205 A hmean=0.651 A rough=0.828 A occ1=0.000 tested=26
+step=00194 species= Fe N=00770 vac=0000 axis=z surf=xy Eads=-6.0414 eV P=1.000e+00 E=-6584.2607 eV hmax=4.205 A hmean=0.689 A rough=0.818 A occ1=0.000 tested=32
+step=00195 species= Fe N=00771 vac=0000 axis=z surf=xy Eads=-6.4320 eV P=9.988e-01 E=-6591.2847 eV hmax=4.205 A hmean=0.690 A rough=0.818 A occ1=0.000 tested=32
+step=00196 species= Fe N=00772 vac=0000 axis=z surf=xy Eads=-6.0072 eV P=1.000e+00 E=-6598.3125 eV hmax=4.205 A hmean=0.692 A rough=0.818 A occ1=0.000 tested=27
+step=00197 species= Fe N=00773 vac=0000 axis=z surf=xy Eads=-6.6693 eV P=4.244e-01 E=-6606.0244 eV hmax=4.205 A hmean=0.689 A rough=0.811 A occ1=0.000 tested=35
+step=00198 species= Fe N=00774 vac=0000 axis=z surf=xy Eads=-6.3559 eV P=9.999e-01 E=-6613.3237 eV hmax=4.205 A hmean=0.687 A rough=0.811 A occ1=0.000 tested=28
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00199 species= Fe N=00775 vac=0000 axis=z surf=xy Eads=-6.1327 eV P=9.997e-01 E=-6620.7129 eV hmax=4.364 A hmean=0.711 A rough=0.820 A occ1=0.000 tested=117
+step=00200 species= Fe N=00776 vac=0000 axis=z surf=xy Eads=-6.2978 eV P=9.987e-01 E=-6627.8169 eV hmax=4.364 A hmean=0.697 A rough=0.820 A occ1=0.000 tested=33
+step=00201 species= Fe N=00777 vac=0000 axis=z surf=xy Eads=-5.9901 eV P=9.812e-01 E=-6638.0381 eV hmax=4.364 A hmean=0.688 A rough=0.820 A occ1=0.000 tested=30
+step=00202 species= Fe N=00778 vac=0000 axis=z surf=xy Eads=-6.3422 eV P=8.018e-01 E=-6645.5415 eV hmax=4.364 A hmean=0.625 A rough=0.820 A occ1=0.000 tested=31
+step=00203 species= Fe N=00779 vac=0000 axis=z surf=xy Eads=-6.1068 eV P=1.000e+00 E=-6652.9810 eV hmax=4.364 A hmean=0.630 A rough=0.820 A occ1=0.000 tested=24
+step=00204 species= Fe N=00780 vac=0000 axis=z surf=xy Eads=-6.5902 eV P=1.000e+00 E=-6660.3760 eV hmax=4.364 A hmean=0.666 A rough=0.813 A occ1=0.000 tested=31
+step=00205 species= Fe N=00781 vac=0000 axis=z surf=xy Eads=-6.4940 eV P=1.000e+00 E=-6668.3486 eV hmax=4.364 A hmean=0.665 A rough=0.813 A occ1=0.000 tested=31
+step=00206 species= Fe N=00782 vac=0000 axis=z surf=xy Eads=-6.5473 eV P=1.000e+00 E=-6676.7407 eV hmax=4.364 A hmean=0.664 A rough=0.813 A occ1=0.000 tested=26
+step=00207 species= Fe N=00783 vac=0000 axis=z surf=xy Eads=-6.6864 eV P=9.990e-01 E=-6684.7192 eV hmax=4.364 A hmean=0.660 A rough=0.813 A occ1=0.000 tested=27
+step=00208 species=  B N=00784 vac=0000 axis=z surf=xy Eads=-5.6539 eV P=1.259e-01 E=-6692.2661 eV hmax=4.364 A hmean=0.674 A rough=0.813 A occ1=0.000 tested=28
+step=00209 species= Fe N=00785 vac=0000 axis=z surf=xy Eads=-6.1156 eV P=9.700e-01 E=-6699.4756 eV hmax=4.364 A hmean=0.674 A rough=0.813 A occ1=0.000 tested=29
+step=00210 species= Fe N=00786 vac=0000 axis=z surf=xy Eads=-7.0482 eV P=1.000e+00 E=-6707.2388 eV hmax=4.364 A hmean=0.717 A rough=0.813 A occ1=0.000 tested=33
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00211 species= Fe N=00787 vac=0000 axis=z surf=xy Eads=-6.1005 eV P=9.784e-01 E=-6715.7466 eV hmax=4.364 A hmean=0.721 A rough=0.832 A occ1=0.000 tested=33
+step=00212 species= Fe N=00788 vac=0000 axis=z surf=xy Eads=-6.0214 eV P=3.196e-01 E=-6722.6011 eV hmax=4.364 A hmean=0.722 A rough=0.826 A occ1=0.000 tested=29
+step=00213 species= Fe N=00789 vac=0000 axis=z surf=xy Eads=-6.2553 eV P=9.998e-01 E=-6729.5293 eV hmax=4.364 A hmean=0.723 A rough=0.826 A occ1=0.000 tested=19
+step=00214 species= Fe N=00790 vac=0000 axis=z surf=xy Eads=-5.6537 eV P=8.236e-01 E=-6735.9082 eV hmax=4.364 A hmean=0.738 A rough=0.826 A occ1=0.000 tested=29
+step=00215 species= Fe N=00791 vac=0000 axis=z surf=xy Eads=-6.7167 eV P=1.000e+00 E=-6745.0337 eV hmax=4.364 A hmean=0.710 A rough=0.826 A occ1=0.000 tested=27
+step=00216 species= Fe N=00792 vac=0000 axis=z surf=xy Eads=-6.3969 eV P=1.000e+00 E=-6752.7769 eV hmax=4.364 A hmean=0.712 A rough=0.852 A occ1=0.000 tested=30
+step=00217 species= Fe N=00793 vac=0000 axis=z surf=xy Eads=-6.7387 eV P=1.000e+00 E=-6760.2158 eV hmax=4.364 A hmean=0.713 A rough=0.852 A occ1=0.000 tested=31
+step=00218 species= Fe N=00794 vac=0000 axis=z surf=xy Eads=-6.4506 eV P=1.000e+00 E=-6768.0098 eV hmax=4.364 A hmean=0.702 A rough=0.852 A occ1=0.000 tested=25
+step=00219 species= Fe N=00795 vac=0000 axis=z surf=xy Eads=-6.3896 eV P=6.257e-01 E=-6775.7075 eV hmax=4.364 A hmean=0.702 A rough=0.853 A occ1=0.000 tested=33
+step=00220 species= Fe N=00796 vac=0000 axis=z surf=xy Eads=-6.4223 eV P=1.000e+00 E=-6786.4878 eV hmax=4.364 A hmean=0.670 A rough=0.853 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00221 species= Fe N=00797 vac=0000 axis=z surf=xy Eads=-6.5395 eV P=1.000e+00 E=-6795.0298 eV hmax=4.364 A hmean=0.672 A rough=0.849 A occ1=0.000 tested=118
+step=00222 species= Fe N=00798 vac=0000 axis=z surf=xy Eads=-6.2367 eV P=1.000e+00 E=-6803.2642 eV hmax=4.364 A hmean=0.680 A rough=0.843 A occ1=0.000 tested=24
+step=00223 species= Fe N=00799 vac=0000 axis=z surf=xy Eads=-6.2279 eV P=1.000e+00 E=-6812.9805 eV hmax=4.364 A hmean=0.681 A rough=0.843 A occ1=0.000 tested=36
+step=00224 species= Fe N=00800 vac=0000 axis=z surf=xy Eads=-6.0058 eV P=1.000e+00 E=-6819.7710 eV hmax=4.364 A hmean=0.683 A rough=0.843 A occ1=0.000 tested=34
+step=00225 species=  B N=00801 vac=0000 axis=z surf=xy Eads=-6.3634 eV P=9.898e-01 E=-6828.3979 eV hmax=4.364 A hmean=0.650 A rough=0.843 A occ1=0.000 tested=32
+step=00226 species= Fe N=00802 vac=0000 axis=z surf=xy Eads=-6.3266 eV P=1.000e+00 E=-6835.3311 eV hmax=4.364 A hmean=0.650 A rough=0.843 A occ1=0.000 tested=25
+step=00227 species= Fe N=00803 vac=0000 axis=z surf=xy Eads=-5.5404 eV P=9.995e-01 E=-6843.8882 eV hmax=4.364 A hmean=0.651 A rough=0.843 A occ1=0.000 tested=31
+step=00228 species= Fe N=00804 vac=0000 axis=z surf=xy Eads=-6.3563 eV P=9.991e-01 E=-6852.3179 eV hmax=4.364 A hmean=0.653 A rough=0.843 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00229 species= Fe N=00805 vac=0000 axis=z surf=xy Eads=-6.5014 eV P=9.961e-01 E=-6859.6768 eV hmax=4.364 A hmean=0.677 A rough=0.834 A occ1=0.000 tested=113
+step=00230 species= Fe N=00806 vac=0000 axis=z surf=xy Eads=-5.9989 eV P=9.483e-01 E=-6867.3447 eV hmax=4.364 A hmean=0.690 A rough=0.831 A occ1=0.000 tested=26
+step=00231 species= Fe N=00807 vac=0000 axis=z surf=xy Eads=-6.5097 eV P=1.000e+00 E=-6875.3672 eV hmax=4.364 A hmean=0.707 A rough=0.831 A occ1=0.000 tested=38
+step=00232 species= Fe N=00808 vac=0000 axis=z surf=xy Eads=-6.2812 eV P=9.942e-01 E=-6882.3818 eV hmax=4.364 A hmean=0.707 A rough=0.831 A occ1=0.000 tested=29
+step=00233 species= Fe N=00809 vac=0000 axis=z surf=xy Eads=-6.1190 eV P=1.000e+00 E=-6889.8228 eV hmax=4.364 A hmean=0.710 A rough=0.831 A occ1=0.000 tested=29
+step=00234 species= Fe N=00810 vac=0000 axis=z surf=xy Eads=-5.9394 eV P=9.925e-01 E=-6896.5215 eV hmax=4.364 A hmean=0.721 A rough=0.826 A occ1=0.000 tested=31
+step=00235 species= Fe N=00811 vac=0000 axis=z surf=xy Eads=-5.9315 eV P=9.558e-01 E=-6904.1162 eV hmax=4.364 A hmean=0.751 A rough=0.826 A occ1=0.000 tested=32
+step=00236 species= Fe N=00812 vac=0000 axis=z surf=xy Eads=-6.6718 eV P=1.000e+00 E=-6913.4106 eV hmax=4.364 A hmean=0.754 A rough=0.828 A occ1=0.000 tested=31
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00237 species= Fe N=00813 vac=0000 axis=z surf=xy Eads=-6.7387 eV P=8.328e-01 E=-6923.1318 eV hmax=4.364 A hmean=0.754 A rough=0.819 A occ1=0.000 tested=28
+step=00238 species= Fe N=00814 vac=0000 axis=z surf=xy Eads=-5.5150 eV P=9.897e-01 E=-6930.3159 eV hmax=4.364 A hmean=0.776 A rough=0.819 A occ1=0.000 tested=35
+step=00239 species= Fe N=00815 vac=0000 axis=z surf=xy Eads=-5.9799 eV P=1.000e+00 E=-6937.8848 eV hmax=4.364 A hmean=0.775 A rough=0.821 A occ1=0.000 tested=23
+step=00240 species= Fe N=00816 vac=0000 axis=z surf=xy Eads=-5.8256 eV P=9.791e-01 E=-6945.4575 eV hmax=4.364 A hmean=0.796 A rough=0.819 A occ1=0.000 tested=31
+step=00241 species= Fe N=00817 vac=0000 axis=z surf=xy Eads=-6.7792 eV P=9.997e-01 E=-6953.9067 eV hmax=4.364 A hmean=0.828 A rough=0.808 A occ1=0.000 tested=33
+step=00242 species= Fe N=00818 vac=0000 axis=z surf=xy Eads=-6.2089 eV P=1.000e+00 E=-6962.6187 eV hmax=4.364 A hmean=0.829 A rough=0.808 A occ1=0.000 tested=33
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00243 species= Fe N=00819 vac=0000 axis=z surf=xy Eads=-6.1029 eV P=1.000e+00 E=-6970.6572 eV hmax=4.364 A hmean=0.836 A rough=0.808 A occ1=0.000 tested=35
+step=00244 species= Fe N=00820 vac=0000 axis=z surf=xy Eads=-6.3217 eV P=8.868e-01 E=-6977.7871 eV hmax=4.364 A hmean=0.838 A rough=0.808 A occ1=0.000 tested=18
+step=00245 species= Fe N=00821 vac=0000 axis=z surf=xy Eads=-6.2172 eV P=1.000e+00 E=-6984.9204 eV hmax=4.364 A hmean=0.838 A rough=0.808 A occ1=0.000 tested=27
+step=00246 species= Fe N=00822 vac=0000 axis=z surf=xy Eads=-6.2797 eV P=9.968e-01 E=-6993.1050 eV hmax=4.364 A hmean=0.879 A rough=0.808 A occ1=0.000 tested=23
+step=00247 species= Fe N=00823 vac=0000 axis=z surf=xy Eads=-6.8344 eV P=1.000e+00 E=-7001.0034 eV hmax=4.364 A hmean=0.873 A rough=0.808 A occ1=0.000 tested=23
+step=00248 species= Fe N=00824 vac=0000 axis=z surf=xy Eads=-6.0541 eV P=9.982e-01 E=-7008.0762 eV hmax=4.364 A hmean=0.873 A rough=0.808 A occ1=0.000 tested=25
+step=00249 species= Fe N=00825 vac=0000 axis=z surf=xy Eads=-6.7240 eV P=1.000e+00 E=-7015.5796 eV hmax=4.426 A hmean=0.877 A rough=0.801 A occ1=0.000 tested=24
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00250 species= Fe N=00826 vac=0000 axis=z surf=xy Eads=-6.4335 eV P=1.000e+00 E=-7023.1377 eV hmax=4.426 A hmean=0.877 A rough=0.811 A occ1=0.000 tested=109
+step=00251 species= Fe N=00827 vac=0000 axis=z surf=xy Eads=-6.1459 eV P=9.785e-01 E=-7030.7563 eV hmax=4.426 A hmean=0.877 A rough=0.813 A occ1=0.000 tested=23
+step=00252 species= Fe N=00828 vac=0000 axis=z surf=xy Eads=-7.7279 eV P=1.000e+00 E=-7039.4204 eV hmax=4.426 A hmean=0.877 A rough=0.802 A occ1=0.000 tested=36
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00253 species= Fe N=00829 vac=0000 axis=z surf=xy Eads=-6.6181 eV P=1.000e+00 E=-7047.4312 eV hmax=4.426 A hmean=0.886 A rough=0.824 A occ1=0.000 tested=116
+step=00254 species=  B N=00830 vac=0000 axis=z surf=xy Eads=-7.2086 eV P=1.000e+00 E=-7055.7954 eV hmax=4.426 A hmean=0.905 A rough=0.824 A occ1=0.000 tested=28
+step=00255 species=  B N=00831 vac=0000 axis=z surf=xy Eads=-6.2804 eV P=1.000e+00 E=-7062.9580 eV hmax=4.426 A hmean=0.909 A rough=0.824 A occ1=0.000 tested=26
+step=00256 species=  B N=00832 vac=0000 axis=z surf=xy Eads=-6.5016 eV P=9.989e-01 E=-7071.0337 eV hmax=4.426 A hmean=0.910 A rough=0.798 A occ1=0.000 tested=29
+step=00257 species= Fe N=00833 vac=0000 axis=z surf=xy Eads=-5.9481 eV P=8.984e-01 E=-7078.4712 eV hmax=4.426 A hmean=0.910 A rough=0.798 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00258 species= Fe N=00834 vac=0000 axis=z surf=xy Eads=-6.3168 eV P=3.577e-01 E=-7085.9102 eV hmax=4.426 A hmean=0.910 A rough=0.797 A occ1=0.000 tested=108
+step=00259 species= Fe N=00835 vac=0000 axis=z surf=xy Eads=-6.0976 eV P=1.000e+00 E=-7093.7280 eV hmax=4.426 A hmean=0.905 A rough=0.797 A occ1=0.000 tested=30
+step=00260 species= Fe N=00836 vac=0000 axis=z surf=xy Eads=-6.1874 eV P=1.000e+00 E=-7100.5337 eV hmax=4.426 A hmean=0.905 A rough=0.797 A occ1=0.000 tested=26
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00261 species= Fe N=00837 vac=0000 axis=z surf=xy Eads=-6.2855 eV P=9.556e-01 E=-7107.8237 eV hmax=4.426 A hmean=0.911 A rough=0.789 A occ1=0.000 tested=112
+step=00262 species= Fe N=00838 vac=0000 axis=z surf=xy Eads=-6.9970 eV P=1.000e+00 E=-7116.2197 eV hmax=4.426 A hmean=0.938 A rough=0.782 A occ1=0.000 tested=34
+step=00263 species= Fe N=00839 vac=0000 axis=z surf=xy Eads=-7.1596 eV P=1.000e+00 E=-7124.5605 eV hmax=4.426 A hmean=0.939 A rough=0.798 A occ1=0.000 tested=27
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00264 species= Fe N=00840 vac=0000 axis=z surf=xy Eads=-6.1747 eV P=3.363e-01 E=-7131.9805 eV hmax=4.426 A hmean=0.940 A rough=0.799 A occ1=0.000 tested=113
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00265 species= Fe N=00841 vac=0000 axis=z surf=xy Eads=-6.9633 eV P=1.000e+00 E=-7140.6943 eV hmax=4.903 A hmean=0.958 A rough=0.769 A occ1=0.000 tested=114
+step=00266 species= Fe N=00842 vac=0000 axis=z surf=xy Eads=-5.7035 eV P=9.508e-01 E=-7148.5347 eV hmax=4.903 A hmean=0.961 A rough=0.769 A occ1=0.000 tested=32
+step=00267 species= Fe N=00843 vac=0000 axis=z surf=xy Eads=-6.1371 eV P=9.279e-01 E=-7156.2915 eV hmax=4.903 A hmean=0.963 A rough=0.769 A occ1=0.000 tested=29
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00268 species= Fe N=00844 vac=0000 axis=z surf=xy Eads=-6.4955 eV P=1.000e+00 E=-7164.1826 eV hmax=4.903 A hmean=0.965 A rough=0.769 A occ1=0.000 tested=112
+step=00269 species= Fe N=00845 vac=0000 axis=z surf=xy Eads=-6.2284 eV P=1.000e+00 E=-7171.2573 eV hmax=4.908 A hmean=0.966 A rough=0.775 A occ1=0.000 tested=20
+step=00270 species= Fe N=00846 vac=0000 axis=z surf=xy Eads=-6.0385 eV P=9.254e-01 E=-7178.6318 eV hmax=4.908 A hmean=0.955 A rough=0.775 A occ1=0.000 tested=20
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00271 species= Fe N=00847 vac=0000 axis=z surf=xy Eads=-7.0893 eV P=1.000e+00 E=-7186.7900 eV hmax=4.908 A hmean=0.957 A rough=0.769 A occ1=0.000 tested=27
+step=00272 species= Fe N=00848 vac=0000 axis=z surf=xy Eads=-6.2880 eV P=9.424e-01 E=-7195.1602 eV hmax=4.908 A hmean=0.957 A rough=0.768 A occ1=0.000 tested=27
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00273 species= Fe N=00849 vac=0000 axis=z surf=xy Eads=-6.3183 eV P=7.385e-01 E=-7203.7803 eV hmax=4.908 A hmean=0.965 A rough=0.758 A occ1=0.000 tested=111
+step=00274 species= Fe N=00850 vac=0000 axis=z surf=xy Eads=-6.1776 eV P=9.899e-01 E=-7210.8271 eV hmax=4.908 A hmean=0.966 A rough=0.758 A occ1=0.000 tested=28
+step=00275 species= Fe N=00851 vac=0000 axis=z surf=xy Eads=-6.7621 eV P=1.000e+00 E=-7218.2788 eV hmax=4.908 A hmean=0.966 A rough=0.758 A occ1=0.000 tested=27
+step=00276 species= Fe N=00852 vac=0000 axis=z surf=xy Eads=-6.5692 eV P=1.000e+00 E=-7226.1460 eV hmax=4.908 A hmean=0.937 A rough=0.758 A occ1=0.000 tested=30
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00277 species= Fe N=00853 vac=0000 axis=z surf=xy Eads=-6.2313 eV P=1.000e+00 E=-7233.1055 eV hmax=4.908 A hmean=0.936 A rough=0.758 A occ1=0.000 tested=30
+step=00278 species= Fe N=00854 vac=0000 axis=z surf=xy Eads=-6.1947 eV P=1.000e+00 E=-7240.9033 eV hmax=4.908 A hmean=0.937 A rough=0.758 A occ1=0.000 tested=28
+step=00279 species= Fe N=00855 vac=0000 axis=z surf=xy Eads=-7.1937 eV P=1.000e+00 E=-7249.4629 eV hmax=4.908 A hmean=0.937 A rough=0.758 A occ1=0.000 tested=33
+step=00280 species= Fe N=00856 vac=0000 axis=z surf=xy Eads=-6.7089 eV P=9.974e-01 E=-7260.9253 eV hmax=4.908 A hmean=0.930 A rough=0.758 A occ1=0.000 tested=32
+step=00281 species= Fe N=00857 vac=0000 axis=z surf=xy Eads=-6.4486 eV P=1.000e+00 E=-7268.6567 eV hmax=4.908 A hmean=0.930 A rough=0.758 A occ1=0.000 tested=32
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+step=00282 species= Fe N=00858 vac=0000 axis=z surf=xy Eads=-6.5131 eV P=9.932e-01 E=-7276.9033 eV hmax=5.288 A hmean=0.957 A rough=0.724 A occ1=0.000 tested=112
+step=00283 species= Fe N=00859 vac=0000 axis=z surf=xy Eads=-6.7362 eV P=1.000e+00 E=-7285.3872 eV hmax=5.288 A hmean=0.960 A rough=0.722 A occ1=0.000 tested=34
+step=00284 species= Fe N=00860 vac=0000 axis=z surf=xy Eads=-6.1415 eV P=9.967e-01 E=-7294.3110 eV hmax=5.288 A hmean=0.946 A rough=0.722 A occ1=0.000 tested=18
+step=00285 species= Fe N=00861 vac=0000 axis=z surf=xy Eads=-6.2475 eV P=9.910e-01 E=-7301.7183 eV hmax=5.288 A hmean=0.946 A rough=0.722 A occ1=0.000 tested=26
+step=00286 species= Fe N=00862 vac=0000 axis=z surf=xy Eads=-6.1229 eV P=3.647e-01 E=-7308.4214 eV hmax=5.288 A hmean=0.946 A rough=0.722 A occ1=0.000 tested=37
+step=00287 species= Fe N=00863 vac=0000 axis=z surf=xy Eads=-6.1015 eV P=9.671e-01 E=-7315.4233 eV hmax=5.288 A hmean=0.946 A rough=0.722 A occ1=0.000 tested=29
+step=00288 species= Fe N=00864 vac=0000 axis=z surf=xy Eads=-6.4599 eV P=9.153e-01 E=-7323.0815 eV hmax=5.288 A hmean=0.948 A rough=0.721 A occ1=0.000 tested=23
+step=00289 species= Fe N=00865 vac=0000 axis=z surf=xy Eads=-6.5629 eV P=1.000e+00 E=-7330.8408 eV hmax=5.288 A hmean=0.978 A rough=0.721 A occ1=0.000 tested=20
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong
+Structure graph_id=None has 1 isolated atom(s) with atom_graph_cutoff=6. CHGNet calculation will likely go wrong

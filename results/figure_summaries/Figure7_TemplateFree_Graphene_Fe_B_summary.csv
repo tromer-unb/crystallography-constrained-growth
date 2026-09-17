@@ -1,0 +1,4 @@
+species,n_events,event_fraction,mean_unrelaxed_insertion_energy_eV,median_unrelaxed_insertion_energy_eV,n_initial_atoms,n_final_atoms,n_growth_events,structure_source,initial_bilayer_spacing_A
+C,0,0.0,,,576,865,289,checkpoint.xyz,4.2821567472916655
+B,18,0.06228373702422145,-6.1237956888888885,-5.9375978499999995,576,865,289,checkpoint.xyz,4.2821567472916655
+Fe,271,0.9377162629757786,-6.486298843911439,-6.3631835,576,865,289,checkpoint.xyz,4.2821567472916655

@@ -1,0 +1,4 @@
+orientation,n_seed_runs,template_growth_occupancy_fraction_mean,template_growth_occupancy_fraction_std,fraction_added_CN4_mean,fraction_added_CN4_std,growth_front_mean_fraction_of_template_mean,growth_front_mean_fraction_of_template_std,roughness_A_mean,roughness_A_std,mean_tested_candidates,mean_chosen_probability,n_added,motif_period,gap_period,gaps_A,structure_source
+100,1,0.96875,0.0,0.75,0.0,0.6025161754235205,0.0,1.0863736012992866,0.0,4.5,0.7483597278113656,32,4,1,1.360926,final.xyz
+110,1,0.7083333333333334,0.0,0.5675675675675675,0.0,0.4484910445094553,0.0,0.8424075420791239,0.0,5.783783783783784,0.8443971456912788,37,2,1,1.924639,checkpoint.xyz
+111,1,0.8888888888888888,0.0,0.7777777777777778,0.0,0.7886563353406549,0.0,1.1402381479485306,0.0,4.416666666666667,0.8039793801128128,36,6,2,2.357192;0.785731,final.xyz

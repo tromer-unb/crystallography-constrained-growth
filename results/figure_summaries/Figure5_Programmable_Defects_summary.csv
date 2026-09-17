@@ -1,0 +1,4 @@
+case,label,n_events,n_initial,n_added,n_vacancies,realized_C_fraction,realized_N_fraction,realized_vacancy_fraction,nominal_C_fraction,nominal_N_fraction,nominal_vacancy_fraction,template_occupancy,frozen_vacancy_fraction_of_template,coordination_added_mean,coordination_fidelity_CN3,front_fraction_of_template,roughness_A,structure_file
+pristine,Pristine,500,221,500,0,1.0,0.0,0.0,1.0,0.0,0.0,0.9866666666666668,0.0,2.978,0.9926666666666667,0.9960840835361916,0.9764843816911156,grafeno_cutoff_final.xyz
+vac10p,10% vacancy,500,221,457,43,0.914,0.0,0.086,0.9,0.0,0.1,0.8114285714285714,0.0819047619047619,2.8052516411378554,0.9350838803792851,0.9727260808761544,0.9732054144807936,grafeno_cutoff_final.xyz
+vac10p_10pN,10% vacancy + 10% N,500,221,457,43,0.796,0.118,0.086,0.8,0.1,0.1,0.84,0.0819047619047619,2.735229759299781,0.9117432530999271,0.9667473466763112,0.8891713330367937,grafeno_cutoff_final.xyz

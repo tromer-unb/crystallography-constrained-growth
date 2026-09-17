@@ -1,0 +1,116 @@
+MPI: rank=0/1; backend_comunicador=serial-sem-gpaw; launcher_size_detectado=1
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+Backend = chgnet; device = cpu; dtype = float32
+Semente sincronizada em todos os ranks = 7
+Espécies competindo: ['Mo', 'S']
+Fluxo relativo por espécie: {'Mo': 1.0, 'S': 1.0}
+Mu por espécie: todos 0.0 eV
+Impurezas/vacâncias: desligado
+Modo de vacância: frozen
+growth_axis = x; surface_axes = yz
+replicate antes do slab = (1, 1, 1)
+miller = (0, 0, 1)
+build_mode = direct; site_mode = template
+pbc = (0, 0, 0)
+bulk_energy_repeat = (1, 1, 1); skip_bulk_reference = True
+cif_wrap_mode = all (aplicado somente aos arquivos .cif salvos)
+/home/tromer/.anaconda3/lib/python3.13/site-packages/ase/io/cif.py:411: UserWarning: crystal system 'triclinic' is not interpreted for space group Spacegroup(1, setting=1). This may result in wrong setting!
+  warnings.warn(
+Restrição cristalográfica de crescimento: desligada
+Template-base filtrado para extend-columns: N=96; espécies=['Mo', 'S']; restrict_fractional=(None, None, None)
+Template extend-columns: eixo=x periodo_colunas=6(auto) periodo_gaps=6(auto) gaps=[0.665893,1.274350,0.866259,1.274197,0.665769,0.912807] Å; dx_mediana=0.866259 Å; colunas_base=24, colunas_novas=2, N_template=104; restrict_fractional=(None, None, None)
+/home/tromer/.anaconda3/lib/python3.13/site-packages/chgnet/model/model.py:898: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  volumes = torch.tensor(volumes, dtype=TORCH_DTYPE, device=atomic_numbers.device)
+Referência bulk: pulada (--skip-bulk-reference).
+  Usando E0/N0 como referência; gamma vira energia relativa ao estado inicial.
+Slab inicial:
+  N0 = 261
+  area(yz) = 669.000000 Å²
+  E0 = -2174.683105 eV
+  gamma0 = 0.000000 eV/Å² = 0.000000 J/m²
+  growth_origin_species = Mo+S; origin_front=10.401191 Å; origin_back=1.935414 Å
+  regra_deposicao = template: somente sítios do CIF-template
+  template_cif = mos2_lateral_template_x.cif
+  template_repeat = (1, 1, 1); N_template = 104
+  template_front = [0.050, 3.500] Å
+  template_connect_cutoff = 2.900 Å; min_neighbors = 0
+  template_species_mode = template; template_build_mode = extend-columns
+Corte absoluto de Eads: +50.000000 eV
+step=00001 species= Mo N=00262 vac=0000 axis=x surf=yz Eads=-10.6238 eV P=9.159e-01 E=-2187.6304 eV hmax=14.694 A hmean=6.151 A rough=1.020 A occ1=0.250 tested=4
+step=00002 species= Mo N=00263 vac=0000 axis=x surf=yz Eads=-10.0112 eV P=1.000e+00 E=-2200.4485 eV hmax=14.694 A hmean=6.729 A rough=1.020 A occ1=0.500 tested=3
+step=00003 species= Mo N=00264 vac=0000 axis=x surf=yz Eads=-9.6033 eV P=1.000e+00 E=-2211.8633 eV hmax=14.694 A hmean=6.657 A rough=1.020 A occ1=0.750 tested=2
+step=00004 species= Mo N=00265 vac=0000 axis=x surf=yz Eads=-7.8428 eV P=1.000e+00 E=-2221.3159 eV hmax=14.694 A hmean=6.609 A rough=1.020 A occ1=1.000 tested=1
+step=00005 species=  S N=00266 vac=0000 axis=x surf=yz Eads=-7.2424 eV P=1.000e+00 E=-2229.7517 eV hmax=14.694 A hmean=7.157 A rough=1.020 A occ1=1.000 tested=4
+step=00006 species=  S N=00267 vac=0000 axis=x surf=yz Eads=-6.1475 eV P=9.999e-01 E=-2236.7766 eV hmax=14.694 A hmean=7.429 A rough=1.020 A occ1=1.000 tested=3
+step=00007 species=  S N=00268 vac=0000 axis=x surf=yz Eads=-5.5254 eV P=1.000e+00 E=-2243.0806 eV hmax=14.694 A hmean=7.425 A rough=1.020 A occ1=1.000 tested=2
+step=00008 species=  S N=00269 vac=0000 axis=x surf=yz Eads=-3.7522 eV P=1.000e+00 E=-2247.7937 eV hmax=14.694 A hmean=7.422 A rough=1.020 A occ1=1.000 tested=1
+step=00009 species=  S N=00270 vac=0000 axis=x surf=yz Eads=-3.3130 eV P=9.539e-01 E=-2252.6328 eV hmax=14.694 A hmean=7.672 A rough=1.020 A occ1=1.000 tested=4
+step=00010 species=  S N=00271 vac=0000 axis=x surf=yz Eads=-3.1587 eV P=9.849e-01 E=-2256.7400 eV hmax=14.694 A hmean=7.963 A rough=1.020 A occ1=1.000 tested=3
+step=00011 species=  S N=00272 vac=0000 axis=x surf=yz Eads=-3.1292 eV P=9.987e-01 E=-2260.8049 eV hmax=14.694 A hmean=7.947 A rough=1.020 A occ1=1.000 tested=2
+step=00012 species=  S N=00273 vac=0000 axis=x surf=yz Eads=-2.9272 eV P=1.000e+00 E=-2264.6272 eV hmax=14.694 A hmean=8.229 A rough=1.020 A occ1=1.000 tested=1
+step=00013 species= Mo N=00274 vac=0000 axis=x surf=yz Eads=-11.4182 eV P=9.970e-01 E=-2277.8940 eV hmax=14.694 A hmean=8.289 A rough=1.020 A occ1=1.000 tested=4
+step=00014 species= Mo N=00275 vac=0000 axis=x surf=yz Eads=-9.9426 eV P=1.000e+00 E=-2288.7664 eV hmax=14.694 A hmean=8.390 A rough=1.020 A occ1=1.000 tested=3
+step=00015 species= Mo N=00276 vac=0000 axis=x surf=yz Eads=-8.5637 eV P=9.917e-01 E=-2298.8689 eV hmax=14.694 A hmean=8.475 A rough=1.020 A occ1=1.000 tested=2
+step=00016 species= Mo N=00277 vac=0000 axis=x surf=yz Eads=-7.2615 eV P=1.000e+00 E=-2309.5378 eV hmax=14.694 A hmean=8.471 A rough=1.020 A occ1=1.000 tested=1
+step=00017 species=  S N=00278 vac=0000 axis=x surf=yz Eads=-7.0781 eV P=1.000e+00 E=-2317.5613 eV hmax=14.694 A hmean=8.987 A rough=1.020 A occ1=1.000 tested=4
+step=00018 species=  S N=00279 vac=0000 axis=x surf=yz Eads=-6.3906 eV P=1.000e+00 E=-2324.7007 eV hmax=14.694 A hmean=9.254 A rough=1.020 A occ1=1.000 tested=3
+step=00019 species=  S N=00280 vac=0000 axis=x surf=yz Eads=-5.6028 eV P=1.000e+00 E=-2331.0952 eV hmax=14.694 A hmean=9.188 A rough=1.020 A occ1=1.000 tested=2
+step=00020 species=  S N=00281 vac=0000 axis=x surf=yz Eads=-4.0254 eV P=1.000e+00 E=-2335.8340 eV hmax=14.694 A hmean=9.109 A rough=1.020 A occ1=1.000 tested=1
+step=00021 species=  S N=00282 vac=0000 axis=x surf=yz Eads=-3.7439 eV P=9.584e-01 E=-2340.6006 eV hmax=14.694 A hmean=9.467 A rough=1.020 A occ1=1.000 tested=4
+step=00022 species=  S N=00283 vac=0000 axis=x surf=yz Eads=-3.6562 eV P=9.992e-01 E=-2345.2188 eV hmax=14.694 A hmean=9.697 A rough=1.020 A occ1=1.000 tested=3
+step=00023 species=  S N=00284 vac=0000 axis=x surf=yz Eads=-3.3469 eV P=6.497e-01 E=-2349.2988 eV hmax=14.694 A hmean=9.703 A rough=1.020 A occ1=1.000 tested=2
+step=00024 species=  S N=00285 vac=0000 axis=x surf=yz Eads=-3.4302 eV P=1.000e+00 E=-2353.9268 eV hmax=14.694 A hmean=10.029 A rough=1.020 A occ1=1.000 tested=1
+step=00025 species= Mo N=00286 vac=0000 axis=x surf=yz Eads=-9.3162 eV P=9.862e-01 E=-2365.5652 eV hmax=14.694 A hmean=10.290 A rough=1.020 A occ1=1.000 tested=4
+step=00026 species= Mo N=00287 vac=0000 axis=x surf=yz Eads=-8.7715 eV P=1.000e+00 E=-2375.9260 eV hmax=14.694 A hmean=10.214 A rough=1.020 A occ1=1.000 tested=3
+step=00027 species= Mo N=00288 vac=0000 axis=x surf=yz Eads=-7.5374 eV P=1.000e+00 E=-2384.8208 eV hmax=14.694 A hmean=10.376 A rough=1.020 A occ1=1.000 tested=1
+step=00028 species=  S N=00289 vac=0000 axis=x surf=yz Eads=-6.6028 eV P=1.000e+00 E=-2392.4395 eV hmax=14.694 A hmean=10.927 A rough=1.020 A occ1=1.000 tested=4
+step=00029 species= Mo N=00290 vac=0000 axis=x surf=yz Eads=-4.3618 eV P=1.000e+00 E=-2401.9663 eV hmax=14.694 A hmean=10.923 A rough=1.020 A occ1=1.000 tested=1
+step=00030 species=  S N=00291 vac=0000 axis=x surf=yz Eads=-7.6079 eV P=1.000e+00 E=-2411.2319 eV hmax=14.694 A hmean=11.075 A rough=1.020 A occ1=1.000 tested=3
+step=00031 species=  S N=00292 vac=0000 axis=x surf=yz Eads=-5.4375 eV P=1.000e+00 E=-2417.7373 eV hmax=14.694 A hmean=11.066 A rough=1.020 A occ1=1.000 tested=2
+step=00032 species=  S N=00293 vac=0000 axis=x surf=yz Eads=-3.8281 eV P=1.000e+00 E=-2422.4170 eV hmax=14.694 A hmean=11.201 A rough=1.020 A occ1=1.000 tested=1
+step=00033 species=  S N=00294 vac=0000 axis=x surf=yz Eads=-4.5188 eV P=1.000e+00 E=-2427.5325 eV hmax=14.694 A hmean=11.484 A rough=1.020 A occ1=1.000 tested=4
+step=00034 species=  S N=00295 vac=0000 axis=x surf=yz Eads=-3.3162 eV P=9.991e-01 E=-2432.2761 eV hmax=14.694 A hmean=11.758 A rough=1.020 A occ1=1.000 tested=3
+step=00035 species=  S N=00296 vac=0000 axis=x surf=yz Eads=-2.9739 eV P=6.074e-01 E=-2436.2573 eV hmax=14.694 A hmean=11.763 A rough=1.020 A occ1=1.000 tested=2
+step=00036 species=  S N=00297 vac=0000 axis=x surf=yz Eads=-2.8940 eV P=1.000e+00 E=-2440.0737 eV hmax=14.694 A hmean=12.052 A rough=1.020 A occ1=1.000 tested=1
+step=00037 species= Mo N=00298 vac=0000 axis=x surf=yz Eads=-11.3833 eV P=1.000e+00 E=-2452.9348 eV hmax=14.694 A hmean=12.080 A rough=1.020 A occ1=1.000 tested=4
+step=00038 species= Mo N=00299 vac=0000 axis=x surf=yz Eads=-10.6504 eV P=1.000e+00 E=-2464.1477 eV hmax=14.694 A hmean=12.328 A rough=1.020 A occ1=1.000 tested=3
+step=00039 species= Mo N=00300 vac=0000 axis=x surf=yz Eads=-8.4902 eV P=1.000e+00 E=-2474.2097 eV hmax=14.694 A hmean=12.425 A rough=1.020 A occ1=1.000 tested=2
+step=00040 species= Mo N=00301 vac=0000 axis=x surf=yz Eads=-7.4868 eV P=1.000e+00 E=-2484.8914 eV hmax=14.694 A hmean=12.466 A rough=1.020 A occ1=1.000 tested=1
+step=00041 species=  S N=00302 vac=0000 axis=x surf=yz Eads=-7.1919 eV P=1.000e+00 E=-2493.1968 eV hmax=14.694 A hmean=12.788 A rough=1.016 A occ1=1.000 tested=4
+step=00042 species=  S N=00303 vac=0000 axis=x surf=yz Eads=-6.2839 eV P=9.420e-01 E=-2500.2644 eV hmax=14.694 A hmean=12.918 A rough=1.011 A occ1=1.000 tested=3
+step=00043 species=  S N=00304 vac=0000 axis=x surf=yz Eads=-5.6792 eV P=1.000e+00 E=-2506.8733 eV hmax=14.694 A hmean=12.509 A rough=1.010 A occ1=1.000 tested=2
+step=00044 species=  S N=00305 vac=0000 axis=x surf=yz Eads=-4.0569 eV P=1.000e+00 E=-2511.8035 eV hmax=14.694 A hmean=12.645 A rough=1.005 A occ1=1.000 tested=1
+step=00045 species=  S N=00306 vac=0000 axis=x surf=yz Eads=-3.7791 eV P=4.511e-01 E=-2515.9868 eV hmax=14.694 A hmean=12.869 A rough=1.005 A occ1=1.000 tested=4
+step=00046 species=  S N=00307 vac=0000 axis=x surf=yz Eads=-3.8240 eV P=9.965e-01 E=-2520.6169 eV hmax=14.694 A hmean=13.180 A rough=1.005 A occ1=1.000 tested=3
+step=00047 species=  S N=00308 vac=0000 axis=x surf=yz Eads=-3.5681 eV P=7.677e-01 E=-2524.7395 eV hmax=14.694 A hmean=13.407 A rough=1.005 A occ1=1.000 tested=2
+step=00048 species=  S N=00309 vac=0000 axis=x surf=yz Eads=-3.4827 eV P=1.000e+00 E=-2528.7324 eV hmax=14.694 A hmean=13.418 A rough=1.005 A occ1=1.000 tested=1
+step=00049 species= Mo N=00310 vac=0000 axis=x surf=yz Eads=-9.9556 eV P=4.352e-01 E=-2540.6052 eV hmax=14.694 A hmean=13.552 A rough=1.011 A occ1=1.000 tested=4
+step=00050 species= Mo N=00311 vac=0000 axis=x surf=yz Eads=-9.6045 eV P=1.000e+00 E=-2552.6687 eV hmax=14.694 A hmean=13.532 A rough=1.026 A occ1=1.000 tested=3
+step=00051 species= Mo N=00312 vac=0000 axis=x surf=yz Eads=-9.0354 eV P=1.000e+00 E=-2563.9902 eV hmax=14.694 A hmean=13.678 A rough=1.034 A occ1=1.000 tested=2
+step=00052 species= Mo N=00313 vac=0000 axis=x surf=yz Eads=-7.9705 eV P=1.000e+00 E=-2573.2717 eV hmax=14.694 A hmean=13.672 A rough=1.033 A occ1=1.000 tested=1
+step=00053 species=  S N=00314 vac=0000 axis=x surf=yz Eads=-7.1462 eV P=1.000e+00 E=-2581.5806 eV hmax=14.694 A hmean=13.668 A rough=1.028 A occ1=1.000 tested=4
+step=00054 species=  S N=00315 vac=0000 axis=x surf=yz Eads=-5.9985 eV P=1.000e+00 E=-2588.7998 eV hmax=14.694 A hmean=13.765 A rough=1.015 A occ1=1.000 tested=3
+step=00055 species=  S N=00316 vac=0000 axis=x surf=yz Eads=-5.2053 eV P=1.000e+00 E=-2595.0374 eV hmax=14.694 A hmean=13.900 A rough=1.007 A occ1=1.000 tested=2
+step=00056 species=  S N=00317 vac=0000 axis=x surf=yz Eads=-3.7371 eV P=1.000e+00 E=-2599.8149 eV hmax=14.694 A hmean=14.026 A rough=0.991 A occ1=1.000 tested=1
+step=00057 species=  S N=00318 vac=0000 axis=x surf=yz Eads=-3.3389 eV P=9.889e-01 E=-2604.5242 eV hmax=14.694 A hmean=14.280 A rough=0.975 A occ1=1.000 tested=4
+step=00058 species=  S N=00319 vac=0000 axis=x surf=yz Eads=-3.1460 eV P=9.773e-01 E=-2609.0442 eV hmax=14.694 A hmean=14.558 A rough=0.966 A occ1=1.000 tested=3
+step=00059 species=  S N=00320 vac=0000 axis=x surf=yz Eads=-3.0308 eV P=9.545e-01 E=-2613.0178 eV hmax=14.694 A hmean=14.556 A rough=0.956 A occ1=1.000 tested=2
+step=00060 species=  S N=00321 vac=0000 axis=x surf=yz Eads=-2.8010 eV P=1.000e+00 E=-2616.6855 eV hmax=14.694 A hmean=14.853 A rough=0.943 A occ1=1.000 tested=1
+step=00061 species= Mo N=00322 vac=0000 axis=x surf=yz Eads=-11.1562 eV P=1.000e+00 E=-2629.8025 eV hmax=14.694 A hmean=14.896 A rough=0.959 A occ1=1.000 tested=4
+step=00062 species= Mo N=00323 vac=0000 axis=x surf=yz Eads=-9.5833 eV P=1.000e+00 E=-2640.5522 eV hmax=14.831 A hmean=14.999 A rough=0.968 A occ1=1.000 tested=3
+step=00063 species= Mo N=00324 vac=0000 axis=x surf=yz Eads=-8.5034 eV P=1.000e+00 E=-2650.6099 eV hmax=14.831 A hmean=15.111 A rough=0.981 A occ1=1.000 tested=2
+step=00064 species= Mo N=00325 vac=0000 axis=x surf=yz Eads=-6.6294 eV P=1.000e+00 E=-2661.1709 eV hmax=15.049 A hmean=15.167 A rough=0.995 A occ1=1.000 tested=1
+[STOP] nenhum candidato de deposição válido.
+
+Arquivos salvos:
+  grafeno_cutoff.traj
+  grafeno_cutoff.csv
+  grafeno_cutoff_initial.xyz
+  grafeno_cutoff_initial.cif
+  grafeno_cutoff_checkpoint.xyz
+  grafeno_cutoff_checkpoint.cif
+  grafeno_cutoff_vacancies.csv
+  grafeno_cutoff_final.xyz
+  grafeno_cutoff_final.cif

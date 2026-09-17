@@ -1,0 +1,6 @@
+case,motif_period_p,gap_period_q,median_gap_A,detected_gaps_A,motif_period_correct,motif_period_naive,next_gap_A,naive_first_layer_median_dmin_A,correct_first_layer_median_dmin_A,min_dist_A,interlayer_gap_A,first_event_min_distance_A,connect_cutoff_A,first_layer_candidates,survivors_if_min_neighbors_1,survivors_if_min_neighbors_0,restrict_Z_fractional,n_total_C,n_active_C,species_only_front_x_A,masked_graphene_front_x_A,front_error_without_mask_A
+graphene_x,2.0,1.0,1.2297560700000032,1.229756,,,,,,,,,,,,,,,,,,
+graphene_y,4.0,2.0,1.0649999999999995,1.420000;0.710000,,,,,,,,,,,,,,,,,,
+Si111_motif_ablation,,,,,6.0,2.0,0.785731,0.7857310000000001,2.357192350735746,1.7,,,,,,,,,,,,
+graphite_detached_layer,,,,,,,,,,,4.342519,4.342518999999994,1.8,32.0,0.0,32.0,,,,,,
+graphene_SiC_active_mask,,,,,,,,,,,,,,,,,0.37418,234.0,42.0,32.27189624963243,15.059692506010055,17.21220374362237

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the manuscript in preferred-citation and the software repository."
+title: "Crystallography-Constrained Growth"
+type: software
+version: "0.1.0"
+date-released: "2026-09-17"
+authors:
+  - name: "LCCMat UnB"
+abstract: "Event-based atomistic framework for crystallography-constrained crystal growth with crystallographic candidate generation, energetic ranking, stochastic selection, and local relaxation."
+license: MIT
+repository-code: "https://github.com/tromer-unb/crystallography-constrained-growth"
+keywords:
+  - crystal growth
+  - atomistic simulation
+  - crystallography
+  - GPAW
+  - CHGNet
+  - MACE
+preferred-citation:
+  type: article
+  title: "A General Atomistic Framework for Crystallography-Constrained Crystal Growth"
+  authors:
+    - name: "LCCMat UnB"
+  year: 2026
